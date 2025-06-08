@@ -94,6 +94,24 @@
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+
+        F1_F11: F1_F11 {
+            compatible = "zmk,behavior-mod-morph";
+            label = "F1_F11";
+            bindings = <&kp F1>, <&kp F11>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        F2_F12: F2_F12 {
+            compatible = "zmk,behavior-mod-morph";
+            label = "F2_F12";
+            bindings = <&kp F2>, <&kp F12>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
     };
 
     keymap {
@@ -101,10 +119,10 @@
 
         default_layer {
             bindings = <
-&kp Q                  &kp W         &kp MINUS     &kp R     &kp Z                                                       &kp X        &kp D  &kp E  &kp L      &kp P
-&kp I                  &kp T         &kp A         &kp K     &kp G             &kp LS(LG(S))             &kp ESC         &kp H        &kp N  &kp O  &kp U      &kp S
-&kp F                  &kp PERIOD    &kp C         &kp M     &kp B             &kp LANGUAGE_2            &kp LANGUAGE_1  &kp J        &kp Y  &kp V  &kp COMMA  &kp SLASH
-&mt LCTRL PRINTSCREEN  &kp LEFT_WIN  &kp LEFT_ALT  &mkp MB1  &mt LSHIFT SPACE  &lt_to_layer_0 5 TAB      &BSDEL          &lt 4 ENTER                           &kp SEMICOLON
+&kp Q                  &kp W                  &kp MINUS           &kp R     &kp Z                                                 &kp X        &kp D  &kp E        &kp L                  &kp P
+&kp I                  &kp T                  &kp A               &kp K     &kp G             &kp LS(LG(S))       &kp ESC         &kp H        &kp N  &kp O        &kp U                  &kp S
+&kp F                  &mt PERIOD LEFT_SHIFT  &mt C LEFT_CONTROL  &kp M     &kp B             &kp LANGUAGE_2      &kp LANGUAGE_1  &kp J        &kp Y  &mt V RCTRL  &mt COMMA RIGHT_SHIFT  &kp SLASH
+&mt LCTRL PRINTSCREEN  &kp LEFT_WIN           &kp LEFT_ALT        &mkp MB1  &mt LSHIFT SPACE  &lt 5 TAB           &BSDEL          &lt 4 ENTER                                             &kp SEMICOLON
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -139,7 +157,7 @@
 
         NUM {
             bindings = <
-&kp F1                &kp F2        &kp F3        &kp F4        &kp F5                                                 &kp F6        &kp F7    &kp F8        &kp F9     &kp F10
+&F1_F11               &F2_F12       &kp F3        &kp F4        &kp F5                                                 &kp F6        &kp F7    &kp F8        &kp F9     &kp F10
 &kp LEFT_PARENTHESIS  &kp SLASH     &kp ASTERISK  &kp MINUS     &kp PLUS  &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp LEFT      &kp DOWN  &kp UP_ARROW  &kp RIGHT  &kp RIGHT_PARENTHESIS
 &kp NUMBER_1          &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5    &kp COMMA                    &kp PERIOD      &kp NUMBER_6  &kp N7    &kp N8        &kp N9     &kp N0
 &trans                &trans        &trans        &trans        &trans    &trans                       &trans          &trans                                           &kp DOLLAR
