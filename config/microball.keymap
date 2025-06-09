@@ -106,10 +106,10 @@
 
         DEFAULT {
             bindings = <
-&kp Q                  &kp W                  &kp MINUS     &kp R     &kp Z                                                 &kp X        &kp D  &kp E        &kp L                  &kp P
-&kp I                  &kp T                  &kp A         &kp K     &kp G             &kp LS(LG(S))       &kp ESC         &kp H        &kp N  &kp O        &kp U                  &kp S
-&kp F                  &mt LEFT_SHIFT PERIOD  &mt LCTRL C   &kp M     &kp B             &kp LANGUAGE_2      &kp LANGUAGE_1  &kp J        &kp Y  &mt RCTRL V  &mt RIGHT_SHIFT COMMA  &kp SLASH
-&mt LCTRL PRINTSCREEN  &kp LEFT_WIN           &kp LEFT_ALT  &mkp MB1  &mt LSHIFT SPACE  &mt LCTRL TAB       &lt_bsdel 5 0   &lt 4 ENTER                                             &kp SEMICOLON
+&kp Q                  &kp W                  &kp MINUS     &kp R      &kp Z                                                 &kp X        &kp D  &kp E        &kp L                  &kp P
+&kp I                  &kp T                  &kp A         &kp K      &kp G             &kp LS(LG(S))       &kp ESC         &kp H        &kp N  &kp O        &kp U                  &kp S
+&kp F                  &mt LEFT_SHIFT PERIOD  &mt LCTRL C   &kp M      &kp B             &kp LANGUAGE_2      &kp LANGUAGE_1  &kp J        &kp Y  &mt RCTRL V  &mt RIGHT_SHIFT COMMA  &kp SLASH
+&mt LCTRL PRINTSCREEN  &kp LEFT_WIN           &kp LEFT_ALT  &mkp LCLK  &mt LSHIFT SPACE  &mt LCTRL TAB       &lt_bsdel 5 0   &lt 4 ENTER                                             &kp SEMICOLON
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -144,10 +144,10 @@
 
         NUMBER {
             bindings = <
-&F1_F11               &F2_F12       &kp F3              &kp F4        &kp F5                                             &kp F6        &kp F7    &kp F8        &kp F9     &kp F10
-&kp LEFT_PARENTHESIS  &kp SLASH     &kp ASTERISK        &kp MINUS     &kp PLUS  &kp LC(LA(KP_NUMBER_0))      &kp EQUAL   &kp LEFT      &kp DOWN  &kp UP_ARROW  &kp RIGHT  &kp RIGHT_PARENTHESIS
-&kp NUMBER_1          &kp NUMBER_2  &mt LCTRL NUMBER_3  &kp NUMBER_4  &kp N5    &kp COMMA                    &kp PERIOD  &kp NUMBER_6  &kp N7    &mt RCTRL N8  &kp N9     &kp N0
-&trans                &trans        &trans              &mkp MB2      &trans    &trans                       &trans      &trans                                           &kp DOLLAR
+&F1_F11               &F2_F12       &kp F3              &kp F4        &kp F5                                                 &kp F6        &kp F7        &kp F8              &kp F9        &kp F10
+&kp LEFT_PARENTHESIS  &kp SLASH     &kp ASTERISK        &kp MINUS     &kp PLUS      &kp LC(LA(KP_NUMBER_0))      &kp EQUAL   &kp LEFT      &kp DOWN      &kp UP_ARROW        &kp RIGHT     &kp RIGHT_PARENTHESIS
+&kp NUMBER_1          &kp NUMBER_2  &mt LCTRL NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &kp COMMA                    &kp PERIOD  &kp NUMBER_6  &kp NUMBER_7  &mt RCTRL NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
+&trans                &trans        &trans              &mkp RCLK     &trans        &trans                       &trans      &trans                                                        &kp DOLLAR
             >;
         };
 
@@ -156,7 +156,7 @@
 &kp LEFT_BRACE        &kp GRAVE        &kp SQT      &kp DOUBLE_QUOTES  &kp CARET                                    &kp HOME       &kp PAGE_DOWN  &kp PAGE_UP   &kp END           &kp RIGHT_BRACE
 &kp LEFT_PARENTHESIS  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH           &kp AMPERSAND  &trans             &kp TILDE  &kp LEFT       &kp DOWN       &kp UP_ARROW  &kp RIGHT         &kp RIGHT_PARENTHESIS
 &kp LEFT_BRACKET      &kp DOLLAR       &kp PERCENT  &kp UNDERSCORE     &kp ASTERISK   &kp SEMICOLON      &kp COLON  &kp LESS_THAN  &kp BACKSLASH  &kp PIPE      &kp GREATER_THAN  &kp RIGHT_BRACKET
-&bootloader           &trans           &trans       &trans             &trans         &trans             &trans     &trans                                                        &trans
+&bootloader           &trans           &trans       &mkp MCLK          &trans         &trans             &trans     &trans                                                        &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
