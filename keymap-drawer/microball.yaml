@@ -38,7 +38,7 @@ layers:
   - {t: PRINTSCREEN, h: '$$mdi:apple-keyboard-control$$'}
   - LEFT WIN
   - $$mdi:apple-keyboard-option$$
-  - '&mkp MB1'
+  - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:backspace$$', h: SYMBOL, s: '$$mdi:backspace-reverse-outline$$'}
@@ -203,18 +203,18 @@ layers:
   - '2'
   - {t: '3', h: '$$mdi:apple-keyboard-control$$'}
   - '4'
-  - {t: '5', s: '%'}
+  - '5'
   - {t: ',', s: <}
   - .
   - '6'
-  - {t: '7', s: '&'}
-  - {t: '8', h: '$$mdi:apple-keyboard-control$$', s: '*'}
-  - {t: '9', s: (}
-  - {t: '0', s: )}
+  - '7'
+  - {t: '8', h: '$$mdi:apple-keyboard-control$$'}
+  - '9'
+  - '0'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&mkp MB2'
+  - $$mdi:mouse-right-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -258,7 +258,7 @@ layers:
   - $$mdi:progress-download$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:mouse-scroll-wheel$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
