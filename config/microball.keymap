@@ -11,21 +11,6 @@
     combos {
         compatible = "zmk,combos";
 
-        double_quotation {
-            bindings = <&kp DOUBLE_QUOTES>;
-            key-positions = <20 21>;
-        };
-
-        eq {
-            bindings = <&kp EQUAL>;
-            key-positions = <24 25>;
-        };
-
-        left_bootloader {
-            bindings = <&bootloader>;
-            key-positions = <10 22>;
-        };
-
         right_bootloader {
             bindings = <&bootloader>;
             key-positions = <9 21>;
@@ -33,27 +18,27 @@
 
         bt1 {
             bindings = <&bt BT_SEL 0>;
-            key-positions = <5 29>;
+            key-positions = <29 17>;
         };
 
         bt2 {
             bindings = <&bt BT_SEL 1>;
-            key-positions = <6 30>;
+            key-positions = <30 18>;
         };
 
         bt3 {
             bindings = <&bt BT_SEL 2>;
-            key-positions = <7 31>;
+            key-positions = <31 19>;
         };
 
         bt4 {
             bindings = <&bt BT_SEL 3>;
-            key-positions = <8 32>;
+            key-positions = <32 20>;
         };
 
         bt5 {
             bindings = <&bt BT_SEL 4>;
-            key-positions = <9 33>;
+            key-positions = <33 21>;
         };
 
         bt_clear {
@@ -107,17 +92,26 @@
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+
+        lt_bsdel: lt_bsdel {
+            compatible = "zmk,behavior-hold-tap";
+            label = "LT_BSDEL";
+            bindings = <&mo>, <&BSDEL>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+        };
     };
 
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
+        DEFAULT {
             bindings = <
 &kp Q                  &kp W                  &kp MINUS     &kp R     &kp Z                                                 &kp X        &kp D  &kp E        &kp L                  &kp P
 &kp I                  &kp T                  &kp A         &kp K     &kp G             &kp LS(LG(S))       &kp ESC         &kp H        &kp N  &kp O        &kp U                  &kp S
 &kp F                  &mt LEFT_SHIFT PERIOD  &mt LCTRL C   &kp M     &kp B             &kp LANGUAGE_2      &kp LANGUAGE_1  &kp J        &kp Y  &mt RCTRL V  &mt RIGHT_SHIFT COMMA  &kp SLASH
-&mt LCTRL PRINTSCREEN  &kp LEFT_WIN           &kp LEFT_ALT  &mkp MB1  &mt LSHIFT SPACE  &lt 5 TAB           &BSDEL          &lt 4 ENTER                                             &kp SEMICOLON
+&mt LCTRL PRINTSCREEN  &kp LEFT_WIN           &kp LEFT_ALT  &mkp MB1  &mt LSHIFT SPACE  &mt LCTRL TAB       &lt_bsdel 5 0   &lt 4 ENTER                                             &kp SEMICOLON
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -141,7 +135,7 @@
             >;
         };
 
-        SLOW {
+        SNIPE {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
@@ -150,12 +144,12 @@
             >;
         };
 
-        NUM {
+        NUMBER {
             bindings = <
-&F1_F11               &F2_F12       &kp F3              &kp F4        &kp F5                                                 &kp F6        &kp F7    &kp F8        &kp F9     &kp F10
-&kp LEFT_PARENTHESIS  &kp SLASH     &kp ASTERISK        &kp MINUS     &kp PLUS  &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp LEFT      &kp DOWN  &kp UP_ARROW  &kp RIGHT  &kp RIGHT_PARENTHESIS
-&kp NUMBER_1          &kp NUMBER_2  &mt LCTRL NUMBER_3  &kp NUMBER_4  &kp N5    &kp COMMA                    &kp PERIOD      &kp NUMBER_6  &kp N7    &mt RCTRL N8  &kp N9     &kp N0
-&trans                &trans        &trans              &mkp MB2      &trans    &trans                       &trans          &trans                                           &kp DOLLAR
+&F1_F11               &F2_F12       &kp F3              &kp F4        &kp F5                                             &kp F6        &kp F7    &kp F8        &kp F9     &kp F10
+&kp LEFT_PARENTHESIS  &kp SLASH     &kp ASTERISK        &kp MINUS     &kp PLUS  &kp LC(LA(KP_NUMBER_0))      &kp EQUAL   &kp LEFT      &kp DOWN  &kp UP_ARROW  &kp RIGHT  &kp RIGHT_PARENTHESIS
+&kp NUMBER_1          &kp NUMBER_2  &mt LCTRL NUMBER_3  &kp NUMBER_4  &kp N5    &kp COMMA                    &kp PERIOD  &kp NUMBER_6  &kp N7    &mt RCTRL N8  &kp N9     &kp N0
+&trans                &trans        &trans              &mkp MB2      &trans    &trans                       &trans      &trans                                           &kp DOLLAR
             >;
         };
 
@@ -164,19 +158,10 @@
 &kp LEFT_BRACE        &kp GRAVE        &kp SQT      &kp DOUBLE_QUOTES  &kp CARET                                    &kp HOME       &kp PAGE_DOWN  &kp PAGE_UP   &kp END           &kp RIGHT_BRACE
 &kp LEFT_PARENTHESIS  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH           &kp AMPERSAND  &trans             &kp TILDE  &kp LEFT       &kp DOWN       &kp UP_ARROW  &kp RIGHT         &kp RIGHT_PARENTHESIS
 &kp LEFT_BRACKET      &kp DOLLAR       &kp PERCENT  &kp UNDERSCORE     &kp ASTERISK   &kp SEMICOLON      &kp COLON  &kp LESS_THAN  &kp BACKSLASH  &kp PIPE      &kp GREATER_THAN  &kp RIGHT_BRACKET
-&trans                &trans           &trans       &trans             &trans         &trans             &trans     &trans                                                        &trans
+&bootloader           &trans           &trans       &trans             &trans         &trans             &trans     &trans                                                        &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
-        };
-
-        SYSTEM {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans                       &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
-&trans  &trans  &trans  &trans  &trans  &trans      &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans  &trans  &trans  &trans  &kp F11
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans                          &kp F12
-            >;
         };
     };
 };
