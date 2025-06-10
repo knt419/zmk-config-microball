@@ -112,7 +112,7 @@
 &kp PRINTSCREEN  &kp LEFT_WIN  &kp LEFT_ALT  &mkp LCLK  &mt LSHIFT SPACE  &mt LCTRL TAB       &lt_bsdel 5 0   &lt 4 ENTER                           &kp SEMICOLON
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
         };
 
         MOUSE {
@@ -150,7 +150,7 @@
 &trans                &trans        &trans        &mkp RCLK     &trans        &trans         &trans      &trans                                                  &kp DOLLAR
             >;
 
-            sensor-bindings = <&inc_dec_kp LC(PLUS) LC(MINUS)>;
+            sensor-bindings = <&inc_dec_kp LC(MINUS) LC(PLUS)>;
         };
 
         SYMBOL {
