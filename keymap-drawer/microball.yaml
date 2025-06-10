@@ -16,7 +16,7 @@ layers:
   - A
   - K
   - G
-  - Sft+Gui+S
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:keyboard-esc$$
   - H
   - N
@@ -24,18 +24,18 @@ layers:
   - U
   - S
   - F
-  - {t: ., h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: C, h: '$$mdi:apple-keyboard-control$$'}
+  - .
+  - C
   - M
   - B
   - LANGUAGE 2
   - LANGUAGE 1
   - J
   - Y
-  - {t: V, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: ',', h: '$$mdi:apple-keyboard-shift$$', s: <}
+  - V
+  - {t: ',', s: <}
   - {t: /, s: '?'}
-  - {t: PRINTSCREEN, h: '$$mdi:apple-keyboard-control$$'}
+  - PRINTSCREEN
   - LEFT WIN
   - $$mdi:apple-keyboard-option$$
   - $$mdi:mouse-left-click-outline$$
@@ -192,7 +192,7 @@ layers:
   - '*'
   - {t: '-', s: _}
   - +
-  - Ctl+Alt+KP 0
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '=', s: +}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
@@ -201,14 +201,14 @@ layers:
   - )
   - '1'
   - '2'
-  - {t: '3', h: '$$mdi:apple-keyboard-control$$'}
+  - '3'
   - '4'
   - '5'
   - {t: ',', s: <}
   - .
   - '6'
   - '7'
-  - {t: '8', h: '$$mdi:apple-keyboard-control$$'}
+  - '8'
   - '9'
   - '0'
   - {t: '$$mdi:transfer$$', type: trans}
@@ -236,7 +236,7 @@ layers:
   - '@'
   - '#'
   - '&'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '~'
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
@@ -259,8 +259,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-scroll-wheel$$
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - LANGUAGE 2
+  - LANGUAGE 1
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
