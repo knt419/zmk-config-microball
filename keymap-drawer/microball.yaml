@@ -16,7 +16,7 @@ layers:
   - A
   - K
   - G
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Sft+Ctl+M
   - $$mdi:keyboard-esc$$
   - H
   - N
@@ -215,8 +215,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-right-click-outline$$
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - LANGUAGE 2
+  - LANGUAGE 1
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - $
@@ -259,8 +259,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-scroll-wheel$$
-  - LANGUAGE 2
-  - LANGUAGE 1
+  - '&DBLSFT'
+  - '&DBLCTL'
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
