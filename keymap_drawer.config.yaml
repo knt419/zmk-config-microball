@@ -107,6 +107,7 @@ draw_config:
     mdi: https://raw.githubusercontent.com/Templarian/MaterialDesign-SVG/master/svg/{}.svg
     mdil: https://raw.githubusercontent.com/Pictogrammers/MaterialDesignLight/master/svg/{}.svg
     material: https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/{}/default/48px.svg
+    fa: https://github.com/FortAwesome/Font-Awesome/blob/6.x/svgs/{}.svg
   use_local_cache: true
 
 parse_config:
@@ -426,6 +427,7 @@ parse_config:
        shifted: ''
     # "Meh" key
     LS(LC(LALT)): $$mdi:star-three-points$$
+    PRINTSCREEN: $$mdi:monitor-screenshot$$
 
     # Arrows
     UP: $$mdi:arrow-up-bold$$
