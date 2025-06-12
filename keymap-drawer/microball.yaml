@@ -284,9 +284,9 @@ combos:
 - p: [11, 12]
   k: LANGUAGE 2
 - p: [7, 8]
-  k: Gui+$$mdi:arrow-right-bold$$
+  k: '&winmvright'
 - p: [1, 2]
-  k: Gui+$$mdi:arrow-left-bold$$
+  k: '&winmvleft'
 - p: [23, 24]
   k: Ctl+C
 - p: [31, 32]
