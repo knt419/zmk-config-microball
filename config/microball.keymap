@@ -7,11 +7,6 @@
     combos {
         compatible = "zmk,combos";
 
-        right_bootloader {
-            bindings = <&bootloader>;
-            key-positions = <9 21>;
-        };
-
         bt1 {
             bindings = <&bt BT_SEL 0>;
             key-positions = <29 17>;
@@ -212,7 +207,7 @@
 &kp LEFT_BRACE        &kp GRAVE        &kp SQT      &kp DOUBLE_QUOTES  &kp CARET                                    &kp HOME       &kp PAGE_DOWN  &kp PAGE_UP   &kp END           &kp RIGHT_BRACE
 &kp LEFT_PARENTHESIS  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH           &kp AMPERSAND  &none              &kp TILDE  &kp LEFT       &kp DOWN       &kp UP_ARROW  &kp RIGHT         &kp RIGHT_PARENTHESIS
 &kp LEFT_BRACKET      &kp DOLLAR       &kp PERCENT  &kp UNDERSCORE     &kp ASTERISK   &kp SEMICOLON      &kp COLON  &kp LESS_THAN  &kp BACKSLASH  &kp PIPE      &kp GREATER_THAN  &kp RIGHT_BRACKET
-&bootloader           &trans           &trans       &mkp MCLK          &DBLSFT        &DBLCTL            &trans     &trans                                                        &trans
+&bootloader           &trans           &trans       &mkp MCLK          &DBLSFT        &DBLCTL            &trans     &trans                                                        &bootloader
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
