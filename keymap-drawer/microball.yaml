@@ -36,7 +36,7 @@ layers:
   - {t: ',', s: <}
   - {t: /, s: '?'}
   - PRINTSCREEN
-  - LEFT WIN
+  - $$fa:brands/windows$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
