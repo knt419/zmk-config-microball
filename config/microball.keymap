@@ -49,6 +49,26 @@
 
         IME_OFF {
             bindings = <&kp LANGUAGE_2>;
+            key-positions = <11 12>;
+        };
+
+        win_mv_right {
+            bindings = <&kp LG(RIGHT)>;
+            key-positions = <7 8>;
+        };
+
+        win_mv_left {
+            bindings = <&kp LG(LEFT)>;
+            key-positions = <1 2>;
+        };
+
+        copy {
+            bindings = <&kp LC(C)>;
+            key-positions = <23 24>;
+        };
+
+        paste {
+            bindings = <&kp LC(V)>;
             key-positions = <31 32>;
         };
     };
