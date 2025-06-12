@@ -16,7 +16,7 @@ layers:
   - A
   - K
   - G
-  - Sft+Ctl+M
+  - $$mdi:microphone-off$$
   - $$mdi:keyboard-esc$$
   - H
   - N
