@@ -41,6 +41,16 @@
             bindings = <&bt BT_CLR>;
             key-positions = <16 28>;
         };
+
+        IME_ON {
+            bindings = <&kp LANGUAGE_1>;
+            key-positions = <19 20>;
+        };
+
+        IME_OFF {
+            bindings = <&kp LANGUAGE_2>;
+            key-positions = <31 32>;
+        };
     };
 
     macros {
