@@ -55,11 +55,13 @@
         win_mv_right {
             bindings = <&kp LG(RIGHT)>;
             key-positions = <7 8>;
+            slow-release;
         };
 
         win_mv_left {
             bindings = <&kp LG(LEFT)>;
             key-positions = <1 2>;
+            slow-release;
         };
 
         copy {
