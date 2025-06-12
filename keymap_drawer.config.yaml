@@ -107,7 +107,6 @@ draw_config:
     mdi: https://raw.githubusercontent.com/Templarian/MaterialDesign-SVG/master/svg/{}.svg
     mdil: https://raw.githubusercontent.com/Pictogrammers/MaterialDesignLight/master/svg/{}.svg
     material: https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/{}/default/48px.svg
-    fa: https://github.com/FortAwesome/Font-Awesome/blob/6.x/svgs/{}.svg
   use_local_cache: true
 
 parse_config:
@@ -403,7 +402,7 @@ parse_config:
     LG: $$mdi:apple-keyboard-command$$
     LEFT_GUI: $$mdi:apple-keyboard-command$$
     LEFT_COMMAND: $$mdi:apple-keyboard-command$$
-    LEFT_WIN: $$fa:brands/windows$$
+    LEFT_WIN: $$mdi:microsoft-windows$$
     RCTRL: $$mdi:apple-keyboard-control$$
     RIGHT_CONTROL: $$mdi:apple-keyboard-control$$
     RALT: $$mdi:apple-keyboard-option$$
@@ -413,7 +412,7 @@ parse_config:
     RSHFT: $$mdi:apple-keyboard-shift$$
     RCMD: $$mdi:apple-keyboard-command$$
     RG: $$mdi:apple-keyboard-command$$
-    RIGHT_WIN: $$fa:brands/windows$$
+    RIGHT_WIN: $$mdi:microsoft-windows$$
     PSCRN: $$mdi:printer-outline$$
     RIGHT_COMMAND: $$mdi:apple-keyboard-command$$
     PAGE_UP:
