@@ -53,13 +53,13 @@
         };
 
         win_mv_right {
-            bindings = <&kp LG(RIGHT)>;
+            bindings = <&winmvright>;
             key-positions = <7 8>;
             slow-release;
         };
 
         win_mv_left {
-            bindings = <&kp LG(LEFT)>;
+            bindings = <&winmvleft>;
             key-positions = <1 2>;
             slow-release;
         };
@@ -95,6 +95,30 @@
             #binding-cells = <0>;
             bindings = <&kp LCTRL &kp LCTRL>;
             label = "DBLCTL";
+        };
+
+        winmvright: winmvright {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_GUI &kp RIGHT>,
+                <&macro_release>,
+                <&kp LEFT_WIN &kp RIGHT>;
+
+            label = "WINMVRIGHT";
+        };
+
+        winmvleft: winmvleft {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_GUI &kp LEFT>,
+                <&macro_release>,
+                <&kp LEFT &kp LEFT_WIN>;
+
+            label = "WINMVLEFT";
         };
     };
 
