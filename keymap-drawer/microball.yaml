@@ -281,5 +281,13 @@ combos:
   k: $$mdi:bluetooth-off$$
 - p: [19, 20]
   k: LANGUAGE 1
-- p: [31, 32]
+- p: [11, 12]
   k: LANGUAGE 2
+- p: [7, 8]
+  k: Gui+$$mdi:arrow-right-bold$$
+- p: [1, 2]
+  k: Gui+$$mdi:arrow-left-bold$$
+- p: [23, 24]
+  k: Ctl+C
+- p: [31, 32]
+  k: Ctl+V
