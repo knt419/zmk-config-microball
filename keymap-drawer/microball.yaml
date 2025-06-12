@@ -263,10 +263,8 @@ layers:
   - '&DBLCTL'
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:progress-download$$
 combos:
-- p: [9, 21]
-  k: $$mdi:progress-download$$
 - p: [29, 17]
   k: {h: '1', s: '$$mdi:bluetooth-connect$$'}
 - p: [30, 18]
