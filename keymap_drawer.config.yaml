@@ -428,7 +428,7 @@ parse_config:
     LS(LC(LALT)): $$mdi:star-three-points$$
     LS(LC(M)): $$mdi:microphone-off$$
     LC(NUMBER_0): $$material:view_real_size$$
-    PRINTSCREEN: $$material:screenshot_resion$$
+    PRINTSCREEN: $$material:screenshot_region$$
 
     # Arrows
     UP: $$mdi:arrow-up-bold$$
