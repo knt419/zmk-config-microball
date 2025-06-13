@@ -215,8 +215,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-right-click-outline$$
-  - {t: LANGUAGE 2, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: LANGUAGE 1, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '=', h: '$$mdi:apple-keyboard-shift$$', s: +}
+  - {t: ., h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - $
