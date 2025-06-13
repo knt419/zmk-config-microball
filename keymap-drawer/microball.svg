@@ -1,8 +1,5 @@
 <svg width="837" height="2089" viewBox="0 0 837 2089" class="keymap" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>/* start glyphs */
-<svg id="material:view_real_size">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><path d="M284-280v-340h-84v-60h144v400h-60Zm167 0v-60h60v60h-60Zm209 0v-340h-84v-60h144v400h-60ZM451-450v-60h60v60h-60Z"/></svg>
-</svg>
 <svg id="mdi:apple-keyboard-control">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-apple-keyboard-control" viewBox="0 0 24 24"><path d="M19.78,11.78L18.36,13.19L12,6.83L5.64,13.19L4.22,11.78L12,4L19.78,11.78Z" /></svg>
 </svg>
@@ -564,7 +561,7 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-10">
 <rect rx="6" ry="6" x="98" y="134" width="28" height="26" class="combo"/>
-<use href="#material:view_real_size" xlink:href="#material:view_real_size" x="103" y="138" height="18" width="18.0" class="combo tap glyph material:view_real_size"/>
+<text x="112" y="147" class="combo tap">Ctl+C</text>
 </g>
 <g class="combo combopos-11">
 <rect rx="6" ry="6" x="631" y="134" width="28" height="26" class="combo"/>
@@ -858,7 +855,7 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-10">
 <rect rx="6" ry="6" x="98" y="134" width="28" height="26" class="combo"/>
-<use href="#material:view_real_size" xlink:href="#material:view_real_size" x="103" y="138" height="18" width="18.0" class="combo tap glyph material:view_real_size"/>
+<text x="112" y="147" class="combo tap">Ctl+C</text>
 </g>
 <g class="combo combopos-11">
 <rect rx="6" ry="6" x="631" y="134" width="28" height="26" class="combo"/>
@@ -1149,7 +1146,7 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-10">
 <rect rx="6" ry="6" x="98" y="134" width="28" height="26" class="combo"/>
-<use href="#material:view_real_size" xlink:href="#material:view_real_size" x="103" y="138" height="18" width="18.0" class="combo tap glyph material:view_real_size"/>
+<text x="112" y="147" class="combo tap">Ctl+C</text>
 </g>
 <g class="combo combopos-11">
 <rect rx="6" ry="6" x="631" y="134" width="28" height="26" class="combo"/>
@@ -1440,7 +1437,7 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-10">
 <rect rx="6" ry="6" x="98" y="134" width="28" height="26" class="combo"/>
-<use href="#material:view_real_size" xlink:href="#material:view_real_size" x="103" y="138" height="18" width="18.0" class="combo tap glyph material:view_real_size"/>
+<text x="112" y="147" class="combo tap">Ctl+C</text>
 </g>
 <g class="combo combopos-11">
 <rect rx="6" ry="6" x="631" y="134" width="28" height="26" class="combo"/>
@@ -1739,7 +1736,7 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-10">
 <rect rx="6" ry="6" x="98" y="134" width="28" height="26" class="combo"/>
-<use href="#material:view_real_size" xlink:href="#material:view_real_size" x="103" y="138" height="18" width="18.0" class="combo tap glyph material:view_real_size"/>
+<text x="112" y="147" class="combo tap">Ctl+C</text>
 </g>
 <g class="combo combopos-11">
 <rect rx="6" ry="6" x="631" y="134" width="28" height="26" class="combo"/>
@@ -2036,7 +2033,7 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-10">
 <rect rx="6" ry="6" x="98" y="134" width="28" height="26" class="combo"/>
-<use href="#material:view_real_size" xlink:href="#material:view_real_size" x="103" y="138" height="18" width="18.0" class="combo tap glyph material:view_real_size"/>
+<text x="112" y="147" class="combo tap">Ctl+C</text>
 </g>
 <g class="combo combopos-11">
 <rect rx="6" ry="6" x="631" y="134" width="28" height="26" class="combo"/>

@@ -286,7 +286,7 @@ combos:
 - p: [1, 2]
   k: '&winmvleft'
 - p: [23, 24]
-  k: $$material:view_real_size$$
+  k: Ctl+C
 - p: [31, 32]
   k: Ctl+V
 - p: [13, 18]
