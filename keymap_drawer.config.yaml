@@ -427,6 +427,7 @@ parse_config:
     # "Meh" key
     LS(LC(LALT)): $$mdi:star-three-points$$
     LS(LC(M)): $$mdi:microphone-off$$
+    LC(C): $$material:view_real_size$$
     PRINTSCREEN: $$mdi:monitor-screenshot$$
 
     # Arrows
