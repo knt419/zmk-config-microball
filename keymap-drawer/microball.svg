@@ -1,5 +1,8 @@
 <svg width="837" height="2089" viewBox="0 0 837 2089" class="keymap" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>/* start glyphs */
+<svg id="material:view_real_size">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><path d="M284-280v-340h-84v-60h144v400h-60Zm167 0v-60h60v60h-60Zm209 0v-340h-84v-60h144v400h-60ZM451-450v-60h60v60h-60Z"/></svg>
+</svg>
 <svg id="mdi:apple-keyboard-control">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-apple-keyboard-control" viewBox="0 0 24 24"><path d="M19.78,11.78L18.36,13.19L12,6.83L5.64,13.19L4.22,11.78L12,4L19.78,11.78Z" /></svg>
 </svg>
@@ -1545,7 +1548,7 @@ rect.held, rect.combo.held {
 <g transform="translate(309, 112)" class="key keypos-15">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<text x="0" y="-4" class="key tap">Ctl+0</text>
+<use href="#material:view_real_size" xlink:href="#material:view_real_size" x="-9" y="-13" height="18" width="18.0" class="key tap glyph material:view_real_size"/>
 </g>
 <g transform="translate(448, 112)" class="key trans keypos-16">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>

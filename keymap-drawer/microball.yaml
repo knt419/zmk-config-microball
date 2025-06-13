@@ -192,7 +192,7 @@ layers:
   - '*'
   - {t: '-', s: _}
   - +
-  - Ctl+0
+  - $$material:view_real_size$$
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
