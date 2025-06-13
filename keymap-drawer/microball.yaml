@@ -192,8 +192,8 @@ layers:
   - '*'
   - {t: '-', s: _}
   - +
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '=', s: +}
+  - Ctl+0
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
@@ -205,7 +205,7 @@ layers:
   - '4'
   - '5'
   - {t: ',', s: <}
-  - .
+  - $
   - '6'
   - '7'
   - '8'
@@ -219,7 +219,7 @@ layers:
   - {t: ., h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - $
+  - {t: '$$mdi:transfer$$', type: trans}
   SYMBOL:
   - '{'
   - {t: '`', s: '~'}
@@ -289,3 +289,9 @@ combos:
   k: $$material:view_real_size$$
 - p: [31, 32]
   k: Ctl+V
+- p: [13, 18]
+  k: Gui+$$mdi:keyboard-tab$$
+- p: [20, 21]
+  k: {t: ;, s: ':'}
+- p: [10, 11]
+  k: ':'
