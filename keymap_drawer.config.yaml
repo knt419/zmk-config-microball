@@ -429,6 +429,7 @@ parse_config:
     LS(LC(M)): $$mdi:microphone-off$$
     LC(NUMBER_0): $$material:view_real_size$$
     PRINTSCREEN: $$material:screenshot_region$$
+    LG(TAB): $$mdi:view-dashboard-outline$$
 
     # Arrows
     UP: $$mdi:arrow-up-bold$$
