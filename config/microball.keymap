@@ -68,6 +68,21 @@
             bindings = <&kp LC(V)>;
             key-positions = <31 32>;
         };
+
+        task_view {
+            bindings = <&kp LG(TAB)>;
+            key-positions = <13 18>;
+        };
+
+        semicolon {
+            bindings = <&kp SEMI>;
+            key-positions = <20 21>;
+        };
+
+        colon {
+            bindings = <&kp COLON>;
+            key-positions = <10 11>;
+        };
     };
 
     macros {
@@ -194,9 +209,9 @@
         NUMBER {
             bindings = <
 &F1_F11               &F2_F12       &kp F3        &kp F4        &kp F5                                                  &kp F6        &kp F7        &kp F8        &kp F9        &kp F10
-&kp LEFT_PARENTHESIS  &kp SLASH     &kp ASTERISK  &kp MINUS     &kp PLUS              &none                 &kp EQUAL   &kp LEFT      &kp DOWN      &kp UP_ARROW  &kp RIGHT     &kp RIGHT_PARENTHESIS
-&kp NUMBER_1          &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5          &kp COMMA             &kp PERIOD  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
-&trans                &trans        &trans        &mkp RCLK     &mt LEFT_SHIFT EQUAL  &mt LCTRL PERIOD      &trans      &trans                                                  &kp DOLLAR
+&kp LEFT_PARENTHESIS  &kp SLASH     &kp ASTERISK  &kp MINUS     &kp PLUS              &kp LC(NUMBER_0)      &trans      &kp LEFT      &kp DOWN      &kp UP_ARROW  &kp RIGHT     &kp RIGHT_PARENTHESIS
+&kp NUMBER_1          &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5          &kp COMMA             &kp DOLLAR  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
+&trans                &trans        &trans        &mkp RCLK     &mt LEFT_SHIFT EQUAL  &mt LCTRL PERIOD      &trans      &trans                                                  &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(MINUS) LC(PLUS)>;
