@@ -75,6 +75,9 @@
 <svg id="mdi:transfer">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-transfer" viewBox="0 0 24 24"><path d="M8 4A2 2 0 0 0 6 6V10H8V6H16V9H13.5L17 12.5L20.5 9H18V6A2 2 0 0 0 16 4H8M3 12V14H11V12H3M3 15V17H11V15H3M13 15V17H21V15H13M3 18V20H11V18H3M13 18V20H21V18H13Z" /></svg>
 </svg>
+<svg id="mdi:view-dashboard-outline">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-view-dashboard-outline" viewBox="0 0 24 24"><path d="M19,5V7H15V5H19M9,5V11H5V5H9M19,13V19H15V13H19M9,17V19H5V17H9M21,3H13V9H21V3M11,3H3V13H11V3M21,11H13V21H21V11M11,15H3V21H11V15Z" /></svg>
+</svg>
 </defs>/* end glyphs */
 <style>/* inherit to force styles through use tags */
 svg path {
@@ -574,7 +577,7 @@ rect.held, rect.combo.held {
 <path d="M378,92 l-163,0" class="combo"/>
 <path d="M378,92 l163,0" class="combo"/>
 <rect rx="6" ry="6" x="364" y="79" width="28" height="26" class="combo"/>
-<use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="369" y="83" height="18" width="18.0" class="combo tap glyph mdi:keyboard-tab"/>
+<use href="#mdi:view-dashboard-outline" xlink:href="#mdi:view-dashboard-outline" x="369" y="83" height="18" width="18.0" class="combo tap glyph mdi:view-dashboard-outline"/>
 </g>
 <g class="combo combopos-13">
 <rect rx="6" ry="6" x="687" y="95" width="28" height="26" class="combo"/>
@@ -868,7 +871,7 @@ rect.held, rect.combo.held {
 <path d="M378,92 l-163,0" class="combo"/>
 <path d="M378,92 l163,0" class="combo"/>
 <rect rx="6" ry="6" x="364" y="79" width="28" height="26" class="combo"/>
-<use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="369" y="83" height="18" width="18.0" class="combo tap glyph mdi:keyboard-tab"/>
+<use href="#mdi:view-dashboard-outline" xlink:href="#mdi:view-dashboard-outline" x="369" y="83" height="18" width="18.0" class="combo tap glyph mdi:view-dashboard-outline"/>
 </g>
 <g class="combo combopos-13">
 <rect rx="6" ry="6" x="687" y="95" width="28" height="26" class="combo"/>
@@ -1159,7 +1162,7 @@ rect.held, rect.combo.held {
 <path d="M378,92 l-163,0" class="combo"/>
 <path d="M378,92 l163,0" class="combo"/>
 <rect rx="6" ry="6" x="364" y="79" width="28" height="26" class="combo"/>
-<use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="369" y="83" height="18" width="18.0" class="combo tap glyph mdi:keyboard-tab"/>
+<use href="#mdi:view-dashboard-outline" xlink:href="#mdi:view-dashboard-outline" x="369" y="83" height="18" width="18.0" class="combo tap glyph mdi:view-dashboard-outline"/>
 </g>
 <g class="combo combopos-13">
 <rect rx="6" ry="6" x="687" y="95" width="28" height="26" class="combo"/>
@@ -1450,7 +1453,7 @@ rect.held, rect.combo.held {
 <path d="M378,92 l-163,0" class="combo"/>
 <path d="M378,92 l163,0" class="combo"/>
 <rect rx="6" ry="6" x="364" y="79" width="28" height="26" class="combo"/>
-<use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="369" y="83" height="18" width="18.0" class="combo tap glyph mdi:keyboard-tab"/>
+<use href="#mdi:view-dashboard-outline" xlink:href="#mdi:view-dashboard-outline" x="369" y="83" height="18" width="18.0" class="combo tap glyph mdi:view-dashboard-outline"/>
 </g>
 <g class="combo combopos-13">
 <rect rx="6" ry="6" x="687" y="95" width="28" height="26" class="combo"/>
@@ -1749,7 +1752,7 @@ rect.held, rect.combo.held {
 <path d="M378,92 l-163,0" class="combo"/>
 <path d="M378,92 l163,0" class="combo"/>
 <rect rx="6" ry="6" x="364" y="79" width="28" height="26" class="combo"/>
-<use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="369" y="83" height="18" width="18.0" class="combo tap glyph mdi:keyboard-tab"/>
+<use href="#mdi:view-dashboard-outline" xlink:href="#mdi:view-dashboard-outline" x="369" y="83" height="18" width="18.0" class="combo tap glyph mdi:view-dashboard-outline"/>
 </g>
 <g class="combo combopos-13">
 <rect rx="6" ry="6" x="687" y="95" width="28" height="26" class="combo"/>
@@ -2046,7 +2049,7 @@ rect.held, rect.combo.held {
 <path d="M378,92 l-163,0" class="combo"/>
 <path d="M378,92 l163,0" class="combo"/>
 <rect rx="6" ry="6" x="364" y="79" width="28" height="26" class="combo"/>
-<use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="369" y="83" height="18" width="18.0" class="combo tap glyph mdi:keyboard-tab"/>
+<use href="#mdi:view-dashboard-outline" xlink:href="#mdi:view-dashboard-outline" x="369" y="83" height="18" width="18.0" class="combo tap glyph mdi:view-dashboard-outline"/>
 </g>
 <g class="combo combopos-13">
 <rect rx="6" ry="6" x="687" y="95" width="28" height="26" class="combo"/>
