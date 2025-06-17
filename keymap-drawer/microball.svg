@@ -1,10 +1,10 @@
 <svg width="837" height="2428" viewBox="0 0 837 2428" class="keymap" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>/* start glyphs */
+<svg id="material:1x_mobiledata">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><path d="M242-280v-340h-82v-60h142v400h-60Zm195 0 127-213-113-187h70l79 130 75-130h69L636-493l124 213h-69l-91-156-93 156h-70Z"/></svg>
+</svg>
 <svg id="material:screenshot_region">
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><path d="M700-60v-140H560v-60h140v-140h60v140h140v60H760v140h-60ZM200-200v-200h60v140h140v60H200Zm0-360v-200h200v60H260v140h-60Zm500 0v-140H560v-60h200v200h-60Z"/></svg>
-</svg>
-<svg id="material:view_real_size">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><path d="M284-280v-340h-84v-60h144v400h-60Zm167 0v-60h60v60h-60Zm209 0v-340h-84v-60h144v400h-60ZM451-450v-60h60v60h-60Z"/></svg>
 </svg>
 <svg id="mdi:apple-keyboard-control">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-apple-keyboard-control" viewBox="0 0 24 24"><path d="M19.78,11.78L18.36,13.19L12,6.83L5.64,13.19L4.22,11.78L12,4L19.78,11.78Z" /></svg>
@@ -1436,7 +1436,7 @@ rect.held, rect.combo.held {
 <g transform="translate(309, 112)" class="key keypos-15">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<use href="#material:view_real_size" xlink:href="#material:view_real_size" x="-9" y="-13" height="18" width="18.0" class="key tap glyph material:view_real_size"/>
+<use href="#material:1x_mobiledata" xlink:href="#material:1x_mobiledata" x="-9" y="-13" height="18" width="18.0" class="key tap glyph material:1x_mobiledata"/>
 </g>
 <g transform="translate(448, 112)" class="key trans keypos-16">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>

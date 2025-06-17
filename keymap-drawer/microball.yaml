@@ -192,7 +192,7 @@ layers:
   - '*'
   - {t: '-', s: _}
   - +
-  - $$material:view_real_size$$
+  - $$material:1x_mobiledata$$
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
