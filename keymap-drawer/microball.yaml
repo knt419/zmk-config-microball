@@ -45,137 +45,137 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: NUMBER}
   - $$material:screenshot_region$$
   MOUSE:
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
   - SCROLL
   - SNIPE
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
   SCROLL:
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
   - {type: held}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
   SNIPE:
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
   - {type: held}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
   NUMBER:
   - {t: F1, s: F11}
   - {t: F2, s: F12}
@@ -193,7 +193,7 @@ layers:
   - {t: '-', s: _}
   - +
   - $$material:1x_mobiledata$$
-  - {t: '$$material:arrow_cool_down$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
@@ -211,15 +211,15 @@ layers:
   - '8'
   - '9'
   - '0'
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
   - $$mdi:mouse-right-click-outline$$
   - {t: '=', h: '$$mdi:apple-keyboard-shift$$', s: +}
   - {t: ., h: '$$mdi:apple-keyboard-control$$'}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
   - {type: held}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
   SYMBOL:
   - '{'
   - {t: '`', s: '~'}
@@ -255,26 +255,26 @@ layers:
   - '|'
   - '>'
   - {t: ']', s: '}'}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
   - $$mdi:mouse-scroll-wheel$$
   - '&DBLSFT'
   - '&DBLCTL'
   - {type: held}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
   SYSTEM:
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
   - OUT USB
   - OUT USB
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
@@ -287,26 +287,26 @@ layers:
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
   - {h: '4', s: '$$mdi:bluetooth-connect$$'}
   - {h: '5', s: '$$mdi:bluetooth-connect$$'}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
   - OUT BLE
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
   - OUT BLE
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
   - $$mdi:progress-download$$
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
-  - {t: '$$material:arrow_cool_down$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
+  - {t: '$$tablerf:arrow-big-down-lines$$', type: trans}
   - $$mdi:progress-download$$
 combos:
 - p: [19, 20]
