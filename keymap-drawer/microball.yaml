@@ -311,19 +311,28 @@ layers:
 combos:
 - p: [19, 20]
   k: LANGUAGE 1
+  l: [DEFAULT]
 - p: [11, 12]
   k: LANGUAGE 2
+  l: [DEFAULT]
 - p: [7, 8]
   k: '&winmvright'
+  l: [DEFAULT]
 - p: [1, 2]
   k: '&winmvleft'
+  l: [DEFAULT]
 - p: [23, 24]
   k: Ctl+C
+  l: [DEFAULT]
 - p: [31, 32]
   k: Ctl+V
+  l: [DEFAULT]
 - p: [13, 18]
   k: $$mdi:view-dashboard-outline$$
+  l: [DEFAULT]
 - p: [20, 21]
   k: {t: ;, s: ':'}
+  l: [DEFAULT]
 - p: [10, 11]
   k: ':'
+  l: [DEFAULT]
