@@ -11,48 +11,57 @@
         IME_ON {
             bindings = <&kp LANGUAGE_1>;
             key-positions = <19 20>;
+            layers = <0>;
         };
 
         IME_OFF {
             bindings = <&kp LANGUAGE_2>;
             key-positions = <11 12>;
+            layers = <0>;
         };
 
         win_mv_right {
             bindings = <&winmvright>;
             key-positions = <7 8>;
             slow-release;
+            layers = <0>;
         };
 
         win_mv_left {
             bindings = <&winmvleft>;
             key-positions = <1 2>;
             slow-release;
+            layers = <0>;
         };
 
         copy {
             bindings = <&kp LC(C)>;
             key-positions = <23 24>;
+            layers = <0>;
         };
 
         paste {
             bindings = <&kp LC(V)>;
             key-positions = <31 32>;
+            layers = <0>;
         };
 
         task_view {
             bindings = <&kp LG(TAB)>;
             key-positions = <13 18>;
+            layers = <0>;
         };
 
         semicolon {
             bindings = <&kp SEMI>;
             key-positions = <20 21>;
+            layers = <0>;
         };
 
         colon {
             bindings = <&kp COLON>;
             key-positions = <10 11>;
+            layers = <0>;
         };
     };
 
