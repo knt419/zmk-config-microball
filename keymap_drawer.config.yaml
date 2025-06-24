@@ -113,7 +113,7 @@ parse_config:
   mark_alternate_layer_activators: true
   sticky_label: $$mdi:gesture-tap-hold$$
   trans_legend:
-    tap: $$material:arrow_cool_down$$
+    tap: $$tablerf:arrow-big-down-lines$$
     type: trans
 
   raw_binding_map:
