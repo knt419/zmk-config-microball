@@ -45,137 +45,137 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: NUMBER}
   - $$material:screenshot_region$$
   MOUSE:
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
   - SCROLL
   - SNIPE
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
   SCROLL:
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
   - {type: held}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
   SNIPE:
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
   - {type: held}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
   NUMBER:
   - {t: F1, s: F11}
   - {t: F2, s: F12}
@@ -193,7 +193,7 @@ layers:
   - {t: '-', s: _}
   - +
   - $$material:1x_mobiledata$$
-  - {t: '$$tablerf:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
@@ -211,15 +211,15 @@ layers:
   - '8'
   - '9'
   - '0'
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
   - $$mdi:mouse-right-click-outline$$
   - {t: '=', h: '$$mdi:apple-keyboard-shift$$', s: +}
   - {t: ., h: '$$mdi:apple-keyboard-control$$'}
-  - {t: '$$tablerf:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
   - {type: held}
-  - {t: '$$tablerf:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
   SYMBOL:
   - '{'
   - {t: '`', s: '~'}
@@ -255,26 +255,26 @@ layers:
   - '|'
   - '>'
   - {t: ']', s: '}'}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
   - $$mdi:mouse-scroll-wheel$$
   - '&DBLSFT'
   - '&DBLCTL'
   - {type: held}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
   SYSTEM:
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
   - OUT USB
   - OUT USB
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
@@ -287,26 +287,26 @@ layers:
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
   - {h: '4', s: '$$mdi:bluetooth-connect$$'}
   - {h: '5', s: '$$mdi:bluetooth-connect$$'}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
   - OUT BLE
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
   - OUT BLE
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
   - $$mdi:progress-download$$
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
-  - {t: '$$tablerf:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
   - $$mdi:progress-download$$
 combos:
 - p: [19, 20]
