@@ -232,27 +232,27 @@ layers:
   - END
   - '}'
   - (
-  - '!'
-  - '@'
-  - '#'
+  - '%'
   - '&'
+  - '#'
+  - '|'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '~'
+  - {t: '$$tabler:fold-down$$', type: trans}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
   - )
   - {t: '[', s: '{'}
+  - '!'
+  - '@'
   - $
-  - '%'
-  - _
-  - '*'
+  - {t: \, s: '|'}
   - {t: ;, s: ':'}
   - ':'
   - <
-  - {t: \, s: '|'}
-  - '|'
+  - _
+  - '~'
   - '>'
   - {t: ']', s: '}'}
   - {t: '$$tabler:fold-down$$', type: trans}
