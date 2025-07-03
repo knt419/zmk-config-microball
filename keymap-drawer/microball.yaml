@@ -75,8 +75,8 @@ layers:
   - {t: '$$tabler:fold-down$$', type: trans}
   - {t: '$$tabler:fold-down$$', type: trans}
   - {t: '$$tabler:fold-down$$', type: trans}
-  - {t: '$$tabler:fold-down$$', type: trans}
-  - {t: '$$tabler:fold-down$$', type: trans}
+  - $$mdi:mouse-left-click-outline$$
+  - SCROLL
   - {t: '$$tabler:fold-down$$', type: trans}
   - {t: '$$tabler:fold-down$$', type: trans}
   - {t: '$$tabler:fold-down$$', type: trans}
@@ -120,14 +120,14 @@ layers:
   - {t: '$$tabler:fold-down$$', type: trans}
   - {t: '$$tabler:fold-down$$', type: trans}
   - {t: '$$tabler:fold-down$$', type: trans}
-  - {t: '$$tabler:fold-down$$', type: trans}
-  - {t: '$$tabler:fold-down$$', type: trans}
-  - {t: '$$tabler:fold-down$$', type: trans}
-  - {t: '$$tabler:fold-down$$', type: trans}
-  - {t: '$$tabler:fold-down$$', type: trans}
-  - {t: '$$tabler:fold-down$$', type: trans}
-  - {t: '$$tabler:fold-down$$', type: trans}
   - {type: held}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {type: held alternate}
   - {t: '$$tabler:fold-down$$', type: trans}
   - {t: '$$tabler:fold-down$$', type: trans}
   - {t: '$$tabler:fold-down$$', type: trans}
