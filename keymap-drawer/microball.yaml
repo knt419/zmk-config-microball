@@ -8,7 +8,7 @@ layers:
   - Z
   - X
   - D
-  - E
+  - {t: E, h: MOUSE}
   - L
   - P
   - I
@@ -52,20 +52,8 @@ layers:
   - {t: '$$tabler:fold-down$$', type: trans}
   - {t: '$$tabler:fold-down$$', type: trans}
   - {t: '$$tabler:fold-down$$', type: trans}
-  - {t: '$$tabler:fold-down$$', type: trans}
-  - {t: '$$tabler:fold-down$$', type: trans}
-  - {t: '$$tabler:fold-down$$', type: trans}
-  - {t: '$$tabler:fold-down$$', type: trans}
-  - {t: '$$tabler:fold-down$$', type: trans}
-  - {t: '$$tabler:fold-down$$', type: trans}
-  - {t: '$$tabler:fold-down$$', type: trans}
-  - {t: '$$tabler:fold-down$$', type: trans}
-  - {t: '$$tabler:fold-down$$', type: trans}
-  - {t: '$$tabler:fold-down$$', type: trans}
-  - {t: '$$tabler:fold-down$$', type: trans}
-  - {t: '$$tabler:fold-down$$', type: trans}
-  - {t: '$$tabler:fold-down$$', type: trans}
-  - {t: '$$tabler:fold-down$$', type: trans}
+  - {type: held}
+  - SCROLL
   - {t: '$$tabler:fold-down$$', type: trans}
   - {t: '$$tabler:fold-down$$', type: trans}
   - {t: '$$tabler:fold-down$$', type: trans}
@@ -76,7 +64,19 @@ layers:
   - {t: '$$tabler:fold-down$$', type: trans}
   - {t: '$$tabler:fold-down$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
-  - SCROLL
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
   - {t: '$$tabler:fold-down$$', type: trans}
   - {t: '$$tabler:fold-down$$', type: trans}
   - {t: '$$tabler:fold-down$$', type: trans}
@@ -96,31 +96,31 @@ layers:
   - {t: '$$tabler:fold-down$$', type: trans}
   - {t: '$$tabler:fold-down$$', type: trans}
   - {t: '$$tabler:fold-down$$', type: trans}
-  - {t: '$$tabler:fold-down$$', type: trans}
-  - {t: '$$tabler:fold-down$$', type: trans}
-  - {t: '$$tabler:fold-down$$', type: trans}
-  - {t: '$$tabler:fold-down$$', type: trans}
-  - {t: '$$tabler:fold-down$$', type: trans}
-  - {t: '$$tabler:fold-down$$', type: trans}
-  - {t: '$$tabler:fold-down$$', type: trans}
-  - {t: '$$tabler:fold-down$$', type: trans}
-  - {t: '$$tabler:fold-down$$', type: trans}
-  - {t: '$$tabler:fold-down$$', type: trans}
-  - {t: '$$tabler:fold-down$$', type: trans}
-  - {t: '$$tabler:fold-down$$', type: trans}
-  - {t: '$$tabler:fold-down$$', type: trans}
-  - {t: '$$tabler:fold-down$$', type: trans}
-  - {t: '$$tabler:fold-down$$', type: trans}
-  - {t: '$$tabler:fold-down$$', type: trans}
-  - {t: '$$tabler:fold-down$$', type: trans}
-  - {t: '$$tabler:fold-down$$', type: trans}
-  - {t: '$$tabler:fold-down$$', type: trans}
-  - {t: '$$tabler:fold-down$$', type: trans}
-  - {t: '$$tabler:fold-down$$', type: trans}
-  - {t: '$$tabler:fold-down$$', type: trans}
-  - {t: '$$tabler:fold-down$$', type: trans}
-  - {t: '$$tabler:fold-down$$', type: trans}
   - {type: held}
+  - {type: held}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
   - {t: '$$tabler:fold-down$$', type: trans}
   - {t: '$$tabler:fold-down$$', type: trans}
   - {t: '$$tabler:fold-down$$', type: trans}
@@ -140,7 +140,7 @@ layers:
   - {t: '$$tabler:fold-down$$', type: trans}
   - {t: '$$tabler:fold-down$$', type: trans}
   - {t: '$$tabler:fold-down$$', type: trans}
-  - {t: '$$tabler:fold-down$$', type: trans}
+  - {type: held}
   - {t: '$$tabler:fold-down$$', type: trans}
   - {t: '$$tabler:fold-down$$', type: trans}
   - {t: '$$tabler:fold-down$$', type: trans}

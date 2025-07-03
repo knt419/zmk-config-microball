@@ -345,7 +345,9 @@ rect.held, rect.combo.held {
 <g transform="translate(617, 28)" class="key keypos-7">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">E</text>
-</g>
+<a href="#MOUSE">
+<text x="0" y="24" class="key hold layer-activator">MOUSE</text>
+</a></g>
 <g transform="translate(673, 42)" class="key keypos-8">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">L</text>
@@ -577,14 +579,14 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <use href="#tabler:fold-down" xlink:href="#tabler:fold-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph tabler:fold-down"/>
 </g>
-<g transform="translate(617, 28)" class="key trans keypos-7">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
-<use href="#tabler:fold-down" xlink:href="#tabler:fold-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph tabler:fold-down"/>
+<g transform="translate(617, 28)" class="key held keypos-7">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
 </g>
-<g transform="translate(673, 42)" class="key trans keypos-8">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
-<use href="#tabler:fold-down" xlink:href="#tabler:fold-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph tabler:fold-down"/>
-</g>
+<g transform="translate(673, 42)" class="key keypos-8">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<a href="#SCROLL">
+<text x="0" y="0" class="key tap layer-activator">SCROLL</text>
+</a></g>
 <g transform="translate(729, 63)" class="key trans keypos-9">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <use href="#tabler:fold-down" xlink:href="#tabler:fold-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph tabler:fold-down"/>
@@ -621,9 +623,9 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <use href="#tabler:fold-down" xlink:href="#tabler:fold-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph tabler:fold-down"/>
 </g>
-<g transform="translate(560, 92)" class="key trans keypos-18">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
-<use href="#tabler:fold-down" xlink:href="#tabler:fold-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph tabler:fold-down"/>
+<g transform="translate(560, 92)" class="key keypos-18">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<use href="#mdi:mouse-left-click-outline" xlink:href="#mdi:mouse-left-click-outline" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:mouse-left-click-outline"/>
 </g>
 <g transform="translate(617, 84)" class="key trans keypos-19">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -669,15 +671,14 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <use href="#tabler:fold-down" xlink:href="#tabler:fold-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph tabler:fold-down"/>
 </g>
-<g transform="translate(560, 148)" class="key keypos-30">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:mouse-left-click-outline" xlink:href="#mdi:mouse-left-click-outline" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:mouse-left-click-outline"/>
+<g transform="translate(560, 148)" class="key trans keypos-30">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
+<use href="#tabler:fold-down" xlink:href="#tabler:fold-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph tabler:fold-down"/>
 </g>
-<g transform="translate(617, 140)" class="key keypos-31">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#SCROLL">
-<text x="0" y="0" class="key tap layer-activator">SCROLL</text>
-</a></g>
+<g transform="translate(617, 140)" class="key trans keypos-31">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
+<use href="#tabler:fold-down" xlink:href="#tabler:fold-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph tabler:fold-down"/>
+</g>
 <g transform="translate(673, 154)" class="key trans keypos-32">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <use href="#tabler:fold-down" xlink:href="#tabler:fold-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph tabler:fold-down"/>
@@ -757,13 +758,11 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <use href="#tabler:fold-down" xlink:href="#tabler:fold-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph tabler:fold-down"/>
 </g>
-<g transform="translate(617, 28)" class="key trans keypos-7">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
-<use href="#tabler:fold-down" xlink:href="#tabler:fold-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph tabler:fold-down"/>
+<g transform="translate(617, 28)" class="key held keypos-7">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
 </g>
-<g transform="translate(673, 42)" class="key trans keypos-8">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
-<use href="#tabler:fold-down" xlink:href="#tabler:fold-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph tabler:fold-down"/>
+<g transform="translate(673, 42)" class="key held keypos-8">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
 </g>
 <g transform="translate(729, 63)" class="key trans keypos-9">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -853,8 +852,9 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <use href="#tabler:fold-down" xlink:href="#tabler:fold-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph tabler:fold-down"/>
 </g>
-<g transform="translate(617, 140)" class="key held keypos-31">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
+<g transform="translate(617, 140)" class="key trans keypos-31">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
+<use href="#tabler:fold-down" xlink:href="#tabler:fold-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph tabler:fold-down"/>
 </g>
 <g transform="translate(673, 154)" class="key trans keypos-32">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -932,9 +932,8 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <use href="#tabler:fold-down" xlink:href="#tabler:fold-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph tabler:fold-down"/>
 </g>
-<g transform="translate(617, 28)" class="key trans keypos-7">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
-<use href="#tabler:fold-down" xlink:href="#tabler:fold-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph tabler:fold-down"/>
+<g transform="translate(617, 28)" class="key held keypos-7">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
 </g>
 <g transform="translate(673, 42)" class="key trans keypos-8">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
