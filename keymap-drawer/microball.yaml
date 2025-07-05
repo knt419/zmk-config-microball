@@ -9,7 +9,7 @@ layers:
   - X
   - D
   - {t: E, h: MOUSE}
-  - L
+  - {t: L, h: SCROLL}
   - P
   - I
   - T
@@ -53,7 +53,7 @@ layers:
   - {t: '$$tabler:fold-down$$', type: trans}
   - {t: '$$tabler:fold-down$$', type: trans}
   - {type: held}
-  - SCROLL
+  - {t: '$$tabler:fold-down$$', type: trans}
   - {t: '$$tabler:fold-down$$', type: trans}
   - {t: '$$tabler:fold-down$$', type: trans}
   - {t: '$$tabler:fold-down$$', type: trans}
@@ -96,7 +96,7 @@ layers:
   - {t: '$$tabler:fold-down$$', type: trans}
   - {t: '$$tabler:fold-down$$', type: trans}
   - {t: '$$tabler:fold-down$$', type: trans}
-  - {type: held}
+  - {type: held alternate}
   - {type: held}
   - {t: '$$tabler:fold-down$$', type: trans}
   - {t: '$$tabler:fold-down$$', type: trans}
