@@ -150,10 +150,10 @@
 
         DEFAULT {
             bindings = <
-&kp Q           &kp W         &kp MINUS     &kp R      &kp Z                                                 &kp X        &kp D  &lt 1 E  &lt 2 L    &kp P
-&kp I           &kp T         &kp A         &kp K      &kp G             &kp LS(LC(M))       &lt 6 ESC       &kp H        &kp N  &kp O    &kp U      &kp S
-&kp F           &kp PERIOD    &kp C         &kp M      &kp B             &kp LANGUAGE_2      &kp LANGUAGE_1  &kp J        &kp Y  &kp V    &kp COMMA  &kp SLASH
-&kp LEFT_SHIFT  &kp LEFT_WIN  &kp LEFT_ALT  &mkp LCLK  &mt LSHIFT SPACE  &mt LCTRL TAB       &lt_bsdel 5 0   &lt 4 ENTER                             &kp PRINTSCREEN
+&kp Q          &kp W         &kp MINUS     &kp R      &kp Z                                                 &kp X        &kp D  &lt 1 E  &lt 2 L    &kp P
+&kp I          &kp T         &kp A         &kp K      &kp G             &kp C_MUTE          &lt 6 ESC       &kp H        &kp N  &kp O    &kp U      &kp S
+&kp F          &kp PERIOD    &kp C         &kp M      &kp B             &kp LANGUAGE_2      &kp LANGUAGE_1  &kp J        &kp Y  &kp V    &kp COMMA  &kp SLASH
+&kp LS(LC(M))  &kp LEFT_WIN  &kp LEFT_ALT  &mkp LCLK  &mt LSHIFT SPACE  &mt LCTRL TAB       &lt_bsdel 5 0   &lt 4 ENTER                             &kp PRINTSCREEN
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
@@ -188,21 +188,21 @@
 
         NUMBER {
             bindings = <
-&F1_F11               &F2_F12       &kp F3        &kp F4        &kp F5                                                  &kp F6        &kp F7        &kp F8        &kp F9        &kp F10
-&kp LEFT_PARENTHESIS  &kp SLASH     &kp ASTERISK  &kp MINUS     &kp PLUS              &kp LC(NUMBER_0)      &trans      &kp LEFT      &kp DOWN      &kp UP_ARROW  &kp RIGHT     &kp RIGHT_PARENTHESIS
-&kp NUMBER_1          &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5          &kp COMMA             &kp DOLLAR  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
-&trans                &trans        &trans        &mkp RCLK     &mt LEFT_SHIFT EQUAL  &mt LCTRL PERIOD      &trans      &trans                                                  &trans
+&kp SLASH             &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp ASTERISK                                            &kp TILDE        &kp GRAVE    &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp CARET
+&kp LEFT_PARENTHESIS  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PLUS              &kp LC(NUMBER_0)      &trans      &kp LEFT         &kp DOWN     &kp UP_ARROW      &kp RIGHT          &kp RIGHT_PARENTHESIS
+&kp NUMBER_0          &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp MINUS             &kp PERCENT           &kp DOLLAR  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH          &kp AMPERSAND      &kp BACKSLASH
+&trans                &DBLCTL       &DBLSFT       &mkp RCLK     &mt LEFT_SHIFT EQUAL  &mt LCTRL PERIOD      &trans      &trans                                                             &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(MINUS) LC(PLUS)>;
         };
 
-        SYMBOL {
+        FUNCTION {
             bindings = <
-&kp LEFT_BRACE        &kp GRAVE        &kp SQT        &kp DOUBLE_QUOTES  &kp CARET                                    &kp HOME       &kp PAGE_DOWN   &kp PAGE_UP   &kp END           &kp RIGHT_BRACE
-&kp LEFT_PARENTHESIS  &kp PERCENT      &kp AMPERSAND  &kp HASH           &kp PIPE       &none              &trans     &kp LEFT       &kp DOWN        &kp UP_ARROW  &kp RIGHT         &kp RIGHT_PARENTHESIS
-&kp LEFT_BRACKET      &kp EXCLAMATION  &kp AT_SIGN    &kp DOLLAR         &kp BACKSLASH  &kp SEMICOLON      &kp COLON  &kp LESS_THAN  &kp UNDERSCORE  &kp TILDE     &kp GREATER_THAN  &kp RIGHT_BRACKET
-&trans                &trans           &trans         &mkp MCLK          &DBLSFT        &DBLCTL            &trans     &trans                                                         &trans
+&kp LEFT_BRACE    &kp F7  &kp F8  &kp F9     &kp LG(V)                             &trans    &trans         &trans       &trans         &kp RIGHT_BRACE
+&kp LEFT_BRACKET  &kp F4  &kp F5  &kp F6     &kp LC(C)  &none              &trans  &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END        &kp RIGHT_BRACKET
+&kp LESS_THAN     &kp F1  &kp F2  &kp F3     &kp LC(V)  &kp LS(LC(V))      &trans  &trans    &kp LC(C)      &kp LC(V)    &kp LC(LS(V))  &kp GREATER_THAN
+&trans            &trans  &trans  &mkp MCLK  &kp LC(Z)  &kp LC(Y)          &trans  &trans                                               &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
