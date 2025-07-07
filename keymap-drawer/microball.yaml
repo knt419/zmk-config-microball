@@ -16,7 +16,7 @@ layers:
   - A
   - K
   - G
-  - $$mdi:microphone-off$$
+  - $$mdi:volume-off$$
   - {t: '$$mdi:keyboard-esc$$', h: SYSTEM}
   - H
   - N
@@ -35,13 +35,13 @@ layers:
   - V
   - {t: ',', s: <}
   - {t: /, s: '?'}
-  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:microphone-off$$
   - $$mdi:microsoft-windows$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-control$$'}
-  - {t: '$$mdi:backspace$$', h: SYMBOL, s: '$$mdi:backspace-reverse-outline$$'}
+  - {t: '$$mdi:backspace$$', h: FUNCTION, s: '$$mdi:backspace-reverse-outline$$'}
   - {t: '$$mdi:keyboard-return$$', h: NUMBER}
   - $$material:screenshot_region$$
   MOUSE:
@@ -177,20 +177,20 @@ layers:
   - {t: '$$tabler:fold-down$$', type: trans}
   - {t: '$$tabler:fold-down$$', type: trans}
   NUMBER:
-  - {t: F1, s: F11}
-  - {t: F2, s: F12}
-  - F3
-  - F4
-  - F5
-  - F6
-  - F7
-  - F8
-  - F9
-  - F10
-  - (
   - {t: /, s: '?'}
+  - '7'
+  - '8'
+  - '9'
   - '*'
-  - {t: '-', s: _}
+  - '~'
+  - {t: '`', s: '~'}
+  - {t: '''', s: '"'}
+  - '"'
+  - ^
+  - (
+  - '4'
+  - '5'
+  - '6'
   - +
   - $$material:1x_mobiledata$$
   - {t: '$$tabler:fold-down$$', type: trans}
@@ -199,68 +199,68 @@ layers:
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
   - )
+  - '0'
   - '1'
   - '2'
   - '3'
-  - '4'
-  - '5'
-  - {t: ',', s: <}
+  - {t: '-', s: _}
+  - '%'
   - $
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
+  - '!'
+  - '@'
+  - '#'
+  - '&'
+  - {t: \, s: '|'}
   - {t: '$$tabler:fold-down$$', type: trans}
-  - {t: '$$tabler:fold-down$$', type: trans}
-  - {t: '$$tabler:fold-down$$', type: trans}
+  - '&DBLCTL'
+  - '&DBLSFT'
   - $$mdi:mouse-right-click-outline$$
   - {t: '=', h: '$$mdi:apple-keyboard-shift$$', s: +}
   - {t: ., h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$tabler:fold-down$$', type: trans}
   - {type: held}
   - {t: '$$tabler:fold-down$$', type: trans}
-  SYMBOL:
+  FUNCTION:
   - '{'
-  - {t: '`', s: '~'}
-  - {t: '''', s: '"'}
-  - '"'
-  - ^
+  - F7
+  - F8
+  - F9
+  - {t: V, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - '}'
+  - {t: '[', s: '{'}
+  - F4
+  - F5
+  - F6
+  - Ctl+C
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$tabler:fold-down$$', type: trans}
   - HOME
   - PgDn
   - PgUp
   - END
-  - '}'
-  - (
-  - '%'
-  - '&'
-  - '#'
-  - '|'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$tabler:fold-down$$', type: trans}
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-up-bold$$
-  - $$mdi:arrow-right-bold$$
-  - )
-  - {t: '[', s: '{'}
-  - '!'
-  - '@'
-  - $
-  - {t: \, s: '|'}
-  - {t: ;, s: ':'}
-  - ':'
-  - <
-  - _
-  - '~'
-  - '>'
   - {t: ']', s: '}'}
+  - <
+  - F1
+  - F2
+  - F3
+  - Ctl+V
+  - Sft+Ctl+V
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - Ctl+C
+  - Ctl+V
+  - Ctl+Sft+V
+  - '>'
   - {t: '$$tabler:fold-down$$', type: trans}
   - {t: '$$tabler:fold-down$$', type: trans}
   - {t: '$$tabler:fold-down$$', type: trans}
   - $$mdi:mouse-scroll-wheel$$
-  - '&DBLSFT'
-  - '&DBLCTL'
+  - Ctl+Z
+  - Ctl+Y
   - {type: held}
   - {t: '$$tabler:fold-down$$', type: trans}
   - {t: '$$tabler:fold-down$$', type: trans}
