@@ -211,7 +211,7 @@ layers:
   - '#'
   - '&'
   - {t: \, s: '|'}
-  - {t: '$$tabler:fold-down$$', type: trans}
+  - CONTEXT MENU
   - '&DBLCTL'
   - '&DBLSFT'
   - $$mdi:mouse-right-click-outline$$
@@ -219,17 +219,17 @@ layers:
   - {t: ., h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$tabler:fold-down$$', type: trans}
   - {type: held}
-  - {t: '$$tabler:fold-down$$', type: trans}
+  - '|'
   FUNCTION:
   - '{'
   - F7
   - F8
   - F9
   - {t: V, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: '$$tabler:fold-down$$', type: trans}
-  - {t: '$$tabler:fold-down$$', type: trans}
-  - {t: '$$tabler:fold-down$$', type: trans}
-  - {t: '$$tabler:fold-down$$', type: trans}
+  - Ins
+  - $$mdi:backspace-reverse-outline$$
+  - $$material:screenshot_region$$
+  - PAUSE BREAK
   - '}'
   - {t: '[', s: '{'}
   - F4
@@ -237,7 +237,7 @@ layers:
   - F6
   - Ctl+C
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$tabler:fold-down$$', type: trans}
+  - $$mdi:apple-keyboard-caps$$
   - HOME
   - PgDn
   - PgUp
@@ -251,9 +251,9 @@ layers:
   - Sft+Ctl+V
   - {t: '$$tabler:fold-down$$', type: trans}
   - {t: '$$tabler:fold-down$$', type: trans}
-  - Ctl+C
-  - Ctl+V
-  - Ctl+Sft+V
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
   - '>'
   - {t: '$$tabler:fold-down$$', type: trans}
   - {t: '$$tabler:fold-down$$', type: trans}
