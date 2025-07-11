@@ -150,10 +150,10 @@
 
         DEFAULT {
             bindings = <
-&kp Q          &kp W         &kp MINUS     &kp R      &kp Z                                                 &kp X        &kp D  &lt 1 E  &lt 2 L    &kp P
-&kp I          &kp T         &kp A         &kp K      &kp G             &kp C_MUTE          &lt 6 ESC       &kp H        &kp N  &kp O    &kp U      &kp S
-&kp F          &kp PERIOD    &kp C         &kp M      &kp B             &kp LANGUAGE_2      &kp LANGUAGE_1  &kp J        &kp Y  &kp V    &kp COMMA  &kp SLASH
-&kp LS(LC(M))  &kp LEFT_WIN  &kp LEFT_ALT  &mkp LCLK  &mt LSHIFT SPACE  &mt LCTRL TAB       &lt_bsdel 5 0   &lt 4 ENTER                             &kp PRINTSCREEN
+&kp Q          &kp W         &kp MINUS     &kp R      &kp Z                                                 &kp X        &kp D  &kp E  &kp L      &kp P
+&kp I          &kp T         &kp A         &kp K      &kp G             &kp C_MUTE          &lt 6 ESC       &kp H        &kp N  &kp O  &kp U      &kp S
+&kp F          &kp PERIOD    &kp C         &kp M      &kp B             &kp LANGUAGE_2      &kp LANGUAGE_1  &kp J        &kp Y  &kp V  &kp COMMA  &kp SLASH
+&kp LS(LC(M))  &kp LEFT_WIN  &kp LEFT_ALT  &mkp LCLK  &mt LSHIFT SPACE  &mt LCTRL TAB       &lt_bsdel 5 0   &lt 4 ENTER                           &kp PRINTSCREEN
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
@@ -161,10 +161,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans     &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp LCLK  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans     &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &mo 2   &mo 3       &trans  &trans                             &trans
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans     &trans  &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp LCLK  &mo 2   &mkp RCLK  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans     &sl 1   &trans     &trans
+&trans  &trans  &trans  &trans  &mo 2   &mo 3       &trans  &trans                                &trans
             >;
         };
 
