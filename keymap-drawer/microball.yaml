@@ -310,7 +310,7 @@ layers:
   - $$mdi:progress-download$$
 combos:
 - p: [19, 20]
-  k: LANGUAGE 1
+  k: {t: LANGUAGE 1, h: LANGUAGE 2}
   l: [DEFAULT]
 - p: [11, 12]
   k: LANGUAGE 2
