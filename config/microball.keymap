@@ -103,6 +103,69 @@
 
             label = "WINMVLEFT";
         };
+
+        at: at {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LANGUAGE_2 &kp AT_SIGN>;
+            label = "AT";
+        };
+
+        hash: hash {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LANGUAGE_2 &kp HASH>;
+            label = "HASH";
+        };
+
+        amp: amp {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LANGUAGE_2 &kp AMPERSAND>;
+            label = "AMP";
+        };
+
+        dollar: doller {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LANGUAGE_2 &kp DOLLAR>;
+            label = "DOLLER";
+        };
+
+        backquote: backquote {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LANGUAGE_2 &kp GRAVE>;
+            label = "BACKQUOTE";
+        };
+
+        quote: quote {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LANGUAGE_2 &kp SINGLE_QUOTE>;
+            label = "QUOTE";
+        };
+
+        doublequote: doublequote {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LANGUAGE_2 &kp DOUBLE_QUOTES>;
+            label = "DOUBLEQUOTE";
+        };
+
+        caret: caret {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LANGUAGE_2 &kp CARET>;
+            label = "CARET";
+        };
+
+        pipe: pipe {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LANGUAGE_2 &kp PIPE>;
+            label = "PIPE";
+        };
     };
 
     behaviors {
@@ -198,10 +261,10 @@
 
         NUMBER {
             bindings = <
-&kp SLASH             &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp ASTERISK                                            &kp TILDE        &kp GRAVE    &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp CARET
-&kp LEFT_PARENTHESIS  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PLUS              &kp LC(NUMBER_0)      &trans      &kp LEFT         &kp DOWN     &kp UP_ARROW      &kp RIGHT          &kp RIGHT_PARENTHESIS
-&kp NUMBER_0          &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp MINUS             &kp PERCENT           &kp DOLLAR  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH          &kp AMPERSAND      &kp BACKSLASH
-&kp K_CONTEXT_MENU    &DBLCTL       &DBLSFT       &mkp RCLK     &mt LEFT_SHIFT EQUAL  &mt LCTRL PERIOD      &trans      &trans                                                             &kp PIPE
+&kp SLASH             &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp ASTERISK                                         &kp TILDE        &backquote  &quote        &doublequote  &caret
+&kp LEFT_PARENTHESIS  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PLUS              &kp LC(NUMBER_0)      &trans   &kp LEFT         &kp DOWN    &kp UP_ARROW  &kp RIGHT     &kp RIGHT_PARENTHESIS
+&kp NUMBER_0          &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp MINUS             &kp PERCENT           &dollar  &kp EXCLAMATION  &at         &hash         &amp          &kp BACKSLASH
+&kp K_CONTEXT_MENU    &DBLCTL       &DBLSFT       &mkp RCLK     &mt LEFT_SHIFT EQUAL  &mt LCTRL PERIOD      &trans   &trans                                                   &pipe
             >;
 
             sensor-bindings = <&inc_dec_kp LC(MINUS) LC(PLUS)>;
