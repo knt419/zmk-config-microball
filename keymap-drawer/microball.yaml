@@ -23,7 +23,7 @@ layers:
   - O
   - U
   - S
-  - F
+  - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
   - .
   - C
   - M
@@ -326,9 +326,6 @@ combos:
   l: [DEFAULT]
 - p: [31, 32]
   k: Ctl+V
-  l: [DEFAULT]
-- p: [13, 18]
-  k: $$mdi:view-dashboard-outline$$
   l: [DEFAULT]
 - p: [20, 21]
   k: {t: ;, s: ':'}
