@@ -14,12 +14,6 @@
             layers = <0>;
         };
 
-        IME_OFF {
-            bindings = <&kp LANGUAGE_2>;
-            key-positions = <11 12>;
-            layers = <0>;
-        };
-
         win_mv_right {
             bindings = <&winmvright>;
             key-positions = <7 8>;
@@ -29,20 +23,8 @@
 
         win_mv_left {
             bindings = <&winmvleft>;
-            key-positions = <1 2>;
+            key-positions = <6 7>;
             slow-release;
-            layers = <0>;
-        };
-
-        copy {
-            bindings = <&kp LC(C)>;
-            key-positions = <23 24>;
-            layers = <0>;
-        };
-
-        paste {
-            bindings = <&kp LC(V)>;
-            key-positions = <31 32>;
             layers = <0>;
         };
 
@@ -54,8 +36,23 @@
 
         colon {
             bindings = <&kp COLON>;
-            key-positions = <10 11>;
+            key-positions = <18 19>;
             layers = <0>;
+        };
+
+        braces {
+            bindings = <&braces>;
+            key-positions = <2 1>;
+        };
+
+        brackets {
+            bindings = <&brackets>;
+            key-positions = <23 24>;
+        };
+
+        parenthesis {
+            bindings = <&parenthesis>;
+            key-positions = <11 12>;
         };
     };
 
@@ -160,6 +157,27 @@
             bindings = <&kp LANGUAGE_2 &kp PIPE>;
             label = "PIPE";
         };
+
+        parenthesis: parenthesis {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp LEFT_ARROW>;
+            label = "PARENTHESIS";
+        };
+
+        brackets: brackets {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_BRACKET &kp RIGHT_BRACKET &kp LEFT>;
+            label = "BRACKETS";
+        };
+
+        braces: braces {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_BRACE &kp RIGHT_BRACE &kp LEFT>;
+            label = "BRACES";
+        };
     };
 
     behaviors {
@@ -167,24 +185,6 @@
             compatible = "zmk,behavior-mod-morph";
             label = "BSDEL";
             bindings = <&kp BSPC>, <&kp DELETE>;
-
-            #binding-cells = <0>;
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-        };
-
-        F1_F11: F1_F11 {
-            compatible = "zmk,behavior-mod-morph";
-            label = "F1_F11";
-            bindings = <&kp F1>, <&kp F11>;
-
-            #binding-cells = <0>;
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-        };
-
-        F2_F12: F2_F12 {
-            compatible = "zmk,behavior-mod-morph";
-            label = "F2_F12";
-            bindings = <&kp F2>, <&kp F12>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -255,10 +255,10 @@
 
         NUMBER {
             bindings = <
-&kp SLASH             &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp ASTERISK                                         &kp TILDE        &backquote  &quote        &doublequote  &caret
-&kp LEFT_PARENTHESIS  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PLUS              &kp LC(NUMBER_0)      &trans   &kp LEFT         &kp DOWN    &kp UP_ARROW  &kp RIGHT     &kp RIGHT_PARENTHESIS
-&kp NUMBER_0          &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp MINUS             &kp PERCENT           &dollar  &kp EXCLAMATION  &at         &hash         &amp          &kp BACKSLASH
-&kp K_CONTEXT_MENU    &DBLCTL       &DBLSFT       &mkp RCLK     &mt LEFT_SHIFT EQUAL  &mt LCTRL PERIOD      &trans   &trans                                                   &pipe
+&kp ASTERISK        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS                                            &kp TILDE        &backquote  &quote        &doublequote  &caret
+&kp SLASH           &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS             &kp LC(NUMBER_0)      &trans  &kp LEFT         &kp DOWN    &kp UP_ARROW  &kp RIGHT     &kp BACKSLASH
+&kp NUMBER_0        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERCENT           &kp COMMA             &pipe   &kp EXCLAMATION  &at         &hash         &amp          &dollar
+&kp K_CONTEXT_MENU  &DBLCTL       &DBLSFT       &mkp RCLK     &mt LEFT_SHIFT EQUAL  &mt LCTRL PERIOD      &trans  &trans                                                   &kp UNDER
             >;
 
             sensor-bindings = <&inc_dec_kp LC(MINUS) LC(PLUS)>;
@@ -266,10 +266,10 @@
 
         FUNCTION {
             bindings = <
-&kp LEFT_BRACE    &kp F7  &kp F8  &kp F9     &kp LG(V)                                   &kp INSERT  &kp DELETE     &kp PRINTSCREEN  &kp PAUSE_BREAK  &kp RIGHT_BRACE
-&kp LEFT_BRACKET  &kp F4  &kp F5  &kp F6     &kp LC(C)  &none              &kp CAPSLOCK  &kp HOME    &kp PAGE_DOWN  &kp PAGE_UP      &kp END          &kp RIGHT_BRACKET
-&kp LESS_THAN     &kp F1  &kp F2  &kp F3     &kp LC(V)  &kp LS(LC(V))      &trans        &trans      &trans         &trans           &trans           &kp GREATER_THAN
-&trans            &trans  &trans  &mkp MCLK  &kp LC(Z)  &kp LC(Y)          &trans        &trans                                                       &trans
+&kp LEFT_BRACE        &kp F7  &kp F8  &kp F9     &kp LG(V)                                   &kp INSERT  &kp DELETE     &kp PRINTSCREEN  &kp PAUSE_BREAK  &kp RIGHT_BRACE
+&kp LEFT_PARENTHESIS  &kp F4  &kp F5  &kp F6     &kp LC(C)  &none              &kp CAPSLOCK  &kp HOME    &kp PAGE_DOWN  &kp PAGE_UP      &kp END          &kp RIGHT_PARENTHESIS
+&kp LEFT_BRACKET      &kp F1  &kp F2  &kp F3     &kp LC(V)  &kp LS(LC(V))      &trans        &trans      &trans         &trans           &trans           &kp RIGHT_BRACKET
+&trans                &trans  &trans  &mkp MCLK  &kp LC(Z)  &kp LC(Y)          &trans        &trans                                                       &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
