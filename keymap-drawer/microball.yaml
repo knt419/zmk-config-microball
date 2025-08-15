@@ -183,10 +183,10 @@ layers:
   - '9'
   - +
   - '~'
-  - '&backquote'
-  - '&quote'
-  - '&doublequote'
-  - '&caret'
+  - '`'
+  - ''''
+  - '"'
+  - ^
   - {t: /, s: '?'}
   - '4'
   - '5'
@@ -205,11 +205,11 @@ layers:
   - '3'
   - '%'
   - {t: ',', s: <}
-  - '&pipe'
+  - '|'
   - '!'
-  - '&at'
-  - '&hash'
-  - '&amp'
+  - '@'
+  - '#'
+  - '&'
   - '&dollar'
   - CONTEXT MENU
   - '&DBLCTL'
@@ -325,8 +325,8 @@ combos:
   k: ':'
   l: [DEFAULT]
 - p: [2, 1]
-  k: '&braces'
+  k: '{}'
 - p: [23, 24]
-  k: '&brackets'
+  k: '[]'
 - p: [11, 12]
-  k: '&parenthesis'
+  k: ()
