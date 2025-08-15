@@ -177,40 +177,40 @@ layers:
   - {t: '$$tabler:fold-down$$', type: trans}
   - {t: '$$tabler:fold-down$$', type: trans}
   NUMBER:
-  - {t: /, s: '?'}
+  - '*'
   - '7'
   - '8'
   - '9'
-  - '*'
+  - +
   - '~'
   - '&backquote'
   - '&quote'
   - '&doublequote'
   - '&caret'
-  - (
+  - {t: /, s: '?'}
   - '4'
   - '5'
   - '6'
-  - +
+  - {t: '-', s: _}
   - $$material:1x_mobiledata$$
   - {t: '$$tabler:fold-down$$', type: trans}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
-  - )
+  - {t: \, s: '|'}
   - '0'
   - '1'
   - '2'
   - '3'
-  - {t: '-', s: _}
   - '%'
-  - '&dollar'
+  - {t: ',', s: <}
+  - '&pipe'
   - '!'
   - '&at'
   - '&hash'
   - '&amp'
-  - {t: \, s: '|'}
+  - '&dollar'
   - CONTEXT MENU
   - '&DBLCTL'
   - '&DBLSFT'
@@ -219,7 +219,7 @@ layers:
   - {t: ., h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$tabler:fold-down$$', type: trans}
   - {type: held}
-  - '&pipe'
+  - _
   FUNCTION:
   - '{'
   - F7
@@ -231,7 +231,7 @@ layers:
   - $$material:screenshot_region$$
   - PAUSE BREAK
   - '}'
-  - {t: '[', s: '{'}
+  - (
   - F4
   - F5
   - F6
@@ -242,8 +242,8 @@ layers:
   - PgDn
   - PgUp
   - END
-  - {t: ']', s: '}'}
-  - <
+  - )
+  - {t: '[', s: '{'}
   - F1
   - F2
   - F3
@@ -254,7 +254,7 @@ layers:
   - {t: '$$tabler:fold-down$$', type: trans}
   - {t: '$$tabler:fold-down$$', type: trans}
   - {t: '$$tabler:fold-down$$', type: trans}
-  - '>'
+  - {t: ']', s: '}'}
   - {t: '$$tabler:fold-down$$', type: trans}
   - {t: '$$tabler:fold-down$$', type: trans}
   - {t: '$$tabler:fold-down$$', type: trans}
@@ -312,24 +312,21 @@ combos:
 - p: [19, 20]
   k: {t: LANGUAGE 1, h: LANGUAGE 2}
   l: [DEFAULT]
-- p: [11, 12]
-  k: LANGUAGE 2
-  l: [DEFAULT]
 - p: [7, 8]
   k: '&winmvright'
   l: [DEFAULT]
-- p: [1, 2]
-  k: '&winmvleft'
-  l: [DEFAULT]
-- p: [23, 24]
-  k: Ctl+C
-  l: [DEFAULT]
 - p: [31, 32]
-  k: Ctl+V
+  k: '&winmvleft'
   l: [DEFAULT]
 - p: [20, 21]
   k: {t: ;, s: ':'}
   l: [DEFAULT]
-- p: [10, 11]
+- p: [18, 19]
   k: ':'
   l: [DEFAULT]
+- p: [2, 1]
+  k: '&braces'
+- p: [23, 24]
+  k: '&brackets'
+- p: [11, 12]
+  k: '&parenthesis'

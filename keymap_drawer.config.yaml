@@ -358,6 +358,18 @@ parse_config:
     NON_US_HASH: "#"
     NUHS: "#"
     TILDE2: "~"
+    &backquote: "`"
+    &quote: "'"
+    &doublequote: '"'
+    &caret: "^"
+    &pipe: "|"
+    &at: "@"
+    &hash: "#"
+    &amp: "&"
+    &doller: "$"
+    &braces: "{}"
+    &parenthesis: "()"
+    &brackets: "[]"
 
     # Numbers
     N1:
