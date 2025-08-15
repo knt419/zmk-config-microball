@@ -271,7 +271,7 @@ parse_config:
       tap: "#"
     "&amp":
       tap: "&"
-    "&doller":
+    "&dollar":
       tap: "$"
     "&braces":
       tap: "{}"
