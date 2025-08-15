@@ -255,6 +255,30 @@ parse_config:
       tap: $$mdi:backup-restore$$
     "&bootloader":
       tap: $$mdi:progress-download$$
+    "&backquote":
+      tap: "`"
+    "&quote":
+      tap: "'"
+    "&doublequote":
+      tap: '"'
+    "&caret":
+      tap: "^"
+    "&pipe":
+      tap: "|"
+    "&at":
+      tap: "@"
+    "&hash":
+      tap: "#"
+    "&amp":
+      tap: "&"
+    "&doller":
+      tap: "$"
+    "&braces":
+      tap: "{}"
+    "&parenthesis":
+      tap: "()"
+    "&brackets":
+      tap: "[]"
 
   # ZMK
   zmk_keycode_map:
@@ -358,19 +382,7 @@ parse_config:
     NON_US_HASH: "#"
     NUHS: "#"
     TILDE2: "~"
-    "&backquote": "`"
-    "&quote": "'"
-    "&doublequote": '"'
-    "&caret": "^"
-    "&pipe": "|"
-    "&at": "@"
-    "&hash": "#"
-    "&amp": "&"
-    "&doller": "$"
-    "&braces": "{}"
-    "&parenthesis": "()"
-    "&brackets": "[]"
-
+   
     # Numbers
     N1:
       tap: 1
