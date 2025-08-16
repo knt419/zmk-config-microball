@@ -249,10 +249,10 @@ layers:
   - F3
   - Ctl+V
   - Sft+Ctl+V
-  - {t: '$$tabler:fold-down$$', type: trans}
-  - {t: '$$tabler:fold-down$$', type: trans}
-  - {t: '$$tabler:fold-down$$', type: trans}
-  - {t: '$$tabler:fold-down$$', type: trans}
+  - Ctl+Alt+$$mdi:backspace-reverse-outline$$
+  - Ctl+Sft+$$mdi:keyboard-esc$$
+  - {t: Ctl+;, s: 'Ctl+:'}
+  - {t: Sft+Ctl+;, s: 'Sft+Ctl+:'}
   - {t: '$$tabler:fold-down$$', type: trans}
   - {t: ']', s: '}'}
   - F10
