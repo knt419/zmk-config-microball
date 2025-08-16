@@ -1,9 +1,9 @@
+#include <behaviors/rgbled_widget.dtsi>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/pointing.h>
-#include <behaviors/rgbled_widget.dtsi>
 
 / {
     combos {
@@ -267,10 +267,10 @@
 
         FUNCTION {
             bindings = <
-&kp LEFT_BRACE        &kp F7  &kp F8  &kp F9     &kp LG(V)                                   &kp INSERT  &kp DELETE     &kp PRINTSCREEN  &kp PAUSE_BREAK  &kp RIGHT_BRACE
-&kp LEFT_PARENTHESIS  &kp F4  &kp F5  &kp F6     &kp LC(C)  &none              &kp CAPSLOCK  &kp HOME    &kp PAGE_DOWN  &kp PAGE_UP      &kp END          &kp RIGHT_PARENTHESIS
-&kp LEFT_BRACKET      &kp F1  &kp F2  &kp F3     &kp LC(V)  &kp LS(LC(V))      &trans        &trans      &trans         &trans           &trans           &kp RIGHT_BRACKET
-&trans                &trans  &trans  &mkp MCLK  &kp LC(Z)  &kp LC(Y)          &trans        &trans                                                       &trans
+&kp LEFT_BRACE        &kp F7   &kp F8   &kp F9     &kp LG(V)                                   &kp INSERT  &kp DELETE     &kp PRINTSCREEN  &kp PAUSE_BREAK  &kp RIGHT_BRACE
+&kp LEFT_PARENTHESIS  &kp F4   &kp F5   &kp F6     &kp LC(C)  &none              &kp CAPSLOCK  &kp HOME    &kp PAGE_DOWN  &kp PAGE_UP      &kp END          &kp RIGHT_PARENTHESIS
+&kp LEFT_BRACKET      &kp F1   &kp F2   &kp F3     &kp LC(V)  &kp LS(LC(V))      &trans        &trans      &trans         &trans           &trans           &kp RIGHT_BRACKET
+&kp F10               &kp F11  &kp F12  &mkp MCLK  &kp LC(Z)  &kp LC(Y)          &trans        &trans                                                       &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
