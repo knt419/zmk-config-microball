@@ -255,9 +255,9 @@ layers:
   - {t: '$$tabler:fold-down$$', type: trans}
   - {t: '$$tabler:fold-down$$', type: trans}
   - {t: ']', s: '}'}
-  - {t: '$$tabler:fold-down$$', type: trans}
-  - {t: '$$tabler:fold-down$$', type: trans}
-  - {t: '$$tabler:fold-down$$', type: trans}
+  - F10
+  - F11
+  - F12
   - $$mdi:mouse-scroll-wheel$$
   - Ctl+Z
   - Ctl+Y
