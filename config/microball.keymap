@@ -24,7 +24,7 @@
 
         win_mv_left {
             bindings = <&winmvleft>;
-            key-positions = <31 32>;
+            key-positions = <5 6>;
             slow-release;
             layers = <0>;
         };
@@ -44,16 +44,19 @@
         braces {
             bindings = <&braces>;
             key-positions = <2 1>;
+            layers = <0 1 4>;
         };
 
         brackets {
             bindings = <&brackets>;
             key-positions = <23 24>;
+            layers = <0 1 4>;
         };
 
         parenthesis {
             bindings = <&parenthesis>;
             key-positions = <11 12>;
+            layers = <0 1 4>;
         };
     };
 
