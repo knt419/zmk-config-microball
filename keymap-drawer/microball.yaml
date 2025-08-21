@@ -5,8 +5,8 @@ layers:
   - W
   - {t: '-', s: _}
   - R
-  - Z
-  - X
+  - {t: Z, h: Ctl+Z}
+  - {t: X, h: Ctl+X}
   - D
   - E
   - L
@@ -25,14 +25,14 @@ layers:
   - S
   - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
   - .
-  - C
+  - {t: C, h: Ctl+C}
   - M
   - B
   - LANGUAGE 2
   - LANGUAGE 1
   - J
   - Y
-  - V
+  - {t: V, h: Ctl+V}
   - {t: ',', s: <}
   - {t: /, s: '?'}
   - $$mdi:microphone-off$$
