@@ -251,16 +251,16 @@ layers:
   - Sft+Ctl+V
   - Ctl+Alt+$$mdi:backspace-reverse-outline$$
   - Ctl+Sft+$$mdi:keyboard-esc$$
-  - {t: Ctl+;, s: 'Ctl+:'}
-  - {t: Sft+Ctl+;, s: 'Sft+Ctl+:'}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
   - {t: '$$tabler:fold-down$$', type: trans}
   - {t: ']', s: '}'}
   - F10
   - F11
   - F12
   - $$mdi:mouse-scroll-wheel$$
-  - Ctl+Z
-  - Ctl+Y
+  - {t: Ctl+Z, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: Ctl+Y, h: '$$mdi:apple-keyboard-control$$'}
   - {type: held}
   - {t: '$$tabler:fold-down$$', type: trans}
   - {t: '$$tabler:fold-down$$', type: trans}
