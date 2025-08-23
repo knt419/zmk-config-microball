@@ -319,10 +319,10 @@ combos:
   k: '&winmvleft'
   l: [DEFAULT]
 - p: [20, 21]
-  k: {t: ;, s: ':'}
+  k: {t: ;, h: Ctl+;, s: ':'}
   l: [DEFAULT]
 - p: [18, 19]
-  k: ':'
+  k: {t: ':', h: 'Ctl+:'}
   l: [DEFAULT]
 - p: [2, 1]
   k: '{}'
