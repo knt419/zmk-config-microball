@@ -333,3 +333,5 @@ combos:
 - p: [11, 12]
   k: ()
   l: [DEFAULT, MOUSE, NUMBER]
+- p: [31, 32]
+  k: Alt+`
