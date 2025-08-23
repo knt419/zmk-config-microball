@@ -35,7 +35,7 @@ layers:
   - {t: V, h: Ctl+V}
   - {t: ',', s: <}
   - {t: /, s: '?'}
-  - $$mdi:microphone-off$$
+  - {t: '$$mdi:microphone-off$$', h: 'Ctl+$$mdi:keyboard-space$$'}
   - $$mdi:microsoft-windows$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:mouse-left-click-outline$$
