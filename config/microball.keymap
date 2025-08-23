@@ -58,6 +58,11 @@
             key-positions = <11 12>;
             layers = <0 1 4>;
         };
+
+        jis_ime_togle {
+            bindings = <&kp LA(GRAVE)>;
+            key-positions = <31 32>;
+        };
     };
 
     macros {
