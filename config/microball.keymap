@@ -238,10 +238,10 @@
 
         DEFAULT {
             bindings = <
-&kp Q             &kp W         &kp MINUS         &kp R      &holdtap LC(Z) Z                                      &holdtap LC(X) X  &kp D  &kp E             &kp L      &kp P
-&kp I             &kp T         &kp A             &kp K      &kp G             &kp C_MUTE          &lt 6 ESC       &kp H             &kp N  &kp O             &kp U      &kp S
-&mt LEFT_SHIFT F  &kp PERIOD    &holdtap LC(C) C  &kp M      &kp B             &kp LANGUAGE_2      &kp LANGUAGE_1  &kp J             &kp Y  &holdtap LC(V) V  &kp COMMA  &kp SLASH
-&kp LS(LC(M))     &kp LEFT_WIN  &kp LEFT_ALT      &mkp LCLK  &mt LSHIFT SPACE  &mt LCTRL TAB       &lt_bsdel 5 0   &lt 4 ENTER                                           &kp PRINTSCREEN
+&kp Q                         &kp W         &kp MINUS         &kp R      &holdtap LC(Z) Z                                      &holdtap LC(X) X  &kp D  &kp E             &kp L      &kp P
+&kp I                         &kp T         &kp A             &kp K      &kp G             &kp C_MUTE          &lt 6 ESC       &kp H             &kp N  &kp O             &kp U      &kp S
+&mt LEFT_SHIFT F              &kp PERIOD    &holdtap LC(C) C  &kp M      &kp B             &kp LANGUAGE_2      &kp LANGUAGE_1  &kp J             &kp Y  &holdtap LC(V) V  &kp COMMA  &kp SLASH
+&holdtap LC(SPACE) LS(LC(M))  &kp LEFT_WIN  &kp LEFT_ALT      &mkp LCLK  &mt LSHIFT SPACE  &mt LCTRL TAB       &lt_bsdel 5 0   &lt 4 ENTER                                           &kp PRINTSCREEN
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
