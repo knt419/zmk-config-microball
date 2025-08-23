@@ -8,12 +8,12 @@ layers:
   - {t: Z, h: Ctl+Z}
   - {t: X, h: Ctl+X}
   - D
-  - E
+  - {t: E, h: Gui+E}
   - L
   - P
   - I
   - T
-  - A
+  - {t: A, h: Ctl+A}
   - K
   - G
   - $$mdi:volume-off$$
@@ -22,7 +22,7 @@ layers:
   - N
   - O
   - U
-  - S
+  - {t: S, h: Ctl+S}
   - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
   - .
   - {t: C, h: Ctl+C}
@@ -31,7 +31,7 @@ layers:
   - LANGUAGE 2
   - LANGUAGE 1
   - J
-  - Y
+  - {t: Y, h: Ctl+Y}
   - {t: V, h: Ctl+V}
   - {t: ',', s: <}
   - {t: /, s: '?'}
