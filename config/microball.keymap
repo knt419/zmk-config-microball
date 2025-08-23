@@ -30,13 +30,13 @@
         };
 
         semicolon {
-            bindings = <&kp SEMI>;
+            bindings = <&holdtap LC(SEMICOLON) SEMICOLON>;
             key-positions = <20 21>;
             layers = <0>;
         };
 
         colon {
-            bindings = <&kp COLON>;
+            bindings = <&holdtap LC(COLON) COLON>;
             key-positions = <18 19>;
             layers = <0>;
         };
