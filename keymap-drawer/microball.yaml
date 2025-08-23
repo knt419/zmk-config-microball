@@ -311,19 +311,19 @@ layers:
 combos:
 - p: [19, 20]
   k: {t: LANGUAGE 1, h: LANGUAGE 2}
-  l: [DEFAULT]
+  l: [DEFAULT, MOUSE]
 - p: [7, 8]
   k: '&winmvright'
-  l: [DEFAULT]
+  l: [DEFAULT, MOUSE]
 - p: [5, 6]
   k: '&winmvleft'
-  l: [DEFAULT]
+  l: [DEFAULT, MOUSE]
 - p: [20, 21]
   k: {t: ;, h: Ctl+;, s: ':'}
-  l: [DEFAULT]
+  l: [DEFAULT, MOUSE]
 - p: [18, 19]
   k: {t: ':', h: 'Ctl+:'}
-  l: [DEFAULT]
+  l: [DEFAULT, MOUSE]
 - p: [2, 1]
   k: '{}'
   l: [DEFAULT, MOUSE, NUMBER]
@@ -335,3 +335,4 @@ combos:
   l: [DEFAULT, MOUSE, NUMBER]
 - p: [31, 32]
   k: Alt+`
+  l: [DEFAULT, MOUSE]
