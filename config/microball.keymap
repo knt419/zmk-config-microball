@@ -5,6 +5,13 @@
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/pointing.h>
 
+&mt {
+    quick-tap-ms = <175>;
+    flavor = "tap-preferred";
+    hold-while-undecided;
+    retro-tap;
+};
+
 / {
     combos {
         compatible = "zmk,combos";
