@@ -350,7 +350,9 @@ parse_config:
 
     LESS_THAN: <
     LT: <
-    PERIOD: '.'
+    PERIOD: 
+      tap: "."
+      shifted: ">"
     DOT:
       tap: "."
       shifted: ">"
