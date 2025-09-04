@@ -34,7 +34,7 @@ layers:
   - {t: Y, h: Ctl+Y}
   - {t: V, h: Ctl+V}
   - {t: ',', h: V, s: <}
-  - {t: ., h: '?'}
+  - {t: ., h: '?', s: '>'}
   - {t: '$$mdi:microphone-off$$', h: 'Ctl+$$mdi:keyboard-space$$'}
   - $$mdi:microsoft-windows$$
   - $$mdi:apple-keyboard-option$$
@@ -216,7 +216,7 @@ layers:
   - '&DBLSFT'
   - $$mdi:mouse-right-click-outline$$
   - {t: '=', h: '$$mdi:apple-keyboard-shift$$', s: +}
-  - {t: ., h: '$$mdi:apple-keyboard-control$$'}
+  - {t: ., h: '$$mdi:apple-keyboard-control$$', s: '>'}
   - {t: '$$tabler:fold-down$$', type: trans}
   - {type: held}
   - _
