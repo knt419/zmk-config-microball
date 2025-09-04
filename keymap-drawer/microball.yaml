@@ -22,9 +22,9 @@ layers:
   - N
   - O
   - U
-  - {t: S, h: Ctl+S}
-  - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
-  - .
+  - {t: S, h: ;}
+  - {t: /, h: '$$mdi:apple-keyboard-shift$$', s: '?'}
+  - {t: F, h: Ctl+F}
   - {t: C, h: Ctl+C}
   - M
   - B
@@ -34,7 +34,7 @@ layers:
   - {t: Y, h: Ctl+Y}
   - {t: V, h: Ctl+V}
   - {t: ',', h: V, s: <}
-  - {t: /, s: '?'}
+  - {t: ., h: '?'}
   - {t: '$$mdi:microphone-off$$', h: 'Ctl+$$mdi:keyboard-space$$'}
   - $$mdi:microsoft-windows$$
   - $$mdi:apple-keyboard-option$$
@@ -312,10 +312,10 @@ combos:
 - p: [19, 20]
   k: {t: LANGUAGE 1, h: LANGUAGE 2}
   l: [DEFAULT, MOUSE]
-- p: [7, 8]
+- p: [8, 9]
   k: '&winmvright'
   l: [DEFAULT, MOUSE]
-- p: [5, 6]
+- p: [0, 1]
   k: '&winmvleft'
   l: [DEFAULT, MOUSE]
 - p: [20, 21]
