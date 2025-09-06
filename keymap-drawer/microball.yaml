@@ -22,7 +22,7 @@ layers:
   - N
   - O
   - U
-  - {t: S, h: ;}
+  - S
   - {t: /, h: '$$mdi:apple-keyboard-shift$$', s: '?'}
   - {t: F, h: Ctl+F}
   - {t: C, h: Ctl+C}
@@ -325,13 +325,13 @@ combos:
   k: {t: ':', h: 'Ctl+:'}
   l: [DEFAULT, MOUSE]
 - p: [2, 1]
-  k: '{}'
+  k: {t: '{}', h: '&zen_braces'}
   l: [DEFAULT, MOUSE, NUMBER]
 - p: [23, 24]
-  k: '[]'
+  k: {t: '[]', h: '&zen_brackets'}
   l: [DEFAULT, MOUSE, NUMBER]
 - p: [11, 12]
-  k: ()
+  k: {t: (), h: '&zen_parenthesis'}
   l: [DEFAULT, MOUSE, NUMBER]
 - p: [31, 32]
   k: Alt+`
