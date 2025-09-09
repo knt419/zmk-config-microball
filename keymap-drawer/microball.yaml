@@ -33,7 +33,7 @@ layers:
   - J
   - {t: Y, h: Ctl+Y}
   - {t: V, h: Ctl+V}
-  - {t: ',', h: V, s: <}
+  - {t: ',', h: '!', s: <}
   - {t: ., h: '?', s: '>'}
   - {t: '$$mdi:microphone-off$$', h: 'Ctl+$$mdi:keyboard-space$$'}
   - $$mdi:microsoft-windows$$
@@ -225,7 +225,7 @@ layers:
   - F7
   - F8
   - F9
-  - {t: V, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: '$$tabler:fold-down$$', type: trans}
   - Ins
   - $$mdi:backspace-reverse-outline$$
   - $$material:screenshot_region$$
@@ -235,8 +235,8 @@ layers:
   - F4
   - F5
   - F6
-  - Ctl+C
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - Ctl+1
   - $$mdi:apple-keyboard-caps$$
   - HOME
   - PgDn
@@ -247,10 +247,10 @@ layers:
   - F1
   - F2
   - F3
-  - Ctl+V
-  - Sft+Ctl+V
+  - {t: '$$tabler:fold-down$$', type: trans}
   - Ctl+Alt+$$mdi:backspace-reverse-outline$$
   - Ctl+Sft+$$mdi:keyboard-esc$$
+  - {t: '$$tabler:fold-down$$', type: trans}
   - {t: '$$tabler:fold-down$$', type: trans}
   - {t: '$$tabler:fold-down$$', type: trans}
   - {t: '$$tabler:fold-down$$', type: trans}
@@ -333,9 +333,11 @@ combos:
 - p: [11, 12]
   k: {t: (), h: '&zen_parenthesis'}
   l: [DEFAULT, MOUSE, NUMBER]
-- p: [31, 32]
+- p: [8, 7]
   k: Alt+`
   l: [DEFAULT, MOUSE]
 - p: [22, 23]
   k: Ctl+F
   l: [DEFAULT, MOUSE]
+- p: [32, 31]
+  k: {t: V, h: Ctl+Sft+V}
