@@ -66,7 +66,7 @@
 
         jis_ime_togle {
             bindings = <&kp LA(GRAVE)>;
-            key-positions = <31 32>;
+            key-positions = <8 7>;
             layers = <0 1>;
         };
 
@@ -74,6 +74,11 @@
             bindings = <&kp LC(F)>;
             key-positions = <22 23>;
             layers = <0 1>;
+        };
+
+        paste {
+            bindings = <&holdtap LC(LS(V)) LG(V)>;
+            key-positions = <32 31>;
         };
     };
 
@@ -302,10 +307,10 @@
 
         DEFAULT {
             bindings = <
-&kp Q                         &kp W             &kp MINUS         &kp R      &holdtap LC(Z) Z                                      &holdtap LC(X) X  &kp D             &holdtap LG(E) E  &kp L                 &kp P
-&kp I                         &kp T             &holdtap LC(A) A  &kp K      &kp G             &kp C_MUTE          &lt 6 ESC       &kp H             &kp N             &kp O             &kp U                 &kp S
-&mt LEFT_SHIFT SLASH          &holdtap LC(F) F  &holdtap LC(C) C  &kp M      &kp B             &kp LANGUAGE_2      &kp LANGUAGE_1  &kp J             &holdtap LC(Y) Y  &holdtap LC(V) V  &holdtap LG(V) COMMA  &holdtap QUESTION PERIOD
-&holdtap LC(SPACE) LS(LC(M))  &kp LEFT_WIN      &kp LEFT_ALT      &mkp LCLK  &mt LSHIFT SPACE  &mt LCTRL TAB       &lt_bsdel 5 0   &lt 4 ENTER                                                                 &kp PRINTSCREEN
+&kp Q                         &kp W             &kp MINUS         &kp R      &holdtap LC(Z) Z                                      &holdtap LC(X) X  &kp D             &holdtap LG(E) E  &kp L                       &kp P
+&kp I                         &kp T             &holdtap LC(A) A  &kp K      &kp G             &kp C_MUTE          &lt 6 ESC       &kp H             &kp N             &kp O             &kp U                       &kp S
+&mt LEFT_SHIFT SLASH          &holdtap LC(F) F  &holdtap LC(C) C  &kp M      &kp B             &kp LANGUAGE_2      &kp LANGUAGE_1  &kp J             &holdtap LC(Y) Y  &holdtap LC(V) V  &holdtap EXCLAMATION COMMA  &holdtap QUESTION PERIOD
+&holdtap LC(SPACE) LS(LC(M))  &kp LEFT_WIN      &kp LEFT_ALT      &mkp LCLK  &mt LSHIFT SPACE  &mt LCTRL TAB       &lt_bsdel 5 0   &lt 4 ENTER                                                                       &kp PRINTSCREEN
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
@@ -351,10 +356,10 @@
 
         FUNCTION {
             bindings = <
-&kp LEFT_BRACE        &kp F7   &kp F8   &kp F9     &kp LG(V)                                               &kp INSERT          &kp DELETE     &kp PRINTSCREEN  &kp PAUSE_BREAK  &kp RIGHT_BRACE
-&kp LEFT_PARENTHESIS  &kp F4   &kp F5   &kp F6     &kp LC(C)         &none                &kp CAPSLOCK     &kp HOME            &kp PAGE_DOWN  &kp PAGE_UP      &kp END          &kp RIGHT_PARENTHESIS
-&kp LEFT_BRACKET      &kp F1   &kp F2   &kp F3     &kp LC(V)         &kp LS(LC(V))        &kp LC(LA(DEL))  &kp LC(LS(ESCAPE))  &trans         &trans           &trans           &kp RIGHT_BRACKET
-&kp F10               &kp F11  &kp F12  &mkp MCLK  &mt LSHIFT LC(Z)  &mt LCTRL LC(Y)      &trans           &trans                                                               &trans
+&kp LEFT_BRACE        &kp F7   &kp F8   &kp F9     &trans                                                        &kp INSERT  &kp DELETE     &kp PRINTSCREEN  &kp PAUSE_BREAK  &kp RIGHT_BRACE
+&kp LEFT_PARENTHESIS  &kp F4   &kp F5   &kp F6     &trans            &kp LC(NUMBER_1)        &kp CAPSLOCK        &kp HOME    &kp PAGE_DOWN  &kp PAGE_UP      &kp END          &kp RIGHT_PARENTHESIS
+&kp LEFT_BRACKET      &kp F1   &kp F2   &kp F3     &trans            &kp LC(LA(DELETE))      &kp LC(LS(ESCAPE))  &trans      &trans         &trans           &trans           &kp RIGHT_BRACKET
+&kp F10               &kp F11  &kp F12  &mkp MCLK  &mt LSHIFT LC(Z)  &mt LCTRL LC(Y)         &trans              &trans                                                       &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
