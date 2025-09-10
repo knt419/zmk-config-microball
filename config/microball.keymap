@@ -79,6 +79,7 @@
         paste {
             bindings = <&holdtap LC(LS(V)) LG(V)>;
             key-positions = <32 31>;
+            layers = <0 1>;
         };
     };
 
