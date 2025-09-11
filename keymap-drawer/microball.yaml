@@ -24,7 +24,7 @@ layers:
   - U
   - S
   - {t: /, h: '$$mdi:apple-keyboard-shift$$', s: '?'}
-  - {t: F, h: Ctl+F}
+  - F
   - {t: C, h: Ctl+C}
   - M
   - B
@@ -225,7 +225,7 @@ layers:
   - F7
   - F8
   - F9
-  - {t: '$$tabler:fold-down$$', type: trans}
+  - F12
   - Ins
   - $$mdi:backspace-reverse-outline$$
   - $$material:screenshot_region$$
@@ -235,7 +235,7 @@ layers:
   - F4
   - F5
   - F6
-  - {t: '$$tabler:fold-down$$', type: trans}
+  - F11
   - Ctl+1
   - $$mdi:apple-keyboard-caps$$
   - HOME
@@ -247,7 +247,7 @@ layers:
   - F1
   - F2
   - F3
-  - {t: '$$tabler:fold-down$$', type: trans}
+  - F10
   - Ctl+Alt+$$mdi:backspace-reverse-outline$$
   - Ctl+Sft+$$mdi:keyboard-esc$$
   - {t: '$$tabler:fold-down$$', type: trans}
@@ -255,9 +255,9 @@ layers:
   - {t: '$$tabler:fold-down$$', type: trans}
   - {t: '$$tabler:fold-down$$', type: trans}
   - {t: ']', s: '}'}
-  - F10
-  - F11
-  - F12
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
   - $$mdi:mouse-scroll-wheel$$
   - {t: Ctl+Z, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: Ctl+Y, h: '$$mdi:apple-keyboard-control$$'}
