@@ -18,11 +18,11 @@ layers:
   - G
   - $$mdi:volume-off$$
   - {t: '$$mdi:keyboard-esc$$', h: SYSTEM}
-  - H
+  - {t: H, h: ':'}
   - N
   - O
   - U
-  - S
+  - {t: S, h: ;}
   - {t: /, h: '$$mdi:apple-keyboard-shift$$', s: '?'}
   - F
   - {t: C, h: Ctl+C}
@@ -318,12 +318,6 @@ combos:
 - p: [0, 1]
   k: '&winmvleft'
   l: [DEFAULT, MOUSE]
-- p: [20, 21]
-  k: {t: ;, h: Ctl+;, s: ':'}
-  l: [DEFAULT, MOUSE]
-- p: [18, 19]
-  k: {t: ':', h: 'Ctl+:'}
-  l: [DEFAULT, MOUSE]
 - p: [2, 1]
   k: {t: '{}', h: '&zen_braces'}
   l: [DEFAULT, MOUSE, NUMBER]
@@ -339,8 +333,8 @@ combos:
 - p: [22, 23]
   k: Ctl+F
   l: [DEFAULT, MOUSE]
-- p: [32, 31]
-  k: {t: V, h: Ctl+Sft+V}
+- p: [18, 19]
+  k: {t: Ctl+V, h: V}
   l: [DEFAULT, MOUSE]
 - p: [12, 13]
   k: '&DBLSFT'
