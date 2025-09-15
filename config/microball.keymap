@@ -34,18 +34,6 @@
             layers = <0 1>;
         };
 
-        semicolon {
-            bindings = <&holdtap LC(SEMICOLON) SEMICOLON>;
-            key-positions = <20 21>;
-            layers = <0 1>;
-        };
-
-        colon {
-            bindings = <&holdtap LC(COLON) COLON>;
-            key-positions = <18 19>;
-            layers = <0 1>;
-        };
-
         braces {
             bindings = <&brace 0 0>;
             key-positions = <2 1>;
@@ -77,8 +65,8 @@
         };
 
         paste {
-            bindings = <&holdtap LC(LS(V)) LG(V)>;
-            key-positions = <32 31>;
+            bindings = <&holdtap LG(V) LC(V)>;
+            key-positions = <18 19>;
             layers = <0 1>;
         };
 
@@ -315,7 +303,7 @@
         DEFAULT {
             bindings = <
 &kp Q                         &kp W         &kp MINUS         &kp R      &holdtap LC(Z) Z                                      &holdtap LC(X) X  &kp D             &holdtap LG(E) E  &kp L                       &kp P
-&kp I                         &kp T         &holdtap LC(A) A  &kp K      &kp G             &kp C_MUTE          &lt 6 ESC       &kp H             &kp N             &kp O             &kp U                       &kp S
+&kp I                         &kp T         &holdtap LC(A) A  &kp K      &kp G             &kp C_MUTE          &lt 6 ESC       &holdtap COLON H  &kp N             &kp O             &kp U                       &holdtap SEMI S
 &mt LEFT_SHIFT SLASH          &kp F         &holdtap LC(C) C  &kp M      &kp B             &kp LANGUAGE_2      &kp LANGUAGE_1  &kp J             &holdtap LC(Y) Y  &holdtap LC(V) V  &holdtap EXCLAMATION COMMA  &holdtap QUESTION PERIOD
 &holdtap LC(SPACE) LS(LC(M))  &kp LEFT_WIN  &kp LEFT_ALT      &mkp LCLK  &mt LSHIFT SPACE  &mt LCTRL TAB       &lt_bsdel 5 0   &lt 4 ENTER                                                                       &kp PRINTSCREEN
             >;
