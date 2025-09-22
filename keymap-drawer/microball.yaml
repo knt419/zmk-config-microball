@@ -320,13 +320,13 @@ combos:
   l: [DEFAULT, MOUSE]
 - p: [2, 1]
   k: {t: '{}', h: '&zen_braces'}
-  l: [DEFAULT, MOUSE, NUMBER]
+  l: [DEFAULT, MOUSE]
 - p: [23, 24]
   k: {t: '[]', h: '&zen_brackets'}
-  l: [DEFAULT, MOUSE, NUMBER]
+  l: [DEFAULT, MOUSE]
 - p: [11, 12]
   k: {t: (), h: '&zen_parenthesis'}
-  l: [DEFAULT, MOUSE, NUMBER]
+  l: [DEFAULT, MOUSE]
 - p: [8, 7]
   k: Alt+`
   l: [DEFAULT, MOUSE]
