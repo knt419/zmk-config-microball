@@ -302,10 +302,10 @@
 
         DEFAULT {
             bindings = <
-&kp Q                         &kp W         &kp MINUS         &kp R      &holdtap LC(Z) Z                                      &holdtap LC(X) X  &kp D             &holdtap LG(E) E  &kp L                       &kp P
-&kp I                         &kp T         &holdtap LC(A) A  &kp K      &kp G             &kp C_MUTE          &lt 6 ESC       &holdtap COLON H  &kp N             &kp O             &kp U                       &holdtap SEMI S
-&mt LEFT_SHIFT SLASH          &kp F         &holdtap LC(C) C  &kp M      &kp B             &kp LANGUAGE_2      &kp LANGUAGE_1  &kp J             &holdtap LC(Y) Y  &holdtap LC(V) V  &holdtap EXCLAMATION COMMA  &holdtap QUESTION PERIOD
-&holdtap LC(SPACE) LS(LC(M))  &kp LEFT_WIN  &kp LEFT_ALT      &mkp LCLK  &mt LSHIFT SPACE  &mt LCTRL TAB       &lt_bsdel 5 0   &lt 4 ENTER                                                                       &kp PRINTSCREEN
+&kp Q                         &kp W                    &kp MINUS                &kp R      &kp Z                                                 &holdtap LC(X) X  &kp D  &holdtap LG(E) E  &kp L                       &kp P
+&kp I                         &kp T                    &holdtap LC(A) A         &kp K      &kp G             &kp C_MUTE          &lt 6 ESC       &holdtap COLON H  &kp N  &kp O             &kp U                       &holdtap SEMI S
+&mt LEFT_SHIFT SLASH          &kp F                    &holdtap LC(C) C         &kp M      &kp B             &kp LANGUAGE_2      &kp LANGUAGE_1  &kp J             &kp Y  &kp V             &holdtap EXCLAMATION COMMA  &holdtap QUESTION PERIOD
+&holdtap LC(SPACE) LS(LC(M))  &holdtap LC(Z) LEFT_GUI  &holdtap LC(Y) LEFT_ALT  &mkp LCLK  &mt LSHIFT SPACE  &mt LCTRL TAB       &lt_bsdel 5 0   &lt 4 ENTER                                                            &kp PRINTSCREEN
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
