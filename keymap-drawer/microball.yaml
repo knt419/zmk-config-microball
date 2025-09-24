@@ -5,7 +5,7 @@ layers:
   - W
   - {t: '-', s: _}
   - R
-  - {t: Z, h: Ctl+Z}
+  - Z
   - {t: X, h: Ctl+X}
   - D
   - {t: E, h: Gui+E}
@@ -31,13 +31,13 @@ layers:
   - LANGUAGE 2
   - LANGUAGE 1
   - J
-  - {t: Y, h: Ctl+Y}
-  - {t: V, h: Ctl+V}
+  - Y
+  - V
   - {t: ',', h: '!', s: <}
   - {t: ., h: '?', s: '>'}
   - {t: '$$mdi:microphone-off$$', h: 'Ctl+$$mdi:keyboard-space$$'}
-  - $$mdi:microsoft-windows$$
-  - $$mdi:apple-keyboard-option$$
+  - {t: '$$mdi:apple-keyboard-command$$', h: Ctl+Z}
+  - {t: '$$mdi:apple-keyboard-option$$', h: Ctl+Y}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-control$$'}
