@@ -303,7 +303,7 @@
         DEFAULT {
             bindings = <
 &kp Q                         &kp W                    &kp MINUS                &kp R      &kp Z                                                 &holdtap LC(X) X  &kp D  &holdtap LG(E) E  &kp L                       &kp P
-&kp I                         &kp T                    &holdtap LC(A) A         &kp K      &kp G             &kp C_MUTE          &lt 6 ESC       &holdtap COLON H  &kp N  &kp O             &kp U                       &holdtap SEMI S
+&holdtap COLON I              &kp T                    &holdtap LC(A) A         &kp K      &kp G             &kp C_MUTE          &lt 6 ESC       &kp H             &kp N  &kp O             &kp U                       &holdtap SEMI S
 &mt LEFT_SHIFT SLASH          &kp F                    &holdtap LC(C) C         &kp M      &kp B             &kp LANGUAGE_2      &kp LANGUAGE_1  &kp J             &kp Y  &kp V             &holdtap EXCLAMATION COMMA  &holdtap QUESTION PERIOD
 &holdtap LC(SPACE) LS(LC(M))  &holdtap LEFT_GUI LC(Z)  &holdtap LEFT_ALT LC(Y)  &mkp LCLK  &mt LSHIFT SPACE  &mt LCTRL TAB       &lt_bsdel 5 0   &lt 4 ENTER                                                            &kp PRINTSCREEN
             >;
