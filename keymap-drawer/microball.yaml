@@ -11,14 +11,14 @@ layers:
   - {t: E, h: Gui+E}
   - L
   - P
-  - I
+  - {t: I, h: ':'}
   - T
   - {t: A, h: Ctl+A}
   - K
   - G
   - $$mdi:volume-off$$
   - {t: '$$mdi:keyboard-esc$$', h: SYSTEM}
-  - {t: H, h: ':'}
+  - H
   - N
   - O
   - U
