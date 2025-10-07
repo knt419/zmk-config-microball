@@ -220,6 +220,20 @@
             bindings = <&kp LANGUAGE_1 &kp LEFT_BRACE &kp RIGHT_BRACE &kp LEFT>;
             label = "ZEN_BRACES";
         };
+
+        right_arrow: right_arrow {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LANGUAGE_1 &kp MINUS &kp GT &kp SPACE>;
+            label = "RIGHT_ARROW";
+        };
+
+        left_arrow: down_arrow {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LANGUAGE_1 &kp LESS_THAN &kp MINUS &kp SPACE>;
+            label = "DOWN_ARROW";
+        };
     };
 
     behaviors {
@@ -295,6 +309,16 @@
             tapping-term-ms = <200>;
             flavor = "tap-preferred";
         };
+
+        arrows: arrows {
+            compatible = "zmk,behavior-hold-tap";
+            label = "ARROWS";
+            bindings = <&left_arrow>, <&right_arrow>;
+
+            #binding-cells = <2>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <200>;
+        };
     };
 
     keymap {
@@ -302,10 +326,10 @@
 
         DEFAULT {
             bindings = <
-&kp Q                         &kp W                    &kp MINUS                &kp R      &kp Z                                                 &holdtap LC(X) X  &kp D  &holdtap LG(E) E  &kp L                       &kp P
-&holdtap COLON I              &kp T                    &holdtap LC(A) A         &kp K      &kp G             &kp C_MUTE          &lt 6 ESC       &kp H             &kp N  &kp O             &kp U                       &holdtap SEMI S
-&mt LEFT_SHIFT SLASH          &kp F                    &holdtap LC(C) C         &kp M      &kp B             &kp LANGUAGE_2      &kp LANGUAGE_1  &kp J             &kp Y  &kp V             &holdtap EXCLAMATION COMMA  &holdtap QUESTION PERIOD
-&holdtap LC(SPACE) LS(LC(M))  &holdtap LEFT_GUI LC(Z)  &holdtap LEFT_ALT LC(Y)  &mkp LCLK  &mt LSHIFT SPACE  &mt LCTRL TAB       &lt_bsdel 5 0   &lt 4 ENTER                                                            &kp PRINTSCREEN
+&kp Q                         &kp W                    &kp MINUS                &kp R      &kp Z                                               &holdtap LC(X) X  &kp D  &holdtap LG(E) E  &kp L                       &kp P
+&holdtap COLON I              &kp T                    &holdtap LC(A) A         &kp K      &kp G             &kp C_MUTE         &lt 6 ESC      &kp H             &kp N  &kp O             &kp U                       &holdtap SEMI S
+&mt LEFT_SHIFT SLASH          &kp F                    &holdtap LC(C) C         &kp M      &kp B             &at                &arrows 0 0    &kp J             &kp Y  &kp V             &holdtap EXCLAMATION COMMA  &holdtap QUESTION PERIOD
+&holdtap LC(SPACE) LS(LC(M))  &holdtap LEFT_GUI LC(Z)  &holdtap LEFT_ALT LC(Y)  &mkp LCLK  &mt LSHIFT SPACE  &mt LCTRL TAB      &lt_bsdel 5 0  &lt 4 ENTER                                                            &kp PRINTSCREEN
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
