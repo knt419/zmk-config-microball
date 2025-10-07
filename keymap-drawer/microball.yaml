@@ -28,8 +28,8 @@ layers:
   - {t: C, h: Ctl+C}
   - M
   - B
-  - LANGUAGE 2
-  - LANGUAGE 1
+  - '@'
+  - {t: '&right_arrow', h: '&left_arrow'}
   - J
   - Y
   - V
