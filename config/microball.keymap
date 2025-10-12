@@ -75,6 +75,18 @@
             key-positions = <12 13>;
             layers = <0 1>;
         };
+
+        back {
+            bindings = <&kp LA(LEFT)>;
+            key-positions = <10 11>;
+            layers = <0 1>;
+        };
+
+        forward {
+            bindings = <&kp LA(RIGHT)>;
+            key-positions = <20 21>;
+            layers = <0 1>;
+        };
     };
 
     macros {
@@ -337,10 +349,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans        &trans         &trans                      &trans  &trans     &trans  &trans     &trans
-&trans  &trans  &trans        &trans         &trans  &trans      &trans  &trans  &trans     &trans  &trans     &trans
-&trans  &trans  &kp LA(LEFT)  &kp LA(RIGHT)  &trans  &trans      &trans  &trans  &mkp LCLK  &mo 2   &mkp MCLK  &mkp RCLK
-&trans  &trans  &trans        &trans         &mo 2   &mo 3       &trans  &trans                                &trans
+&trans  &trans  &trans  &trans        &trans                             &trans        &trans     &trans  &trans     &trans
+&trans  &trans  &trans  &trans        &trans         &trans      &trans  &trans        &trans     &trans  &trans     &trans
+&trans  &trans  &trans  &kp LA(LEFT)  &kp LA(RIGHT)  &trans      &trans  &kp LA(LEFT)  &mkp LCLK  &mo 2   &mkp MCLK  &mkp RCLK
+&trans  &trans  &trans  &trans        &mo 2          &mo 3       &trans  &trans                                      &trans
             >;
         };
 
