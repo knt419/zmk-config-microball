@@ -244,7 +244,13 @@
         left_arrow: left_arrow {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LANGUAGE_2 &kp LS(U) &kp PLUS &kp N2 &kp N1 &kp N9 &kp N0 &kp LA(X)>;
+            bindings =
+                <&kp LANGUAGE_2 &kp LS(U) &kp PLUS>,
+                <&macro_release>,
+                <&kp LEFT_SHIFT>,
+                <&macro_tap>,
+                <&kp N2 &kp N1 &kp N9 &kp N0 &kp LA(X)>;
+
             label = "LEFT_ARROW";
             wait-ms = <1>;
         };
