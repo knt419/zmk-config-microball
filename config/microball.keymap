@@ -343,11 +343,29 @@
         arrows: arrows {
             compatible = "zmk,behavior-hold-tap";
             label = "ARROWS";
-            bindings = <&left_arrow>, <&down_arrow>;
+            bindings = <&down_up_arrow>, <&right_left_arrow>;
 
             #binding-cells = <2>;
             flavor = "tap-preferred";
             tapping-term-ms = <200>;
+        };
+
+        right_left_arrow: right_left_arrow {
+            compatible = "zmk,behavior-mod-morph";
+            label = "RIGHT_LEFT_ARROW";
+            bindings = <&right_arrow>, <&left_arrow>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        down_up_arrow: down_up_arrow {
+            compatible = "zmk,behavior-mod-morph";
+            label = "DOWN_UP_ARROW";
+            bindings = <&down_arrow>, <&up_arrow>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
         };
     };
 
