@@ -29,7 +29,7 @@ layers:
   - M
   - B
   - '@'
-  - {t: '&right_arrow', h: '&left_arrow'}
+  - '&uc 0x2192 0'
   - J
   - Y
   - V
