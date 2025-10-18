@@ -29,7 +29,7 @@ layers:
   - M
   - B
   - '@'
-  - {t: '&down_arrow', h: '&left_arrow'}
+  - {t: '&right_arrow', h: '&down_arrow', s: '&left_arrow'}
   - J
   - Y
   - V
