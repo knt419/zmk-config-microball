@@ -238,6 +238,7 @@
             #binding-cells = <0>;
             bindings = <&kp LANGUAGE_2 &kp LS(U) &kp PLUS &kp N2 &kp N1 &kp N9 &kp N2 &kp LA(X)>;
             label = "RIGHT_ARROW";
+            wait-ms = <1>;
         };
 
         left_arrow: down_arrow {
@@ -245,6 +246,23 @@
             #binding-cells = <0>;
             bindings = <&kp LANGUAGE_2 &kp LS(U) &kp PLUS &kp N2 &kp N1 &kp N9 &kp N0 &kp LA(X)>;
             label = "DOWN_ARROW";
+            wait-ms = <1>;
+        };
+
+        down_arrow: down_arrow {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LANGUAGE_2 &kp LS(U) &kp PLUS &kp N2 &kp N1 &kp N9 &kp NUMBER_3 &kp LA(X)>;
+            label = "DOWN_ARROW";
+            wait-ms = <1>;
+        };
+
+        up_arrow: up_arrow {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LANGUAGE_2 &kp LS(U) &kp PLUS &kp N2 &kp N1 &kp N9 &kp NUMBER_1 &kp LA(X)>;
+            label = "UP_ARROW";
+            wait-ms = <1>;
         };
     };
 
@@ -325,7 +343,7 @@
         arrows: arrows {
             compatible = "zmk,behavior-hold-tap";
             label = "ARROWS";
-            bindings = <&left_arrow>, <&right_arrow>;
+            bindings = <&left_arrow>, <&down_arrow>;
 
             #binding-cells = <2>;
             flavor = "tap-preferred";
