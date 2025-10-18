@@ -1,10 +1,10 @@
 #include <behaviors/rgbled_widget.dtsi>
+#include <behaviors/unicode.dtsi>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/pointing.h>
-#include <behaviors/unicode.dtsi>
 
 &mt {
     quick-tap-ms = <175>;
@@ -237,14 +237,14 @@
         right_arrow: right_arrow {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LANGUAGE_1 &kp MINUS &kp GT &kp SPACE>;
+            bindings = <&kp LANGUAGE_2 &kp LS(U) &kp PLUS &kp N2 &kp N1 &kp N9 &kp N2 &kp LA(X)>;
             label = "RIGHT_ARROW";
         };
 
         left_arrow: down_arrow {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LANGUAGE_1 &kp LESS_THAN &kp MINUS &kp SPACE>;
+            bindings = <&kp LANGUAGE_2 &kp LS(U) &kp PLUS &kp N2 &kp N1 &kp N9 &kp N0 &kp LA(X)>;
             label = "DOWN_ARROW";
         };
     };
@@ -341,7 +341,7 @@
             bindings = <
 &kp Q                         &kp W                    &kp MINUS                &kp R      &kp Z                                               &holdtap LC(X) X  &kp D  &holdtap LG(E) E  &kp L                       &kp P
 &holdtap COLON I              &kp T                    &holdtap LC(A) A         &kp K      &kp G             &kp C_MUTE         &lt 6 ESC      &kp H             &kp N  &kp O             &kp U                       &holdtap SEMI S
-&mt LEFT_SHIFT SLASH          &kp F                    &holdtap LC(C) C         &kp M      &kp B             &at                &uc 0x2192 0   &kp J             &kp Y  &kp V             &holdtap EXCLAMATION COMMA  &holdtap QUESTION PERIOD
+&mt LEFT_SHIFT SLASH          &kp F                    &holdtap LC(C) C         &kp M      &kp B             &at                &arrows 0 0    &kp J             &kp Y  &kp V             &holdtap EXCLAMATION COMMA  &holdtap QUESTION PERIOD
 &holdtap LC(SPACE) LS(LC(M))  &holdtap LEFT_GUI LC(Z)  &holdtap LEFT_ALT LC(Y)  &mkp LCLK  &mt LSHIFT SPACE  &mt LCTRL TAB      &lt_bsdel 5 0  &lt 4 ENTER                                                            &kp PRINTSCREEN
             >;
 
