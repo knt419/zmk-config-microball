@@ -241,11 +241,11 @@
             wait-ms = <1>;
         };
 
-        left_arrow: down_arrow {
+        left_arrow: left_arrow {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LANGUAGE_2 &kp LS(U) &kp PLUS &kp N2 &kp N1 &kp N9 &kp N0 &kp LA(X)>;
-            label = "DOWN_ARROW";
+            label = "LEFT_ARROW";
             wait-ms = <1>;
         };
 
