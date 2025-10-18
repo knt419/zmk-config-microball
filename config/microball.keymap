@@ -11,6 +11,10 @@
     flavor = "tap-preferred";
 };
 
+&uc {
+    win-compose-key = <LANGUAGE_1>;
+};
+
 / {
     combos {
         compatible = "zmk,combos";
