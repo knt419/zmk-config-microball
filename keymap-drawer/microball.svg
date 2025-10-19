@@ -672,13 +672,13 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <use href="#tabler:fold-down" xlink:href="#tabler:fold-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph tabler:fold-down"/>
 </g>
-<g transform="translate(196, 148)" class="key keypos-25">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:arrow-left-bold" xlink:href="#mdi:arrow-left-bold" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:arrow-left-bold"/>
+<g transform="translate(196, 148)" class="key trans keypos-25">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
+<use href="#tabler:fold-down" xlink:href="#tabler:fold-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph tabler:fold-down"/>
 </g>
-<g transform="translate(253, 155)" class="key keypos-26">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:arrow-right-bold" xlink:href="#mdi:arrow-right-bold" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:arrow-right-bold"/>
+<g transform="translate(253, 155)" class="key trans keypos-26">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
+<use href="#tabler:fold-down" xlink:href="#tabler:fold-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph tabler:fold-down"/>
 </g>
 <g transform="translate(309, 168)" class="key trans keypos-27">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -688,9 +688,9 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <use href="#tabler:fold-down" xlink:href="#tabler:fold-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph tabler:fold-down"/>
 </g>
-<g transform="translate(504, 155)" class="key keypos-29">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:arrow-left-bold" xlink:href="#mdi:arrow-left-bold" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:arrow-left-bold"/>
+<g transform="translate(504, 155)" class="key trans keypos-29">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
+<use href="#tabler:fold-down" xlink:href="#tabler:fold-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph tabler:fold-down"/>
 </g>
 <g transform="translate(560, 148)" class="key keypos-30">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -698,16 +698,17 @@ rect.held, rect.combo.held {
 </g>
 <g transform="translate(617, 140)" class="key keypos-31">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<use href="#mdi:mouse-scroll-wheel" xlink:href="#mdi:mouse-scroll-wheel" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:mouse-scroll-wheel"/>
 <a href="#SCROLL">
-<text x="0" y="0" class="key tap layer-activator">SCROLL</text>
+<text x="0" y="24" class="key hold layer-activator">SCROLL</text>
 </a></g>
 <g transform="translate(673, 154)" class="key keypos-32">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:mouse-scroll-wheel" xlink:href="#mdi:mouse-scroll-wheel" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:mouse-scroll-wheel"/>
-</g>
-<g transform="translate(729, 175)" class="key keypos-33">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <use href="#mdi:mouse-right-click-outline" xlink:href="#mdi:mouse-right-click-outline" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:mouse-right-click-outline"/>
+</g>
+<g transform="translate(729, 175)" class="key trans keypos-33">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
+<use href="#tabler:fold-down" xlink:href="#tabler:fold-down" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph tabler:fold-down"/>
 </g>
 <g transform="translate(28, 231)" class="key trans keypos-34">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -727,13 +728,15 @@ rect.held, rect.combo.held {
 </g>
 <g transform="translate(271, 231) rotate(9.0)" class="key keypos-38">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<use href="#mdi:mouse-scroll-wheel" xlink:href="#mdi:mouse-scroll-wheel" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:mouse-scroll-wheel"/>
 <a href="#SCROLL">
-<text x="0" y="0" class="key tap layer-activator">SCROLL</text>
+<text x="0" y="24" class="key hold layer-activator">SCROLL</text>
 </a></g>
 <g transform="translate(333, 247) rotate(20.0)" class="key keypos-39">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<use href="#mdi:mouse-right-click-outline" xlink:href="#mdi:mouse-right-click-outline" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:mouse-right-click-outline"/>
 <a href="#SNIPE">
-<text x="0" y="0" class="key tap layer-activator">SNIPE</text>
+<text x="0" y="24" class="key hold layer-activator">SNIPE</text>
 </a></g>
 <g transform="translate(423, 247) rotate(-20.0)" class="key trans keypos-40">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
