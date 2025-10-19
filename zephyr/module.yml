@@ -1,4 +1,4 @@
-name: microball
+name: zmk-config-microball
 build:
   settings:
     board_root: .
