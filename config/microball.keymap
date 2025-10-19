@@ -94,14 +94,12 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LEFT_SHIFT &kp LEFT_SHIFT>;
-            label = "DBLSFT";
         };
 
         DBLCTL: DBLCTL {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LCTRL &kp LCTRL>;
-            label = "DBLCTL";
         };
 
         winmvright: winmvright {
@@ -112,8 +110,6 @@
                 <&kp LEFT_GUI &kp RIGHT>,
                 <&macro_release>,
                 <&kp RIGHT &kp LEFT_WIN>;
-
-            label = "WINMVRIGHT";
         };
 
         winmvleft: winmvleft {
@@ -124,120 +120,102 @@
                 <&kp LEFT_GUI &kp LEFT>,
                 <&macro_release>,
                 <&kp LEFT &kp LEFT_WIN>;
-
-            label = "WINMVLEFT";
         };
 
         at: at {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LANGUAGE_2 &kp AT_SIGN>;
-            label = "AT";
         };
 
         hash: hash {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LANGUAGE_2 &kp HASH>;
-            label = "HASH";
         };
 
         amp: amp {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LANGUAGE_2 &kp AMPERSAND>;
-            label = "AMP";
         };
 
         dollar: doller {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LANGUAGE_2 &kp DOLLAR>;
-            label = "DOLLER";
         };
 
         backquote: backquote {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LANGUAGE_2 &kp GRAVE>;
-            label = "BACKQUOTE";
         };
 
         quote: quote {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LANGUAGE_2 &kp SINGLE_QUOTE>;
-            label = "QUOTE";
         };
 
         doublequote: doublequote {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LANGUAGE_2 &kp DOUBLE_QUOTES>;
-            label = "DOUBLEQUOTE";
         };
 
         caret: caret {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LANGUAGE_2 &kp CARET>;
-            label = "CARET";
         };
 
         pipe: pipe {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LANGUAGE_2 &kp PIPE>;
-            label = "PIPE";
         };
 
         parenthesis: parenthesis {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LANGUAGE_2 &kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp LEFT_ARROW>;
-            label = "PARENTHESIS";
         };
 
         brackets: brackets {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LANGUAGE_2 &kp LEFT_BRACKET &kp RIGHT_BRACKET &kp LEFT>;
-            label = "BRACKETS";
         };
 
         braces: braces {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LANGUAGE_2 &kp LEFT_BRACE &kp RIGHT_BRACE &kp LEFT>;
-            label = "BRACES";
         };
 
         zen_parenthesis: zen_parenthesis {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LANGUAGE_1 &kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp LEFT_ARROW>;
-            label = "ZEN_PARENTHESIS";
         };
 
         zen_brackets: zen_brackets {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LANGUAGE_1 &kp LEFT_BRACKET &kp RIGHT_BRACKET &kp LEFT>;
-            label = "ZEN_BRACKETS";
         };
 
         zen_braces: zen_braces {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LANGUAGE_1 &kp LEFT_BRACE &kp RIGHT_BRACE &kp LEFT>;
-            label = "ZEN_BRACES";
         };
 
         right_arrow: right_arrow {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LANGUAGE_2 &kp LS(U) &kp PLUS &kp N2 &kp N1 &kp N9 &kp N2 &kp LA(X)>;
-            label = "RIGHT_ARROW";
             wait-ms = <1>;
         };
 
@@ -250,8 +228,6 @@
                 <&kp LEFT_SHIFT>,
                 <&macro_tap>,
                 <&kp N2 &kp N1 &kp N9 &kp N0 &kp LA(X)>;
-
-            label = "LEFT_ARROW";
             wait-ms = <1>;
         };
 
@@ -259,7 +235,6 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LANGUAGE_2 &kp LS(U) &kp PLUS &kp N2 &kp N1 &kp N9 &kp NUMBER_3 &kp LA(X)>;
-            label = "DOWN_ARROW";
             wait-ms = <1>;
         };
 
@@ -267,7 +242,6 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LANGUAGE_2 &kp LS(U) &kp PLUS &kp N2 &kp N1 &kp N9 &kp NUMBER_1 &kp LA(X)>;
-            label = "UP_ARROW";
             wait-ms = <1>;
         };
     };
@@ -275,7 +249,6 @@
     behaviors {
         BSDEL: BSDEL {
             compatible = "zmk,behavior-mod-morph";
-            label = "BSDEL";
             bindings = <&kp BSPC>, <&kp DELETE>;
 
             #binding-cells = <0>;
@@ -284,7 +257,6 @@
 
         lt_bsdel: lt_bsdel {
             compatible = "zmk,behavior-hold-tap";
-            label = "LT_BSDEL";
             bindings = <&mo>, <&BSDEL>;
 
             #binding-cells = <2>;
@@ -295,7 +267,6 @@
 
         imeonoff: imeonoff {
             compatible = "zmk,behavior-hold-tap";
-            label = "IMEONOFF";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
@@ -305,7 +276,6 @@
 
         holdtap: holdtap {
             compatible = "zmk,behavior-hold-tap";
-            label = "HOLDTAP";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
@@ -318,7 +288,6 @@
 
         paren: paren {
             compatible = "zmk,behavior-hold-tap";
-            label = "PAREN";
             bindings = <&zen_parenthesis>, <&parenthesis>;
 
             #binding-cells = <2>;
@@ -328,7 +297,6 @@
 
         brack: brack {
             compatible = "zmk,behavior-hold-tap";
-            label = "BRACK";
             bindings = <&zen_brackets>, <&brackets>;
 
             #binding-cells = <2>;
@@ -338,7 +306,6 @@
 
         brace: brace {
             compatible = "zmk,behavior-hold-tap";
-            label = "BRACE";
             bindings = <&zen_braces>, <&braces>;
 
             #binding-cells = <2>;
@@ -348,7 +315,6 @@
 
         arrows: arrows {
             compatible = "zmk,behavior-hold-tap";
-            label = "ARROWS";
             bindings = <&down_up_arrow>, <&right_left_arrow>;
 
             #binding-cells = <2>;
@@ -358,7 +324,6 @@
 
         right_left_arrow: right_left_arrow {
             compatible = "zmk,behavior-mod-morph";
-            label = "RIGHT_LEFT_ARROW";
             bindings = <&right_arrow>, <&left_arrow>;
 
             #binding-cells = <0>;
@@ -367,7 +332,6 @@
 
         down_up_arrow: down_up_arrow {
             compatible = "zmk,behavior-mod-morph";
-            label = "DOWN_UP_ARROW";
             bindings = <&down_arrow>, <&up_arrow>;
 
             #binding-cells = <0>;
