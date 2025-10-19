@@ -228,6 +228,7 @@
                 <&kp LEFT_SHIFT>,
                 <&macro_tap>,
                 <&kp N2 &kp N1 &kp N9 &kp N0 &kp LA(X)>;
+
             wait-ms = <1>;
         };
 
@@ -337,6 +338,15 @@
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+
+        mkp_layer: mkp_layer {
+            compatible = "zmk,behavior-hold-tap";
+            label = "MKP_LAYER";
+            bindings = <&mo>, <&mkp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+        };
     };
 
     keymap {
@@ -355,10 +365,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans        &trans                             &trans        &trans     &trans  &trans     &trans
-&trans  &trans  &trans  &trans        &trans         &trans      &trans  &trans        &trans     &trans  &trans     &trans
-&trans  &trans  &trans  &kp LA(LEFT)  &kp LA(RIGHT)  &trans      &trans  &kp LA(LEFT)  &mkp LCLK  &mo 2   &mkp MCLK  &mkp RCLK
-&trans  &trans  &trans  &trans        &mo 2          &mo 3       &trans  &trans                                      &trans
+&trans  &trans  &trans  &trans  &trans                                            &trans  &trans     &trans             &trans     &trans
+&trans  &trans  &trans  &trans  &trans             &trans                 &trans  &trans  &trans     &trans             &trans     &trans
+&trans  &trans  &trans  &trans  &trans             &trans                 &trans  &trans  &mkp LCLK  &mkp_layer 2 MCLK  &mkp RCLK  &trans
+&trans  &trans  &trans  &trans  &mkp_layer 2 MCLK  &mkp_layer 3 RCLK      &trans  &trans                                           &trans
             >;
         };
 
