@@ -341,7 +341,6 @@
 
         mkp_layer: mkp_layer {
             compatible = "zmk,behavior-hold-tap";
-            label = "MKP_LAYER";
             bindings = <&mo>, <&mkp>;
 
             #binding-cells = <2>;
