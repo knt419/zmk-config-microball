@@ -263,7 +263,7 @@ layers:
   - {t: Ctl+Y, h: '$$mdi:apple-keyboard-control$$'}
   - {type: held}
   - {t: '$$tabler:fold-down$$', type: trans}
-  - {t: '$$tabler:fold-down$$', type: trans}
+  - KP NUMLOCK
   SYSTEM:
   - '&ind_bat'
   - {t: '$$tabler:fold-down$$', type: trans}
