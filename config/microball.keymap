@@ -225,8 +225,6 @@
                 <&kp KP_PLUS &kp LEFT_ALT>,
                 <&macro_tap>,
                 <&kp KP_NUMLOCK>;
-
-            wait-ms = <1>;
         };
 
         left_arrow: left_arrow {
@@ -242,9 +240,6 @@
                 <&kp KP_PLUS &kp LEFT_ALT>,
                 <&macro_tap>,
                 <&kp KP_NUMLOCK>;
-
-            wait-ms = <1>;
-            label = "LEFT_ARROW";
         };
 
         up_arrow: up_arrow {
@@ -260,9 +255,6 @@
                 <&kp KP_PLUS &kp LEFT_ALT>,
                 <&macro_tap>,
                 <&kp KP_NUMLOCK>;
-
-            wait-ms = <1>;
-            label = "UP_ARROW";
         };
 
         down_arrow: down_arrow {
@@ -278,9 +270,6 @@
                 <&kp KP_PLUS &kp LEFT_ALT>,
                 <&macro_tap>,
                 <&kp KP_NUMLOCK>;
-
-            wait-ms = <1>;
-            label = "DOWN_ARROW";
         };
     };
 
