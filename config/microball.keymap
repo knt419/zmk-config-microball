@@ -216,13 +216,15 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&kp LANGUAGE_2>,
+                <&kp LANGUAGE_2 &kp KP_NUMLOCK>,
                 <&macro_press>,
                 <&kp LEFT_ALT>,
                 <&macro_tap>,
-                <&kp KP_NUMLOCK &kp KP_NUMBER_2 &kp KP_NUMBER_1 &kp KP_NUMBER_9 &kp KP_NUMBER_2 &kp KP_NUMLOCK>,
+                <&kp KP_NUMBER_8 &kp KP_NUMBER_5 &kp KP_NUMBER_9 &kp KP_NUMBER_2>,
                 <&macro_release>,
-                <&kp LEFT_ALT>;
+                <&kp LEFT_ALT>,
+                <&macro_tap>,
+                <&kp KP_NUMLOCK>;
 
             wait-ms = <1>;
         };
@@ -231,13 +233,15 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&kp LANGUAGE_2>,
+                <&kp LANGUAGE_2 &kp KP_NUMLOCK>,
                 <&macro_press>,
                 <&kp LEFT_ALT>,
                 <&macro_tap>,
-                <&kp KP_NUMLOCK &kp KP_NUMBER_2 &kp KP_NUMBER_1 &kp KP_NUMBER_9 &kp KP_NUMBER_0 &kp KP_NUMLOCK>,
+                <&kp KP_NUMBER_8 &kp KP_NUMBER_5 &kp KP_NUMBER_9 &kp KP_NUMBER_0>,
                 <&macro_release>,
-                <&kp LEFT_ALT>;
+                <&kp LEFT_ALT>,
+                <&macro_tap>,
+                <&kp KP_NUMLOCK>;
 
             wait-ms = <1>;
             label = "LEFT_ARROW";
@@ -247,13 +251,15 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&kp LANGUAGE_2>,
+                <&kp LANGUAGE_2 &kp KP_NUMLOCK>,
                 <&macro_press>,
                 <&kp LEFT_ALT>,
                 <&macro_tap>,
-                <&kp KP_NUMLOCK &kp KP_NUMBER_2 &kp KP_NUMBER_1 &kp KP_NUMBER_9 &kp KP_NUMBER_0 &kp KP_NUMLOCK>,
+                <&kp KP_NUMBER_8 &kp KP_NUMBER_5 &kp KP_NUMBER_9 &kp KP_NUMBER_0>,
                 <&macro_release>,
-                <&kp LEFT_ALT>;
+                <&kp LEFT_ALT>,
+                <&macro_tap>,
+                <&kp KP_NUMLOCK>;
 
             wait-ms = <1>;
             label = "UP_ARROW";
@@ -263,13 +269,15 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&kp LANGUAGE_2>,
+                <&kp LANGUAGE_2 &kp KP_NUMLOCK>,
                 <&macro_press>,
                 <&kp LEFT_ALT>,
                 <&macro_tap>,
-                <&kp KP_NUMLOCK &kp KP_NUMBER_2 &kp KP_NUMBER_1 &kp KP_NUMBER_9 &kp KP_NUMBER_3 &kp KP_NUMLOCK>,
+                <&kp KP_NUMBER_8 &kp KP_NUMBER_5 &kp KP_NUMBER_9 &kp KP_NUMBER_3>,
                 <&macro_release>,
-                <&kp LEFT_ALT>;
+                <&kp LEFT_ALT>,
+                <&macro_tap>,
+                <&kp KP_NUMLOCK>;
 
             wait-ms = <1>;
             label = "DOWN_ARROW";
