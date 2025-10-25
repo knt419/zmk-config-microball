@@ -254,24 +254,20 @@
                 <&macro_tap>,
                 <&kp KP_PLUS &kp KP_NUMBER_2 &kp KP_NUMBER_1 &kp KP_NUMBER_9 &kp KP_NUMBER_1>,
                 <&macro_release>,
-                <&kp LEFT_ALT>,
-                <&macro_tap>,
-                <&kp KP_NUMLOCK>;
+                <&kp LEFT_ALT>;
         };
 
         down_arrow: down_arrow {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&kp LANGUAGE_2 &kp KP_NUMLOCK>,
+                <&kp LANGUAGE_2>,
                 <&macro_press>,
                 <&kp LEFT_ALT>,
                 <&macro_tap>,
                 <&kp KP_PLUS &kp KP_NUMBER_2 &kp KP_NUMBER_1 &kp KP_NUMBER_9 &kp KP_NUMBER_3>,
                 <&macro_release>,
-                <&kp LEFT_ALT>,
-                <&macro_tap>,
-                <&kp KP_NUMLOCK>;
+                <&kp LEFT_ALT>;
         };
     };
 
