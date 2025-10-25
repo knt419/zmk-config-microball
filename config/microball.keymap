@@ -433,7 +433,7 @@
 &kp LEFT_BRACE        &kp F7  &kp F8  &kp F9     &kp F12                                                       &kp INSERT  &kp DELETE     &kp PRINTSCREEN  &kp PAUSE_BREAK  &kp RIGHT_BRACE
 &kp LEFT_PARENTHESIS  &kp F4  &kp F5  &kp F6     &kp F11           &kp LC(NUMBER_1)        &kp CAPSLOCK        &kp HOME    &kp PAGE_DOWN  &kp PAGE_UP      &kp END          &kp RIGHT_PARENTHESIS
 &kp LEFT_BRACKET      &kp F1  &kp F2  &kp F3     &kp F10           &kp LC(LA(DELETE))      &kp LC(LS(ESCAPE))  &trans      &trans         &trans           &trans           &kp RIGHT_BRACKET
-&trans                &trans  &trans  &mkp MCLK  &mt LSHIFT LC(Z)  &mt LCTRL LC(Y)         &trans              &trans                                                       &trans
+&trans                &trans  &trans  &mkp MCLK  &mt LSHIFT LC(Z)  &mt LCTRL LC(Y)         &trans              &trans                                                       &kp KP_NUMLOCK
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
