@@ -237,7 +237,7 @@ layers:
   - F6
   - F11
   - Ctl+1
-  - $$mdi:apple-keyboard-caps$$
+  - {t: '$$tabler:fold-down$$', type: trans}
   - HOME
   - PgDn
   - PgUp
@@ -255,15 +255,15 @@ layers:
   - {t: '$$tabler:fold-down$$', type: trans}
   - {t: '$$tabler:fold-down$$', type: trans}
   - {t: ']', s: '}'}
-  - {t: '$$tabler:fold-down$$', type: trans}
-  - {t: '$$tabler:fold-down$$', type: trans}
-  - {t: '$$tabler:fold-down$$', type: trans}
+  - $$mdi:apple-keyboard-caps$$
+  - SCROLLLOCK
+  - KP NUMLOCK
   - $$mdi:mouse-scroll-wheel$$
   - {t: Ctl+Z, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: Ctl+Y, h: '$$mdi:apple-keyboard-control$$'}
   - {type: held}
   - {t: '$$tabler:fold-down$$', type: trans}
-  - KP NUMLOCK
+  - {t: '$$tabler:fold-down$$', type: trans}
   SYSTEM:
   - '&ind_bat'
   - {t: '$$tabler:fold-down$$', type: trans}
