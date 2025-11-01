@@ -204,16 +204,16 @@ layers:
   - '2'
   - '3'
   - ':'
-  - '%'
+  - {t: ',', s: <}
   - '|'
   - '!'
   - '@'
   - '#'
   - '&'
   - $
-  - CONTEXT MENU
-  - '&DBLCTL'
-  - '&DBLSFT'
+  - '%'
+  - {t: '$$tabler:fold-down$$', type: trans}
+  - {t: '$$tabler:fold-down$$', type: trans}
   - $$mdi:mouse-right-click-outline$$
   - {t: '=', h: '$$mdi:apple-keyboard-shift$$', s: +}
   - {t: ., h: '$$mdi:apple-keyboard-control$$', s: '>'}
@@ -250,10 +250,10 @@ layers:
   - F10
   - Ctl+Alt+$$mdi:backspace-reverse-outline$$
   - Ctl+Sft+$$mdi:keyboard-esc$$
-  - {t: '$$tabler:fold-down$$', type: trans}
-  - {t: '$$tabler:fold-down$$', type: trans}
-  - {t: '$$tabler:fold-down$$', type: trans}
-  - {t: '$$tabler:fold-down$$', type: trans}
+  - PREVIOUS
+  - PLAY PAUSE
+  - PAUSE
+  - $$mdi:skip-next$$
   - {t: ']', s: '}'}
   - $$mdi:apple-keyboard-caps$$
   - SCROLLLOCK
@@ -263,7 +263,7 @@ layers:
   - {t: Ctl+Y, h: '$$mdi:apple-keyboard-control$$'}
   - {type: held}
   - {t: '$$tabler:fold-down$$', type: trans}
-  - {t: '$$tabler:fold-down$$', type: trans}
+  - CONTEXT MENU
   SYSTEM:
   - '&ind_bat'
   - {t: '$$tabler:fold-down$$', type: trans}
