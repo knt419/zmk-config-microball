@@ -250,7 +250,7 @@ layers:
   - F10
   - Ctl+Alt+$$mdi:backspace-reverse-outline$$
   - Ctl+Sft+$$mdi:keyboard-esc$$
-  - PREVIOUS
+  - $$mdi:skip-previous$$
   - PLAY PAUSE
   - PAUSE
   - $$mdi:skip-next$$
