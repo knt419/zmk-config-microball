@@ -343,5 +343,5 @@ combos:
   k: Alt+$$mdi:arrow-right-bold$$
   l: [DEFAULT, MOUSE]
 - p: [11, 12]
-  k: LANGUAGE 1
+  k: LANGUAGE 2
   l: [DEFAULT, MOUSE]
