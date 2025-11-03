@@ -318,13 +318,10 @@ combos:
 - p: [0, 1]
   k: '&winmvleft'
   l: [DEFAULT, MOUSE]
-- p: [2, 1]
-  k: {t: '{}', h: '&zen_braces'}
-  l: [DEFAULT, MOUSE]
-- p: [23, 24]
+- p: [1, 2]
   k: {t: '[]', h: '&zen_brackets'}
   l: [DEFAULT, MOUSE]
-- p: [11, 12]
+- p: [23, 24]
   k: {t: (), h: '&zen_parenthesis'}
   l: [DEFAULT, MOUSE]
 - p: [8, 7]
@@ -344,4 +341,7 @@ combos:
   l: [DEFAULT, MOUSE]
 - p: [20, 21]
   k: Alt+$$mdi:arrow-right-bold$$
+  l: [DEFAULT, MOUSE]
+- p: [11, 12]
+  k: LANGUAGE 1
   l: [DEFAULT, MOUSE]
