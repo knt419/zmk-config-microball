@@ -83,7 +83,7 @@
         };
 
         IME_OFF {
-            bindings = <&kp LANGUAGE_1>;
+            bindings = <&kp LANGUAGE_2>;
             key-positions = <11 12>;
             layers = <0 1>;
         };
