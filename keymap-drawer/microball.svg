@@ -523,7 +523,7 @@ rect.held, rect.combo.held {
 <text x="645" y="91" class="combo tap">
 <tspan x="645" dy="-0.6em" style="font-size: 75%">LANGUAGE</tspan><tspan x="645" dy="1.2em" style="font-size: 75%">1</tspan>
 </text>
-<text x="645" y="102" class="combo hold"><tspan style="font-size: 60%">LANGUAGE 2</tspan></text>
+<text x="645" y="102" class="combo hold">Alt+`</text>
 </g>
 <g class="combo combopos-1">
 <rect rx="6" ry="6" x="687" y="39" width="28" height="26" class="combo"/>
@@ -544,31 +544,27 @@ rect.held, rect.combo.held {
 <text x="112" y="158" class="combo hold"><tspan style="font-size: 60%">&amp;zen_pare…</tspan></text>
 </g>
 <g class="combo combopos-5">
-<rect rx="6" ry="6" x="631" y="22" width="28" height="26" class="combo"/>
-<text x="645" y="35" class="combo tap">Alt+`</text>
-</g>
-<g class="combo combopos-6">
 <rect rx="6" ry="6" x="42" y="151" width="28" height="26" class="combo"/>
 <text x="56" y="164" class="combo tap">Ctl+F</text>
 </g>
-<g class="combo combopos-7">
+<g class="combo combopos-6">
 <rect rx="6" ry="6" x="574" y="75" width="28" height="26" class="combo"/>
 <text x="588" y="88" class="combo tap">Ctl+V</text>
 <text x="588" y="99" class="combo hold">V</text>
 </g>
-<g class="combo combopos-8">
+<g class="combo combopos-7">
 <rect rx="6" ry="6" x="154" y="75" width="28" height="26" class="combo"/>
 <text x="168" y="88" class="combo tap"><tspan style="font-size: 86%">&amp;DBLSFT</tspan></text>
 </g>
-<g class="combo combopos-9">
+<g class="combo combopos-8">
 <rect rx="6" ry="6" x="42" y="95" width="28" height="26" class="combo"/>
 <use href="#mdi:arrow-left-bold" xlink:href="#mdi:arrow-left-bold" x="47" y="99" height="18" width="18.0" class="combo tap glyph mdi:arrow-left-bold"/>
 </g>
-<g class="combo combopos-10">
+<g class="combo combopos-9">
 <rect rx="6" ry="6" x="687" y="95" width="28" height="26" class="combo"/>
 <use href="#mdi:arrow-right-bold" xlink:href="#mdi:arrow-right-bold" x="692" y="99" height="18" width="18.0" class="combo tap glyph mdi:arrow-right-bold"/>
 </g>
-<g class="combo combopos-11">
+<g class="combo combopos-10">
 <rect rx="6" ry="6" x="98" y="78" width="28" height="26" class="combo"/>
 <text x="112" y="91" class="combo tap">
 <tspan x="112" dy="-0.6em" style="font-size: 75%">LANGUAGE</tspan><tspan x="112" dy="1.2em" style="font-size: 75%">2</tspan>
@@ -762,7 +758,7 @@ rect.held, rect.combo.held {
 <text x="645" y="91" class="combo tap">
 <tspan x="645" dy="-0.6em" style="font-size: 75%">LANGUAGE</tspan><tspan x="645" dy="1.2em" style="font-size: 75%">1</tspan>
 </text>
-<text x="645" y="102" class="combo hold"><tspan style="font-size: 60%">LANGUAGE 2</tspan></text>
+<text x="645" y="102" class="combo hold">Alt+`</text>
 </g>
 <g class="combo combopos-1">
 <rect rx="6" ry="6" x="687" y="39" width="28" height="26" class="combo"/>
@@ -783,31 +779,27 @@ rect.held, rect.combo.held {
 <text x="112" y="158" class="combo hold"><tspan style="font-size: 60%">&amp;zen_pare…</tspan></text>
 </g>
 <g class="combo combopos-5">
-<rect rx="6" ry="6" x="631" y="22" width="28" height="26" class="combo"/>
-<text x="645" y="35" class="combo tap">Alt+`</text>
-</g>
-<g class="combo combopos-6">
 <rect rx="6" ry="6" x="42" y="151" width="28" height="26" class="combo"/>
 <text x="56" y="164" class="combo tap">Ctl+F</text>
 </g>
-<g class="combo combopos-7">
+<g class="combo combopos-6">
 <rect rx="6" ry="6" x="574" y="75" width="28" height="26" class="combo"/>
 <text x="588" y="88" class="combo tap">Ctl+V</text>
 <text x="588" y="99" class="combo hold">V</text>
 </g>
-<g class="combo combopos-8">
+<g class="combo combopos-7">
 <rect rx="6" ry="6" x="154" y="75" width="28" height="26" class="combo"/>
 <text x="168" y="88" class="combo tap"><tspan style="font-size: 86%">&amp;DBLSFT</tspan></text>
 </g>
-<g class="combo combopos-9">
+<g class="combo combopos-8">
 <rect rx="6" ry="6" x="42" y="95" width="28" height="26" class="combo"/>
 <use href="#mdi:arrow-left-bold" xlink:href="#mdi:arrow-left-bold" x="47" y="99" height="18" width="18.0" class="combo tap glyph mdi:arrow-left-bold"/>
 </g>
-<g class="combo combopos-10">
+<g class="combo combopos-9">
 <rect rx="6" ry="6" x="687" y="95" width="28" height="26" class="combo"/>
 <use href="#mdi:arrow-right-bold" xlink:href="#mdi:arrow-right-bold" x="692" y="99" height="18" width="18.0" class="combo tap glyph mdi:arrow-right-bold"/>
 </g>
-<g class="combo combopos-11">
+<g class="combo combopos-10">
 <rect rx="6" ry="6" x="98" y="78" width="28" height="26" class="combo"/>
 <text x="112" y="91" class="combo tap">
 <tspan x="112" dy="-0.6em" style="font-size: 75%">LANGUAGE</tspan><tspan x="112" dy="1.2em" style="font-size: 75%">2</tspan>
