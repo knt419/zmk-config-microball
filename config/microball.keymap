@@ -15,7 +15,7 @@
         compatible = "zmk,combos";
 
         IME_ON {
-            bindings = <&imeonoff LANGUAGE_2 LANGUAGE_1>;
+            bindings = <&imeonoff LA(GRAVE) LANGUAGE_1>;
             key-positions = <19 20>;
             layers = <0 1>;
         };
@@ -43,12 +43,6 @@
         parenthesis {
             bindings = <&paren 0 0>;
             key-positions = <23 24>;
-            layers = <0 1>;
-        };
-
-        jis_ime_togle {
-            bindings = <&kp LA(GRAVE)>;
-            key-positions = <8 7>;
             layers = <0 1>;
         };
 
