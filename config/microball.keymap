@@ -81,6 +81,12 @@
             key-positions = <11 12>;
             layers = <0 1>;
         };
+
+        brace {
+            bindings = <&brace 0 0>;
+            key-positions = <0 9>;
+            layers = <0 1>;
+        };
     };
 
     macros {
