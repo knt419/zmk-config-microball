@@ -87,6 +87,18 @@
             key-positions = <0 9>;
             layers = <0 1>;
         };
+
+        undo {
+            bindings = <&kp LC(Z)>;
+            key-positions = <23 24>;
+            layers = <0 1>;
+        };
+
+        redo {
+            bindings = <&kp LC(Y)>;
+            key-positions = <31 32>;
+            layers = <0 1>;
+        };
     };
 
     macros {
