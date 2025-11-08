@@ -36,13 +36,13 @@
 
         brackets {
             bindings = <&brack 0 0>;
-            key-positions = <1 2>;
+            key-positions = <22 33>;
             layers = <0 1>;
         };
 
         parenthesis {
             bindings = <&paren 0 0>;
-            key-positions = <23 24>;
+            key-positions = <10 21>;
             layers = <0 1>;
         };
 
