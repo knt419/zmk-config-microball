@@ -589,3 +589,6 @@ parse_config:
       key:
         shifted: ":"
         hold: ";"
+    parenthesis: {draw_separate: true}
+    brackets: {draw_separate: true}
+    braces: {draw_separate: true}
