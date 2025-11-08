@@ -318,10 +318,10 @@ combos:
 - p: [0, 1]
   k: '&winmvleft'
   l: [DEFAULT, MOUSE]
-- p: [1, 2]
+- p: [22, 33]
   k: {t: '[]', h: '&zen_brackets'}
   l: [DEFAULT, MOUSE]
-- p: [23, 24]
+- p: [10, 21]
   k: {t: (), h: '&zen_parenthesis'}
   l: [DEFAULT, MOUSE]
 - p: [22, 23]
