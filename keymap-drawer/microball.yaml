@@ -36,8 +36,8 @@ layers:
   - {t: ',', h: '!', s: <}
   - {t: ., h: '?', s: '>'}
   - {t: '$$mdi:microphone-off$$', h: 'Ctl+$$mdi:keyboard-space$$'}
-  - {t: Ctl+Z, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: Ctl+Y, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: '$$mdi:undo$$', h: '$$mdi:apple-keyboard-command$$'}
+  - {t: '$$mdi:redo$$', h: '$$mdi:apple-keyboard-option$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-control$$'}
@@ -259,8 +259,8 @@ layers:
   - SCROLLLOCK
   - KP NUMLOCK
   - $$mdi:mouse-scroll-wheel$$
-  - {t: Ctl+Z, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: Ctl+Y, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '$$mdi:undo$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:redo$$', h: '$$mdi:apple-keyboard-control$$'}
   - {type: held}
   - {t: '$$tabler:fold-down$$', type: trans}
   - CONTEXT MENU
