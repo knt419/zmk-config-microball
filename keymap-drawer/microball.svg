@@ -574,6 +574,13 @@ rect.held, rect.combo.held {
 <tspan x="112" dy="-0.6em" style="font-size: 75%">LANGUAGE</tspan><tspan x="112" dy="1.2em" style="font-size: 75%">2</tspan>
 </text>
 </g>
+<g class="combo combopos-11">
+<path d="M378,63 l-332,0" class="combo"/>
+<path d="M378,63 l332,0" class="combo"/>
+<rect rx="6" ry="6" x="364" y="50" width="28" height="26" class="combo"/>
+<text x="378" y="63" class="combo tap">{}</text>
+<text x="378" y="74" class="combo hold"><tspan style="font-size: 60%">&amp;zen_brac…</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 339)" class="layer-MOUSE">
@@ -812,6 +819,13 @@ rect.held, rect.combo.held {
 <text x="112" y="91" class="combo tap">
 <tspan x="112" dy="-0.6em" style="font-size: 75%">LANGUAGE</tspan><tspan x="112" dy="1.2em" style="font-size: 75%">2</tspan>
 </text>
+</g>
+<g class="combo combopos-11">
+<path d="M378,63 l-332,0" class="combo"/>
+<path d="M378,63 l332,0" class="combo"/>
+<rect rx="6" ry="6" x="364" y="50" width="28" height="26" class="combo"/>
+<text x="378" y="63" class="combo tap">{}</text>
+<text x="378" y="74" class="combo hold"><tspan style="font-size: 60%">&amp;zen_brac…</tspan></text>
 </g>
 </g>
 </g>
