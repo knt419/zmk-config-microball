@@ -457,6 +457,8 @@ parse_config:
     LC(NUMBER_0): $$material:1x_mobiledata$$
     PRINTSCREEN: $$material:screenshot_region$$
     LG(TAB): $$mdi:view-dashboard-outline$$
+    LC(Z): $$mdi:undo$$
+    LC(Y): $$mdi:redo$$
 
     # Arrows
     UP: $$mdi:arrow-up-bold$$
