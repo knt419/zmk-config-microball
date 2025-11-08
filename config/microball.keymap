@@ -82,7 +82,7 @@
             layers = <0 1>;
         };
 
-        brace {
+        braces {
             bindings = <&brace 0 0>;
             key-positions = <0 9>;
             layers = <0 1>;
