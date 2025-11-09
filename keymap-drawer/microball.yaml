@@ -11,7 +11,7 @@ layers:
   - {t: E, h: Gui+E}
   - L
   - P
-  - {t: I, h: ':'}
+  - I
   - T
   - {t: A, h: Ctl+A}
   - K
@@ -22,14 +22,14 @@ layers:
   - N
   - O
   - U
-  - {t: S, h: ;}
+  - S
   - {t: /, h: '$$mdi:apple-keyboard-shift$$', s: '?'}
   - F
   - {t: C, h: Ctl+C}
   - M
   - B
   - '@'
-  - {t: '&right_arrow', h: '&down_arrow', s: '&left_arrow'}
+  - {t: ;, s: ':'}
   - J
   - Y
   - V
