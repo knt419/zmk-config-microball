@@ -99,6 +99,12 @@
             key-positions = <31 32>;
             layers = <0 1>;
         };
+
+        taskview {
+            bindings = <&kp LG(TAB)>;
+            key-positions = <18 19>;
+            layers = <4>;
+        };
     };
 
     macros {
