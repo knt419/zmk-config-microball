@@ -354,3 +354,6 @@ combos:
 - p: [31, 32]
   k: $$mdi:redo$$
   l: [DEFAULT, MOUSE]
+- p: [18, 19]
+  k: $$mdi:view-dashboard-outline$$
+  l: [NUMBER]
