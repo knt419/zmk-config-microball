@@ -36,8 +36,8 @@ layers:
   - {t: ',', h: '!', s: <}
   - {t: ., h: '?', s: '>'}
   - {t: '$$mdi:microphone-off$$', h: 'Ctl+$$mdi:keyboard-space$$'}
-  - {t: '$$mdi:undo$$', h: '$$mdi:apple-keyboard-command$$'}
-  - {t: '$$mdi:redo$$', h: '$$mdi:apple-keyboard-option$$'}
+  - {t: Ctl+PgUp, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: Ctl+PgDn, h: '$$mdi:apple-keyboard-option$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-control$$'}
