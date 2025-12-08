@@ -335,12 +335,6 @@ combos:
 - p: [12, 13]
   k: '&DBLSFT'
   l: [DEFAULT, MOUSE]
-- p: [10, 11]
-  k: Alt+$$mdi:arrow-left-bold$$
-  l: [DEFAULT, MOUSE]
-- p: [20, 21]
-  k: Alt+$$mdi:arrow-right-bold$$
-  l: [DEFAULT, MOUSE]
 - p: [11, 12]
   k: LANGUAGE 2
   l: [DEFAULT, MOUSE]
@@ -357,3 +351,9 @@ combos:
 - p: [18, 19]
   k: $$mdi:view-dashboard-outline$$
   l: [NUMBER]
+- p: [10, 11]
+  k: HOME
+  l: [DEFAULT, MOUSE]
+- p: [20, 21]
+  k: END
+  l: [DEFAULT, MOUSE]
