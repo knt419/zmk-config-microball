@@ -1,0 +1,5 @@
+config SHIELD_MICROBALL_R
+    def_select $(shields_list_contains,microball_R)
+
+config SHIELD_MICROBALL_L
+    def_select $(shields_list_contains,microball_L)

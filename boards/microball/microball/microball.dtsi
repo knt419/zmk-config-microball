@@ -6,6 +6,10 @@
         zmk,physical-layout = &microball_physical_layout;
     };
 
+    &uicr {
+            nfct-pins-as-gpios;
+    };
+
     microball_physical_layout: microball_physical_layout {
         compatible = "zmk,physical-layout";
         display-name = "Default";
