@@ -1,13 +1,13 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 #include <physical_layouts.dtsi>
 
+&uicr {
+        nfct-pins-as-gpios;
+};
+
 / {
     chosen {
         zmk,physical-layout = &microball_physical_layout;
-    };
-
-    &uicr {
-            nfct-pins-as-gpios;
     };
 
     microball_physical_layout: microball_physical_layout {
