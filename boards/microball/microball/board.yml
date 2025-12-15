@@ -1,8 +1,0 @@
-board:
-  name: microball
-  vendor: microball
-  revision:
-    format: major.minor.patch
-    default: 1.0.0
-  socs:
-  - name: xiao_ble
