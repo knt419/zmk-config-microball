@@ -79,7 +79,6 @@
         invert-y;
         zephyr,axis-x = <INPUT_REL_Y>;
         zephyr,axis-y = <INPUT_REL_X>;
-        smart-mode;
 
         force-awake;
         /* keep the sensor awake while ZMK activity state is ACTIVE,
