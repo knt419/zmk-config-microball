@@ -111,6 +111,18 @@
             key-positions = <32 33>;
             layers = <0 1>;
         };
+
+        bootloader_l {
+            bindings = <&bootloader>;
+            key-positions = <0 10>;
+            layers = <0 1>;
+        };
+
+        bootloader_r {
+            bindings = <&bootloader>;
+            key-positions = <9 21>;
+            layers = <0 1>;
+        };
     };
 
     macros {
