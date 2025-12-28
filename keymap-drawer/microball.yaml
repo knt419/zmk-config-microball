@@ -360,3 +360,9 @@ combos:
 - p: [32, 33]
   k: {t: Ctl+W, h: Alt+F4}
   l: [DEFAULT, MOUSE]
+- p: [0, 10]
+  k: $$mdi:progress-download$$
+  l: [DEFAULT, MOUSE]
+- p: [9, 21]
+  k: $$mdi:progress-download$$
+  l: [DEFAULT, MOUSE]
