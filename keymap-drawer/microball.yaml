@@ -36,7 +36,7 @@ layers:
   - {t: ',', h: '!', s: <}
   - {t: ., h: '?', s: '>'}
   - {t: '$$mdi:microphone-off$$', h: 'Ctl+$$mdi:keyboard-space$$'}
-  - {t: Ctl+PgUp, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: Ctl+PgUp, h: '$$mdi:microsoft-windows$$'}
   - {t: Ctl+PgDn, h: '$$mdi:apple-keyboard-option$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
@@ -313,10 +313,10 @@ combos:
   k: {t: あいう, h: Alt+`}
   l: [DEFAULT, MOUSE]
 - p: [8, 9]
-  k: '&winmvright'
+  k: {t: '$$mdi:microsoft-windows$$', h: '$$mdi:arrow-right-bold$$'}
   l: [DEFAULT, MOUSE]
 - p: [0, 1]
-  k: '&winmvleft'
+  k: {t: '$$mdi:microsoft-windows$$', h: '$$mdi:arrow-left-bold$$'}
   l: [DEFAULT, MOUSE]
 - p: [22, 33]
   k: {t: '[]', h: '&zen_brackets'}
