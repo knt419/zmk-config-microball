@@ -426,8 +426,8 @@ parse_config:
     LEFT_SHIFT: $$mdi:apple-keyboard-shift$$
     LSHFT: $$mdi:apple-keyboard-shift$$
     LCMD: $$mdi:apple-keyboard-command$$
-    LG: $$mdi:apple-keyboard-command$$
-    LEFT_GUI: $$mdi:apple-keyboard-command$$
+    LG: $$mdi:microsoft-windows$$
+    LEFT_GUI: $$mdi:microsoft-windows$$
     LEFT_COMMAND: $$mdi:apple-keyboard-command$$
     LEFT_WIN: $$mdi:microsoft-windows$$
     RCTRL: $$mdi:apple-keyboard-control$$
@@ -438,7 +438,7 @@ parse_config:
     RIGHT_SHIFT: $$mdi:apple-keyboard-shift$$
     RSHFT: $$mdi:apple-keyboard-shift$$
     RCMD: $$mdi:apple-keyboard-command$$
-    RG: $$mdi:apple-keyboard-command$$
+    RG: $$mdi:microsoft-windows$$
     RIGHT_WIN: $$mdi:microsoft-windows$$
     PSCRN: $$mdi:printer-outline$$
     RIGHT_COMMAND: $$mdi:apple-keyboard-command$$
@@ -593,6 +593,14 @@ parse_config:
       key:
         shifted: ":"
         hold: ";"
+    win_mv_left:
+      key:
+        tap: $$mdi:microsoft-windows$$
+        hold: $$mdi:arrow-left-bold$$
+    win_mv_right:
+      key:
+        tap: $$mdi:microsoft-windows$$
+        hold: $$mdi:arrow-right-bold$$
     parenthesis: {draw_separate: true}
     brackets: {draw_separate: true}
     braces: {draw_separate: true}
