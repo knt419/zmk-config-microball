@@ -595,12 +595,10 @@ parse_config:
         hold: ";"
     win_mv_left:
       key:
-        tap: $$mdi:microsoft-windows$$
-        hold: $$mdi:arrow-left-bold$$
+        tap: $$mdi:microsoft-windows$$ $$mdi:arrow-left-bold$$
     win_mv_right:
       key:
-        tap: $$mdi:microsoft-windows$$
-        hold: $$mdi:arrow-right-bold$$
+        tap: $$mdi:microsoft-windows$$ $$mdi:arrow-right-bold$$
     parenthesis: {draw_separate: true}
     brackets: {draw_separate: true}
     braces: {draw_separate: true}
