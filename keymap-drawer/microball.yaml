@@ -313,10 +313,10 @@ combos:
   k: {t: あいう, h: Alt+`}
   l: [DEFAULT, MOUSE]
 - p: [8, 9]
-  k: $$mdi:microsoft-windows$$ $$mdi:arrow-right-bold$$
+  k: {h: '$$mdi:arrow-right-bold$$', s: '$$mdi:microsoft-windows$$'}
   l: [DEFAULT, MOUSE]
 - p: [0, 1]
-  k: $$mdi:microsoft-windows$$ $$mdi:arrow-left-bold$$
+  k: {h: '$$mdi:arrow-left-bold$$', s: '$$mdi:microsoft-windows$$'}
   l: [DEFAULT, MOUSE]
 - p: [22, 33]
   k: {t: '[]', h: '&zen_brackets'}
