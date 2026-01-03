@@ -181,25 +181,25 @@ text.footer {
 }
 
 /* styling for combo tap, and key non-tap label text */
-text.combo, text.hold, text.shifted, text.left, text.right {
+text.combo, text.hold, text.shifted, text.left, text.right, text.tl, text.tr, text.bl, text.br {
     font-size: 11px;
 }
 
-text.hold {
+text.hold, text.bl, text.br {
     text-anchor: middle;
     dominant-baseline: auto;
 }
 
-text.shifted {
+text.shifted, text.tl, text.tr {
     text-anchor: middle;
     dominant-baseline: hanging;
 }
 
-text.left {
+text.left, text.tl, text.bl {
     text-anchor: start;
 }
 
-text.right {
+text.right, text.tr, text.br {
     text-anchor: end;
 }
 
@@ -530,9 +530,7 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-0">
 <rect rx="6" ry="6" x="631" y="78" width="28" height="26" class="combo"/>
-<text x="645" y="91" class="combo tap">
-<tspan x="645" dy="-0.6em" style="font-size: 75%">LANGUAGE</tspan><tspan x="645" dy="1.2em" style="font-size: 75%">1</tspan>
-</text>
+<text x="645" y="91" class="combo tap">あいう</text>
 <text x="645" y="102" class="combo hold">Alt+`</text>
 </g>
 <g class="combo combopos-1">
@@ -558,9 +556,7 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-6">
 <rect rx="6" ry="6" x="98" y="78" width="28" height="26" class="combo"/>
-<text x="112" y="91" class="combo tap">
-<tspan x="112" dy="-0.6em" style="font-size: 75%">LANGUAGE</tspan><tspan x="112" dy="1.2em" style="font-size: 75%">2</tspan>
-</text>
+<text x="112" y="91" class="combo tap">ABC</text>
 </g>
 <g class="combo combopos-7">
 <rect rx="6" ry="6" x="98" y="134" width="28" height="26" class="combo"/>
@@ -768,9 +764,7 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-0">
 <rect rx="6" ry="6" x="631" y="78" width="28" height="26" class="combo"/>
-<text x="645" y="91" class="combo tap">
-<tspan x="645" dy="-0.6em" style="font-size: 75%">LANGUAGE</tspan><tspan x="645" dy="1.2em" style="font-size: 75%">1</tspan>
-</text>
+<text x="645" y="91" class="combo tap">あいう</text>
 <text x="645" y="102" class="combo hold">Alt+`</text>
 </g>
 <g class="combo combopos-1">
@@ -796,9 +790,7 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-6">
 <rect rx="6" ry="6" x="98" y="78" width="28" height="26" class="combo"/>
-<text x="112" y="91" class="combo tap">
-<tspan x="112" dy="-0.6em" style="font-size: 75%">LANGUAGE</tspan><tspan x="112" dy="1.2em" style="font-size: 75%">2</tspan>
-</text>
+<text x="112" y="91" class="combo tap">ABC</text>
 </g>
 <g class="combo combopos-7">
 <rect rx="6" ry="6" x="98" y="134" width="28" height="26" class="combo"/>

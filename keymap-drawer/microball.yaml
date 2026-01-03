@@ -310,7 +310,7 @@ layers:
   - $$mdi:progress-download$$
 combos:
 - p: [19, 20]
-  k: {t: LANGUAGE 1, h: Alt+`}
+  k: {t: あいう, h: Alt+`}
   l: [DEFAULT, MOUSE]
 - p: [8, 9]
   k: '&winmvright'
@@ -336,7 +336,7 @@ combos:
   k: '&DBLSFT'
   l: [DEFAULT, MOUSE]
 - p: [11, 12]
-  k: LANGUAGE 2
+  k: ABC
   l: [DEFAULT, MOUSE]
 - p: [0, 9]
   k: {t: '{}', h: '&zen_braces'}
