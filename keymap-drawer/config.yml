@@ -596,11 +596,11 @@ parse_config:
     win_mv_left:
       key:
         shifted: $$mdi:microsoft-windows$$
-        hold: $$mdi:arrow-left-bold$$
+        hold: "<"
     win_mv_right:
       key:
         shifted: $$mdi:microsoft-windows$$
-        hold: $$mdi:arrow-right-bold$$
+        hold: ">"
     parenthesis: {draw_separate: true}
     brackets: {draw_separate: true}
     braces: {draw_separate: true}
