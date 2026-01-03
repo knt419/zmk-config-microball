@@ -459,6 +459,8 @@ parse_config:
     LG(TAB): $$mdi:view-dashboard-outline$$
     LC(Z): $$mdi:undo$$
     LC(Y): $$mdi:redo$$
+    LANGUAGE_1: 'あいう'
+    LANGUAGE_2: 'ABC'
 
     # Arrows
     UP: $$mdi:arrow-up-bold$$
