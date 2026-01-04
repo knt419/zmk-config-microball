@@ -398,6 +398,26 @@
             #binding-cells = <2>;
             tapping-term-ms = <200>;
         };
+
+        slash: slash {
+            compatible = "zmk,behavior-mod-morph";
+            bindings = <&kp SLASH>, <&kp BACKSLASH>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        mt_slash: mt_slash {
+            compatible = "zmk,behavior-hold-tap";
+            bindings = <&kp>, <&slash>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <300>;
+            quick-tap-ms = <250>;
+            require-prior-idle-ms = <150>;
+            flavor = "tap-preferred";
+            hold-trigger-on-release;
+        };
     };
 
     keymap {
@@ -407,7 +427,7 @@
             bindings = <
 &kp Q                         &kp W                          &kp MINUS                        &kp R      &kp Z                                               &holdtap LC(X) X  &kp D  &holdtap LG(E) E  &kp L                       &kp P
 &kp I                         &kp T                          &holdtap LC(A) A                 &kp K      &kp G             &kp C_MUTE         &lt 6 ESC      &kp H             &kp N  &kp O             &kp U                       &kp S
-&mt LEFT_SHIFT SLASH          &kp F                          &holdtap LC(C) C                 &kp M      &kp B             &at                &kp SEMICOLON  &kp J             &kp Y  &kp V             &holdtap EXCLAMATION COMMA  &holdtap QUESTION PERIOD
+&mt_slash LEFT_SHIFT 0        &kp F                          &holdtap LC(C) C                 &kp M      &kp B             &at                &kp SEMICOLON  &kp J             &kp Y  &kp V             &holdtap EXCLAMATION COMMA  &holdtap QUESTION PERIOD
 &holdtap LC(SPACE) LS(LC(M))  &holdtap LEFT_GUI LC(PAGE_UP)  &holdtap LEFT_ALT LC(PAGE_DOWN)  &mkp LCLK  &mt LSHIFT SPACE  &mt LCTRL TAB      &lt_bsdel 5 0  &lt 4 ENTER                                                            &kp PRINTSCREEN
             >;
 
