@@ -3,7 +3,7 @@ layers:
   DEFAULT:
   - Q
   - W
-  - X
+  - {t: X, h: Ctl+X}
   - D
   - Z
   - {t: /, s: \}
@@ -327,7 +327,7 @@ combos:
   l: [DEFAULT, MOUSE]
   draw_separate: true
 - p: [22, 23]
-  k: Ctl+F
+  k: {t: Ctl+F, h: Ctl+H}
   l: [DEFAULT, MOUSE]
 - p: [18, 19]
   k: {t: Ctl+V, h: V}
