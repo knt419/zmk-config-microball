@@ -352,10 +352,10 @@ combos:
   k: $$mdi:view-dashboard-outline$$
   l: [NUMBER]
 - p: [10, 11]
-  k: HOME
+  k: {h: '$$mdi:arrow-up-bold$$', s: '$$mdi:bluetooth-connect$$'}
   l: [DEFAULT, MOUSE]
 - p: [20, 21]
-  k: END
+  k: {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
   l: [DEFAULT, MOUSE]
 - p: [32, 33]
   k: {t: Ctl+W, h: Alt+F4}
