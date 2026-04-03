@@ -94,14 +94,14 @@
             layers = <4>;
         };
 
-        home {
-            bindings = <&kp HOME>;
+        bt_prev {
+            bindings = <&bt BT_PRV>;
             key-positions = <10 11>;
             layers = <0 1>;
         };
 
-        end {
-            bindings = <&kp END>;
+        bt_next {
+            bindings = <&bt BT_NXT>;
             key-positions = <20 21>;
             layers = <0 1>;
         };
