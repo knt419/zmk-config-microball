@@ -94,14 +94,14 @@
             layers = <4>;
         };
 
-        bt_prev {
-            bindings = <&bt BT_PRV>;
+        home {
+            bindings = <&kp HOME>;
             key-positions = <10 11>;
             layers = <0 1>;
         };
 
-        bt_next {
-            bindings = <&bt BT_NXT>;
+        end {
+            bindings = <&kp END>;
             key-positions = <20 21>;
             layers = <0 1>;
         };
@@ -109,6 +109,18 @@
         close {
             bindings = <&holdtap LA(F4) LC(W)>;
             key-positions = <32 33>;
+            layers = <0 1>;
+        };
+
+        maximize {
+            bindings = <&kp LG(UP_ARROW)>;
+            key-positions = <7 8>;
+            layers = <0 1>;
+        };
+
+        minimize {
+            bindings = <&kp LG(DOWN)>;
+            key-positions = <1 2>;
             layers = <0 1>;
         };
     };
