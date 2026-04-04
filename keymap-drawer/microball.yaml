@@ -361,8 +361,8 @@ combos:
   k: {t: Ctl+W, h: Alt+F4}
   l: [DEFAULT, MOUSE]
 - p: [7, 8]
-  k: {h: ^, s: '$$mdi:microsoft-windows$'}
+  k: {h: ^, s: '$$mdi:microsoft-windows$$'}
   l: [DEFAULT, MOUSE]
 - p: [1, 2]
-  k: {h: _, s: '$$mdi:microsoft-windows$'}
+  k: {h: _, s: '$$mdi:microsoft-windows$$'}
   l: [DEFAULT, MOUSE]
