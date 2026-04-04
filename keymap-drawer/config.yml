@@ -603,11 +603,11 @@ parse_config:
         hold: ">"
     maximize:
       key:
-        shifted: $$mdi:microsoft-windows$
+        shifted: $$mdi:microsoft-windows$$
         hold: "^"
     minimize:
       key:
-        shifted: $$mdi:microsoft-windows$
+        shifted: $$mdi:microsoft-windows$$
         hold: "_"
     parenthesis: {draw_separate: true}
     brackets: {draw_separate: true}
