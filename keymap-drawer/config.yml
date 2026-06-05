@@ -603,12 +603,16 @@ parse_config:
         hold: ">"
     maximize:
       key:
-        shifted: $$mdi:microsoft-windows$$
-        hold: "^"
+        shifted: $$mdi:window-maximize$$
+        hold: ""
     minimize:
       key:
-        shifted: $$mdi:microsoft-windows$$
-        hold: "_"
+        shifted: $$mdi:window-minimize$$
+        hold: ""
+    close:
+      key:
+        shifted: $$mdi:window-close$$
+        hold: ""
     parenthesis: {draw_separate: true}
     brackets: {draw_separate: true}
     braces: {draw_separate: true}
