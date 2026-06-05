@@ -352,11 +352,11 @@ combos:
   k: $$mdi:view-dashboard-outline$$
   l: [NUMBER]
 - p: [8, 9]
-  k: {t: Ctl+W, h: Alt+F4}
+  k: {s: '$$mdi:window-close$$'}
   l: [DEFAULT, MOUSE]
 - p: [7, 8]
-  k: {h: ^, s: '$$mdi:microsoft-windows$$'}
+  k: {s: '$$mdi:window-maximize$$'}
   l: [DEFAULT, MOUSE]
 - p: [6, 7]
-  k: {h: _, s: '$$mdi:microsoft-windows$$'}
+  k: {s: '$$mdi:window-minimize$$'}
   l: [DEFAULT, MOUSE]
