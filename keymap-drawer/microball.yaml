@@ -312,10 +312,10 @@ combos:
 - p: [19, 20]
   k: {t: あいう, h: Alt+`}
   l: [DEFAULT, MOUSE]
-- p: [8, 9]
+- p: [20, 21]
   k: {h: '>', s: '$$mdi:microsoft-windows$$'}
   l: [DEFAULT, MOUSE]
-- p: [0, 1]
+- p: [10, 11]
   k: {h: <, s: '$$mdi:microsoft-windows$$'}
   l: [DEFAULT, MOUSE]
 - p: [22, 33]
@@ -351,18 +351,12 @@ combos:
 - p: [18, 19]
   k: $$mdi:view-dashboard-outline$$
   l: [NUMBER]
-- p: [10, 11]
-  k: HOME
-  l: [DEFAULT, MOUSE]
-- p: [20, 21]
-  k: END
-  l: [DEFAULT, MOUSE]
-- p: [32, 33]
+- p: [8, 9]
   k: {t: Ctl+W, h: Alt+F4}
   l: [DEFAULT, MOUSE]
 - p: [7, 8]
   k: {h: ^, s: '$$mdi:microsoft-windows$$'}
   l: [DEFAULT, MOUSE]
-- p: [1, 2]
+- p: [6, 7]
   k: {h: _, s: '$$mdi:microsoft-windows$$'}
   l: [DEFAULT, MOUSE]

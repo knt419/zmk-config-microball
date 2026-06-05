@@ -534,14 +534,14 @@ rect.held, rect.combo.held {
 <text x="645" y="102" class="combo hold">Alt+`</text>
 </g>
 <g class="combo combopos-1">
-<rect rx="6" ry="6" x="687" y="39" width="28" height="26" class="combo"/>
-<text x="701" y="63" class="combo hold">&gt;</text>
-<use href="#mdi:microsoft-windows" xlink:href="#mdi:microsoft-windows" x="693" y="41" height="15" width="15.0" class="combo shifted glyph mdi:microsoft-windows"/>
+<rect rx="6" ry="6" x="687" y="95" width="28" height="26" class="combo"/>
+<text x="701" y="119" class="combo hold">&gt;</text>
+<use href="#mdi:microsoft-windows" xlink:href="#mdi:microsoft-windows" x="693" y="97" height="15" width="15.0" class="combo shifted glyph mdi:microsoft-windows"/>
 </g>
 <g class="combo combopos-2">
-<rect rx="6" ry="6" x="42" y="39" width="28" height="26" class="combo"/>
-<text x="56" y="63" class="combo hold">&lt;</text>
-<use href="#mdi:microsoft-windows" xlink:href="#mdi:microsoft-windows" x="49" y="41" height="15" width="15.0" class="combo shifted glyph mdi:microsoft-windows"/>
+<rect rx="6" ry="6" x="42" y="95" width="28" height="26" class="combo"/>
+<text x="56" y="119" class="combo hold">&lt;</text>
+<use href="#mdi:microsoft-windows" xlink:href="#mdi:microsoft-windows" x="49" y="97" height="15" width="15.0" class="combo shifted glyph mdi:microsoft-windows"/>
 </g>
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="42" y="151" width="28" height="26" class="combo"/>
@@ -570,27 +570,19 @@ rect.held, rect.combo.held {
 <use href="#mdi:redo" xlink:href="#mdi:redo" x="636" y="138" height="18" width="18.0" class="combo tap glyph mdi:redo"/>
 </g>
 <g class="combo combopos-9">
-<rect rx="6" ry="6" x="42" y="95" width="28" height="26" class="combo"/>
-<text x="56" y="108" class="combo tap">HOME</text>
+<rect rx="6" ry="6" x="687" y="39" width="28" height="26" class="combo"/>
+<text x="701" y="52" class="combo tap">Ctl+W</text>
+<text x="701" y="63" class="combo hold">Alt+F4</text>
 </g>
 <g class="combo combopos-10">
-<rect rx="6" ry="6" x="687" y="95" width="28" height="26" class="combo"/>
-<text x="701" y="108" class="combo tap">END</text>
-</g>
-<g class="combo combopos-11">
-<rect rx="6" ry="6" x="687" y="152" width="28" height="26" class="combo"/>
-<text x="701" y="165" class="combo tap">Ctl+W</text>
-<text x="701" y="176" class="combo hold">Alt+F4</text>
-</g>
-<g class="combo combopos-12">
 <rect rx="6" ry="6" x="631" y="22" width="28" height="26" class="combo"/>
 <text x="645" y="46" class="combo hold">^</text>
 <use href="#mdi:microsoft-windows" xlink:href="#mdi:microsoft-windows" x="637" y="24" height="15" width="15.0" class="combo shifted glyph mdi:microsoft-windows"/>
 </g>
-<g class="combo combopos-13">
-<rect rx="6" ry="6" x="98" y="22" width="28" height="26" class="combo"/>
-<text x="112" y="46" class="combo hold">_</text>
-<use href="#mdi:microsoft-windows" xlink:href="#mdi:microsoft-windows" x="105" y="24" height="15" width="15.0" class="combo shifted glyph mdi:microsoft-windows"/>
+<g class="combo combopos-11">
+<rect rx="6" ry="6" x="574" y="19" width="28" height="26" class="combo"/>
+<text x="588" y="43" class="combo hold">_</text>
+<use href="#mdi:microsoft-windows" xlink:href="#mdi:microsoft-windows" x="581" y="21" height="15" width="15.0" class="combo shifted glyph mdi:microsoft-windows"/>
 </g>
 </g>
 </g>
@@ -781,14 +773,14 @@ rect.held, rect.combo.held {
 <text x="645" y="102" class="combo hold">Alt+`</text>
 </g>
 <g class="combo combopos-1">
-<rect rx="6" ry="6" x="687" y="39" width="28" height="26" class="combo"/>
-<text x="701" y="63" class="combo hold">&gt;</text>
-<use href="#mdi:microsoft-windows" xlink:href="#mdi:microsoft-windows" x="693" y="41" height="15" width="15.0" class="combo shifted glyph mdi:microsoft-windows"/>
+<rect rx="6" ry="6" x="687" y="95" width="28" height="26" class="combo"/>
+<text x="701" y="119" class="combo hold">&gt;</text>
+<use href="#mdi:microsoft-windows" xlink:href="#mdi:microsoft-windows" x="693" y="97" height="15" width="15.0" class="combo shifted glyph mdi:microsoft-windows"/>
 </g>
 <g class="combo combopos-2">
-<rect rx="6" ry="6" x="42" y="39" width="28" height="26" class="combo"/>
-<text x="56" y="63" class="combo hold">&lt;</text>
-<use href="#mdi:microsoft-windows" xlink:href="#mdi:microsoft-windows" x="49" y="41" height="15" width="15.0" class="combo shifted glyph mdi:microsoft-windows"/>
+<rect rx="6" ry="6" x="42" y="95" width="28" height="26" class="combo"/>
+<text x="56" y="119" class="combo hold">&lt;</text>
+<use href="#mdi:microsoft-windows" xlink:href="#mdi:microsoft-windows" x="49" y="97" height="15" width="15.0" class="combo shifted glyph mdi:microsoft-windows"/>
 </g>
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="42" y="151" width="28" height="26" class="combo"/>
@@ -817,27 +809,19 @@ rect.held, rect.combo.held {
 <use href="#mdi:redo" xlink:href="#mdi:redo" x="636" y="138" height="18" width="18.0" class="combo tap glyph mdi:redo"/>
 </g>
 <g class="combo combopos-9">
-<rect rx="6" ry="6" x="42" y="95" width="28" height="26" class="combo"/>
-<text x="56" y="108" class="combo tap">HOME</text>
+<rect rx="6" ry="6" x="687" y="39" width="28" height="26" class="combo"/>
+<text x="701" y="52" class="combo tap">Ctl+W</text>
+<text x="701" y="63" class="combo hold">Alt+F4</text>
 </g>
 <g class="combo combopos-10">
-<rect rx="6" ry="6" x="687" y="95" width="28" height="26" class="combo"/>
-<text x="701" y="108" class="combo tap">END</text>
-</g>
-<g class="combo combopos-11">
-<rect rx="6" ry="6" x="687" y="152" width="28" height="26" class="combo"/>
-<text x="701" y="165" class="combo tap">Ctl+W</text>
-<text x="701" y="176" class="combo hold">Alt+F4</text>
-</g>
-<g class="combo combopos-12">
 <rect rx="6" ry="6" x="631" y="22" width="28" height="26" class="combo"/>
 <text x="645" y="46" class="combo hold">^</text>
 <use href="#mdi:microsoft-windows" xlink:href="#mdi:microsoft-windows" x="637" y="24" height="15" width="15.0" class="combo shifted glyph mdi:microsoft-windows"/>
 </g>
-<g class="combo combopos-13">
-<rect rx="6" ry="6" x="98" y="22" width="28" height="26" class="combo"/>
-<text x="112" y="46" class="combo hold">_</text>
-<use href="#mdi:microsoft-windows" xlink:href="#mdi:microsoft-windows" x="105" y="24" height="15" width="15.0" class="combo shifted glyph mdi:microsoft-windows"/>
+<g class="combo combopos-11">
+<rect rx="6" ry="6" x="574" y="19" width="28" height="26" class="combo"/>
+<text x="588" y="43" class="combo hold">_</text>
+<use href="#mdi:microsoft-windows" xlink:href="#mdi:microsoft-windows" x="581" y="21" height="15" width="15.0" class="combo shifted glyph mdi:microsoft-windows"/>
 </g>
 </g>
 </g>
