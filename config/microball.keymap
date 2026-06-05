@@ -22,14 +22,14 @@
 
         win_mv_right {
             bindings = <&winmvright>;
-            key-positions = <8 9>;
+            key-positions = <20 21>;
             slow-release;
             layers = <0 1>;
         };
 
         win_mv_left {
             bindings = <&winmvleft>;
-            key-positions = <0 1>;
+            key-positions = <10 11>;
             slow-release;
             layers = <0 1>;
         };
@@ -94,21 +94,9 @@
             layers = <4>;
         };
 
-        home {
-            bindings = <&kp HOME>;
-            key-positions = <10 11>;
-            layers = <0 1>;
-        };
-
-        end {
-            bindings = <&kp END>;
-            key-positions = <20 21>;
-            layers = <0 1>;
-        };
-
         close {
             bindings = <&holdtap LA(F4) LC(W)>;
-            key-positions = <32 33>;
+            key-positions = <8 9>;
             layers = <0 1>;
         };
 
@@ -120,8 +108,10 @@
 
         minimize {
             bindings = <&kp LG(DOWN)>;
-            key-positions = <1 2>;
+            key-positions = <6 7>;
             layers = <0 1>;
+            timeout-ms = <100>;
+            require-prior-idle-ms = <500>;
         };
     };
 
