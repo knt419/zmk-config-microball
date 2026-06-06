@@ -355,8 +355,8 @@ combos:
   k: {s: '$$mdi:window-close$$'}
   l: [DEFAULT, MOUSE]
 - p: [7, 8]
-  k: {s: '$$mdi:window-maximize$$'}
+  k: $$mdi:window-maximize$$
   l: [DEFAULT, MOUSE]
 - p: [6, 7]
-  k: {s: '$$mdi:window-minimize$$'}
+  k: $$mdi:window-minimize$$
   l: [DEFAULT, MOUSE]
