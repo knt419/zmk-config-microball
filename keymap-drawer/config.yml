@@ -604,8 +604,7 @@ parse_config:
         shifted: $$mdi:microsoft-windows$$
         hold: ">"
     close: 
-       key:
-         shifted: $$mdi:window-close$$
+       key: $$mdi:window-close$$
     parenthesis: {draw_separate: true}
     brackets: {draw_separate: true}
     braces: {draw_separate: true}
