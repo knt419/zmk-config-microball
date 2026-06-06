@@ -606,7 +606,7 @@ parse_config:
     close: 
       key: $$mdi:window-close$$
     find_replace:
-      key: $$material:Search$$
+      key: $$material:search$$
     parenthesis: {draw_separate: true}
     brackets: {draw_separate: true}
     braces: {draw_separate: true}
