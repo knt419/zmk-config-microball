@@ -461,6 +461,8 @@ parse_config:
     LC(Y): $$mdi:redo$$
     LANGUAGE_1: 'あいう'
     LANGUAGE_2: 'ABC'
+    LG(UP_ARROW): $$mdi:window-maximize$$
+    LG(DOWN): $$mdi:window-minimize$$
 
     # Arrows
     UP: $$mdi:arrow-up-bold$$
@@ -601,14 +603,6 @@ parse_config:
       key:
         shifted: $$mdi:microsoft-windows$$
         hold: ">"
-    maximize:
-      key:
-        shifted: $$mdi:window-maximize$$
-        hold: ""
-    minimize:
-      key:
-        shifted: $$mdi:window-minimize$$
-        hold: ""
     close: 
        key:
          shifted: $$mdi:window-close$$
