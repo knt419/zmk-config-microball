@@ -604,7 +604,9 @@ parse_config:
         shifted: $$mdi:microsoft-windows$$
         hold: ">"
     close: 
-       key: $$mdi:window-close$$
+      key: $$mdi:window-close$$
+    find_replace:
+      key: $$material:Search$$
     parenthesis: {draw_separate: true}
     brackets: {draw_separate: true}
     braces: {draw_separate: true}
