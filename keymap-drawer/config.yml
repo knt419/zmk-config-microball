@@ -609,7 +609,9 @@ parse_config:
       key:
         shifted: $$mdi:window-minimize$$
         hold: ""
-    close: $$mdi:window-close$$
+    close: 
+       key:
+         shifted: $$mdi:window-close$$
     parenthesis: {draw_separate: true}
     brackets: {draw_separate: true}
     braces: {draw_separate: true}
