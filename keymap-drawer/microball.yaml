@@ -352,7 +352,7 @@ combos:
   k: $$mdi:view-dashboard-outline$$
   l: [NUMBER]
 - p: [8, 9]
-  k: {s: '$$mdi:window-close$$'}
+  k: $$mdi:window-close$$
   l: [DEFAULT, MOUSE]
 - p: [7, 8]
   k: $$mdi:window-maximize$$

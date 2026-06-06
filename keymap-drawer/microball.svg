@@ -580,7 +580,7 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-9">
 <rect rx="6" ry="6" x="687" y="39" width="28" height="26" class="combo"/>
-<use href="#mdi:window-close" xlink:href="#mdi:window-close" x="693" y="41" height="15" width="15.0" class="combo shifted glyph mdi:window-close"/>
+<use href="#mdi:window-close" xlink:href="#mdi:window-close" x="692" y="43" height="18" width="18.0" class="combo tap glyph mdi:window-close"/>
 </g>
 <g class="combo combopos-10">
 <rect rx="6" ry="6" x="631" y="22" width="28" height="26" class="combo"/>
@@ -816,7 +816,7 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-9">
 <rect rx="6" ry="6" x="687" y="39" width="28" height="26" class="combo"/>
-<use href="#mdi:window-close" xlink:href="#mdi:window-close" x="693" y="41" height="15" width="15.0" class="combo shifted glyph mdi:window-close"/>
+<use href="#mdi:window-close" xlink:href="#mdi:window-close" x="692" y="43" height="18" width="18.0" class="combo tap glyph mdi:window-close"/>
 </g>
 <g class="combo combopos-10">
 <rect rx="6" ry="6" x="631" y="22" width="28" height="26" class="combo"/>
