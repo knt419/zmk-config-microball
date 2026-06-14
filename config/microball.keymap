@@ -113,6 +113,20 @@
             timeout-ms = <50>;
             require-prior-idle-ms = <500>;
         };
+
+        browse_back {
+            bindings = <&kp LA(LEFT)>;
+            key-positions = <0 1>;
+            slow-release;
+            layers = <0 1>;
+        };
+
+        browse_forward {
+            bindings = <&kp LA(RIGHT)>;
+            key-positions = <1 2>;
+            slow-release;
+            layers = <0 1>;
+        };
     };
 
     macros {
