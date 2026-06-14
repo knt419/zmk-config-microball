@@ -360,3 +360,9 @@ combos:
 - p: [6, 7]
   k: $$mdi:window-minimize$$
   l: [DEFAULT, MOUSE]
+- p: [0, 1]
+  k: Alt+$$mdi:arrow-left-bold$$
+  l: [DEFAULT, MOUSE]
+- p: [1, 2]
+  k: Alt+$$mdi:arrow-right-bold$$
+  l: [DEFAULT, MOUSE]
