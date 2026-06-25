@@ -237,19 +237,19 @@
         zen_parenthesis: zen_parenthesis {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LANGUAGE_1 &kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp LEFT_ARROW>;
+            bindings = <&kp LANGUAGE_1 &kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp ENTER &kp LEFT_ARROW>;
         };
 
         zen_brackets: zen_brackets {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LANGUAGE_1 &kp LEFT_BRACKET &kp RIGHT_BRACKET &kp LEFT>;
+            bindings = <&kp LANGUAGE_1 &kp LEFT_BRACKET &kp RIGHT_BRACKET &kp ENTER &kp LEFT>;
         };
 
         zen_braces: zen_braces {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LANGUAGE_1 &kp LEFT_BRACE &kp RIGHT_BRACE &kp LEFT>;
+            bindings = <&kp LANGUAGE_1 &kp LEFT_BRACE &kp RIGHT_BRACE &kp ENTER &kp LEFT>;
         };
 
         right_arrow: right_arrow {
