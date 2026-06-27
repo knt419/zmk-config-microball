@@ -241,6 +241,42 @@
             bindings = <&kp LANGUAGE_2 &kp PIPE>;
         };
 
+        jp_at: jp_at {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LANGUAGE_2 &kp JP_AT>;
+        };
+
+        jp_amp: jp_amp {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LANGUAGE_2 &kp JP_AMPERSAND>;
+        };
+
+        jp_quote: jp_quote {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LANGUAGE_2 &kp JP_SINGLE_QUOTE>;
+        };
+
+        jp_doublequote: jp_doublequote {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LANGUAGE_2 &kp JP_DOUBLE_QUOTES>;
+        };
+
+        jp_caret: jp_caret {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LANGUAGE_2 &kp JP_CARET>;
+        };
+
+        jp_pipe: jp_pipe {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LANGUAGE_2 &kp JP_PIPE>;
+        };
+
         parenthesis: parenthesis {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
