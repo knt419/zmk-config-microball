@@ -185,7 +185,7 @@ layers:
   - {t: '~', h: +}
   - {t: '`', h: '&jp_backquote'}
   - {t: '''', h: '&jp_quote'}
-  - '&uj_double_quote 0 0'
+  - {t: '"', h: '&jp_doublequote'}
   - {t: ^, h: '&jp_caret'}
   - {t: /, s: '?'}
   - '4'
