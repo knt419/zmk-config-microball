@@ -207,9 +207,9 @@ layers:
   - {t: ',', s: <}
   - '|'
   - '!'
-  - '@'
+  - {t: '@', h: '&jp_at'}
   - '#'
-  - '&'
+  - {t: '&', h: '&jp_amp'}
   - $
   - '%'
   - {t: '$$tabler:fold-down$$', type: trans}
