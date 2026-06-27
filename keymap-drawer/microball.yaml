@@ -177,12 +177,12 @@ layers:
   - {t: '$$tabler:fold-down$$', type: trans}
   - {t: '$$tabler:fold-down$$', type: trans}
   NUMBER:
-  - {t: '"', h: '*'}
+  - {t: '*', h: '"'}
   - '7'
   - '8'
   - '9'
   - {t: ':', h: +}
-  - {t: +, h: '~'}
+  - {t: '~', h: +}
   - {t: '`', h: '&jp_backquote'}
   - {t: '''', h: '&jp_quote'}
   - {t: '`', h: '&jp_backquote'}
@@ -203,7 +203,7 @@ layers:
   - '1'
   - '2'
   - '3'
-  - {t: '''', h: ':', s: '"'}
+  - {t: ':', h: ''''}
   - {t: ',', s: <}
   - '|'
   - '!'
@@ -219,9 +219,9 @@ layers:
   - {t: ., h: '$$mdi:apple-keyboard-control$$', s: '>'}
   - {t: '$$tabler:fold-down$$', type: trans}
   - {type: held}
-  - {t: Sft+0x87, h: _}
+  - {t: _, h: Sft+0x87}
   FUNCTION:
-  - {t: '}', h: '{'}
+  - {t: '{', h: '}'}
   - F7
   - F8
   - F9
@@ -230,8 +230,8 @@ layers:
   - $$mdi:backspace-reverse-outline$$
   - $$material:screenshot_region$$
   - PAUSE BREAK
-  - {t: '|', h: '}'}
-  - {t: '*', h: (}
+  - {t: '}', h: '|'}
+  - {t: (, h: '*'}
   - F4
   - F5
   - F6
@@ -242,8 +242,8 @@ layers:
   - PgDn
   - PgUp
   - END
-  - {t: (, h: )}
-  - {t: ']', h: '[', s: '}'}
+  - {t: ), h: (}
+  - {t: '[', h: ']', s: '{'}
   - F1
   - F2
   - F3
@@ -254,7 +254,7 @@ layers:
   - PLAY PAUSE
   - PAUSE
   - $$mdi:skip-next$$
-  - {t: \, h: ']', s: '|'}
+  - {t: ']', h: \, s: '}'}
   - $$mdi:apple-keyboard-caps$$
   - SCROLLLOCK
   - KP NUMLOCK
