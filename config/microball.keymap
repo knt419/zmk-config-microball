@@ -531,10 +531,10 @@
 
         NUMBER {
             bindings = <
-&holdtap ASTERISK JP_ASTERISK  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &holdtap PLUS JP_PLUS                                &holdtap TILDE JP_TILDE  &uj_backquote 0 0  &uj_quote 0 0  &uj_backquote 0 0  &uj_caret 0 0
+&holdtap JP_ASTERISK ASTERISK   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &holdtap PLUS JP_PLUS                                &holdtap JP_TILDE TILDE   &uj_backquote 0 0  &uj_quote 0 0  &uj_backquote 0 0  &uj_caret 0 0
 &kp SLASH                      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS              &kp LC(NUMBER_0)      &trans  &kp LEFT                 &kp DOWN           &kp UP_ARROW   &kp RIGHT          &kp BACKSLASH
-&kp NUMBER_0                   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &holdtap COLON JP_COLON              &kp COMMA             &pipe   &kp EXCLAMATION          &uj_at 0 0         &hash          &uj_amp 0 0        &dollar
-&kp PERCENT                    &trans        &trans        &mkp RCLK     &mt LEFT_SHIFT EQUAL   &mt LCTRL PERIOD      &trans  &trans                                                                        &holdtap UNDER JP_UNDERSCORE
+&kp NUMBER_0                   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &holdtap JP_COLON COLON             &kp COMMA             &pipe   &kp EXCLAMATION          &uj_at 0 0         &hash          &uj_amp 0 0        &dollar
+&kp PERCENT                    &trans        &trans        &mkp RCLK     &mt LEFT_SHIFT EQUAL   &mt LCTRL PERIOD      &trans  &trans                                                                        &holdtap JP_UNDERSCORE UNDER 
             >;
 
             sensor-bindings = <&inc_dec_kp LC(MINUS) LC(PLUS)>;
@@ -542,9 +542,9 @@
 
         FUNCTION {
             bindings = <
-&holdtap LEFT_BRACE JP_LEFT_BRACE              &kp F7          &kp F8          &kp F9     &kp F12                                                       &kp INSERT  &kp DELETE        &kp PRINTSCREEN  &kp PAUSE_BREAK  &holdtap RIGHT_BRACE JP_RIGHT_BRACE
-&holdtap LEFT_PARENTHESIS JP_LEFT_PARENTHESIS  &kp F4          &kp F5          &kp F6     &kp F11           &kp LC(NUMBER_1)        &trans              &kp HOME    &kp PAGE_DOWN     &kp PAGE_UP      &kp END          &holdtap RIGHT_PARENTHESIS JP_RIGHT_PARENTHESIS
-&holdtap LEFT_BRACKET JP_LEFT_BRACKET          &kp F1          &kp F2          &kp F3     &kp F10           &kp LC(LA(DELETE))      &kp LC(LS(ESCAPE))  &kp C_PREV  &kp C_PLAY_PAUSE  &kp C_PAUSE      &kp C_NEXT       &holdtap RIGHT_BRACKET JP_RIGHT_BRACKET
+&holdtap JP_LEFT_BRACE  LEFT_BRACE             &kp F7          &kp F8          &kp F9     &kp F12                                                       &kp INSERT  &kp DELETE        &kp PRINTSCREEN  &kp PAUSE_BREAK  &holdtap JP_RIGHT_BRACE RIGHT_BRACE
+&holdtap  JP_LEFT_PARENTHESIS LEFT_PARENTHESIS  &kp F4          &kp F5          &kp F6     &kp F11           &kp LC(NUMBER_1)        &trans              &kp HOME    &kp PAGE_DOWN     &kp PAGE_UP      &kp END          &holdtap JP_RIGHT_PARENTHESIS RIGHT_PARENTHESIS
+&holdtap JP_LEFT_BRACKET LEFT_BRACKET           &kp F1          &kp F2          &kp F3     &kp F10           &kp LC(LA(DELETE))      &kp LC(LS(ESCAPE))  &kp C_PREV  &kp C_PLAY_PAUSE  &kp C_PAUSE      &kp C_NEXT       &holdtap JP_RIGHT_BRACKET RIGHT_BRACKET
 &kp CAPSLOCK                                   &kp SCROLLLOCK  &kp KP_NUMLOCK  &mkp MCLK  &mt LSHIFT LC(Z)  &mt LCTRL LC(Y)         &trans              &trans                                                          &kp K_CONTEXT_MENU
             >;
 
