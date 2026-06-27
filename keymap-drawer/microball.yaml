@@ -177,12 +177,12 @@ layers:
   - {t: '$$tabler:fold-down$$', type: trans}
   - {t: '$$tabler:fold-down$$', type: trans}
   NUMBER:
-  - '*'
+  - {t: '"', h: '*'}
   - '7'
   - '8'
   - '9'
-  - +
-  - '~'
+  - {t: ':', h: +}
+  - {t: +, h: '~'}
   - '`'
   - ''''
   - '"'
@@ -191,7 +191,7 @@ layers:
   - '4'
   - '5'
   - '6'
-  - {t: '-', s: _}
+  - {t: JP MINUS, h: '-'}
   - $$material:1x_mobiledata$$
   - {t: '$$tabler:fold-down$$', type: trans}
   - $$mdi:arrow-left-bold$$
@@ -221,7 +221,7 @@ layers:
   - {type: held}
   - _
   FUNCTION:
-  - '{'
+  - {t: '}', h: '{'}
   - F7
   - F8
   - F9
@@ -230,8 +230,8 @@ layers:
   - $$mdi:backspace-reverse-outline$$
   - $$material:screenshot_region$$
   - PAUSE BREAK
-  - '}'
-  - (
+  - {t: '|', h: '}'}
+  - {t: '*', h: (}
   - F4
   - F5
   - F6
@@ -242,8 +242,8 @@ layers:
   - PgDn
   - PgUp
   - END
-  - )
-  - {t: '[', s: '{'}
+  - {t: (, h: )}
+  - {t: ']', h: '[', s: '}'}
   - F1
   - F2
   - F3
@@ -254,7 +254,7 @@ layers:
   - PLAY PAUSE
   - PAUSE
   - $$mdi:skip-next$$
-  - {t: ']', s: '}'}
+  - {t: \, h: ']', s: '|'}
   - $$mdi:apple-keyboard-caps$$
   - SCROLLLOCK
   - KP NUMLOCK
