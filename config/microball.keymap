@@ -419,7 +419,7 @@
         NUMBER {
             bindings = <
 &holdtap ASTERISK JP_ASTERISK &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &holdtap PLUS JP_PLUS                                            &holdtap TILDE JP_TILDE        &backquote  &quote        &doublequote  &caret
-&kp SLASH     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &holdtap MINUS JP_MINUS             &kp LC(NUMBER_0)      &trans  &kp LEFT         &kp DOWN    &kp UP_ARROW  &kp RIGHT     &kp BACKSLASH
+&kp SLASH     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS                  &kp LC(NUMBER_0)      &trans  &kp LEFT         &kp DOWN    &kp UP_ARROW  &kp RIGHT     &kp BACKSLASH
 &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp COLON             &kp COMMA             &pipe   &kp EXCLAMATION  &at         &hash         &amp          &dollar
 &kp PERCENT   &trans        &trans        &mkp RCLK     &mt LEFT_SHIFT EQUAL  &mt LCTRL PERIOD      &trans  &trans                                                   &kp UNDER
             >;
