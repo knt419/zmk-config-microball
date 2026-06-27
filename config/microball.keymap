@@ -6,6 +6,7 @@
 #include <dt-bindings/zmk/pointing.h>
 
 // OS設定を日本語キーボードのまま使用するための変換定義
+
 #define JP_DOUBLE_QUOTES       AT                // "
 #define JP_AMPERSAND    CARET             // &
 #define JP_QUOTE        AMPERSAND         // '
@@ -313,6 +314,12 @@
             bindings = <&kp LANGUAGE_1 &kp LEFT_BRACE &kp RIGHT_BRACE &kp ENTER &kp LEFT>;
         };
 
+        jp_backquote: jp_backquote {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LANGUAGE_2 &kp LEFT_BRACE>;
+            label = "JP_BACKQUOTE";
+        };
     };
 
     behaviors {
@@ -409,6 +416,66 @@
             flavor = "tap-preferred";
             hold-trigger-on-release;
         };
+
+        uj_backquote: uj_backquote {
+            compatible = "zmk,behavior-hold-tap";
+            label = "UJ_BACKQUOTE";
+            bindings = <&jp_backquote>, <&backquote>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            flavor = "tap-preferred";
+        };
+
+        uj_quote: uj_quote {
+            compatible = "zmk,behavior-hold-tap";
+            label = "UJ_QUOTE";
+            bindings = <&jp_quote>, <&quote>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            flavor = "tap-preferred";
+        };
+
+        uj_doublequote: uj_doublequote {
+            compatible = "zmk,behavior-hold-tap";
+            label = "UJ_DOUBLEQUOTE";
+            bindings = <&jp_doublequote>, <&doublequote>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            flavor = "tap-preferred";
+        };
+
+        uj_caret: uj_caret {
+            compatible = "zmk,behavior-hold-tap";
+            label = "UJ_CARET";
+            bindings = <&jp_caret>, <&caret>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            flavor = "tap-preferred";
+        };
+
+        uj_pipe: uj_pipe {
+            compatible = "zmk,behavior-hold-tap";
+            label = "UJ_PIPE";
+            bindings = <&jp_pipe>, <&pipe>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            flavor = "tap-preferred";
+        };
+
+        uj_at: uj_at {
+            compatible = "zmk,behavior-hold-tap";
+            label = "UJ_AT";
+            bindings = <&jp_at>, <&at>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            flavor = "tap-preferred";
+        };
     };
 
     keymap {
@@ -454,10 +521,10 @@
 
         NUMBER {
             bindings = <
-&holdtap ASTERISK JP_ASTERISK &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &holdtap PLUS JP_PLUS                                            &holdtap TILDE JP_TILDE        &backquote  &quote        &doublequote  &caret
-&kp SLASH     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS                  &kp LC(NUMBER_0)      &trans  &kp LEFT         &kp DOWN    &kp UP_ARROW  &kp RIGHT     &kp BACKSLASH
-&kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp COLON             &kp COMMA             &pipe   &kp EXCLAMATION  &at         &hash         &amp          &dollar
-&kp PERCENT   &trans        &trans        &mkp RCLK     &mt LEFT_SHIFT EQUAL  &mt LCTRL PERIOD      &trans  &trans                                                   &kp UNDER
+&holdtap ASTERISK JP_ASTERISK  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &holdtap PLUS JP_PLUS                                &holdtap TILDE JP_TILDE  &uj_backquote 0 0  &uj_quote 0 0  &uj_backquote 0 0  &uj_caret 0 0
+&kp SLASH                      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS              &kp LC(NUMBER_0)      &trans  &kp LEFT                 &kp DOWN           &kp UP_ARROW   &kp RIGHT          &kp BACKSLASH
+&kp NUMBER_0                   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp COLON              &kp COMMA             &pipe   &kp EXCLAMATION          &at                &hash          &amp               &dollar
+&kp PERCENT                    &trans        &trans        &mkp RCLK     &mt LEFT_SHIFT EQUAL   &mt LCTRL PERIOD      &trans  &trans                                                                        &kp UNDER
             >;
 
             sensor-bindings = <&inc_dec_kp LC(MINUS) LC(PLUS)>;
@@ -465,10 +532,10 @@
 
         FUNCTION {
             bindings = <
-&holdtap LEFT_BRACE JP_LEFT_BRACE        &kp F7          &kp F8          &kp F9     &kp F12                                                       &kp INSERT  &kp DELETE        &kp PRINTSCREEN  &kp PAUSE_BREAK  &holdtap RIGHT_BRACE JP_RIGHT_BRACE
-&holdtap LEFT_PARENTHESIS JP_LEFT_PARENTHESIS &kp F4          &kp F5          &kp F6     &kp F11           &kp LC(NUMBER_1)        &trans              &kp HOME    &kp PAGE_DOWN     &kp PAGE_UP      &kp END          &holdtap RIGHT_PARENTHESIS JP_RIGHT_PARENTHESIS
-&holdtap LEFT_BRACKET JP_LEFT_BRACKET     &kp F1          &kp F2          &kp F3     &kp F10           &kp LC(LA(DELETE))      &kp LC(LS(ESCAPE))  &kp C_PREV  &kp C_PLAY_PAUSE  &kp C_PAUSE      &kp C_NEXT       &holdtap RIGHT_BRACKET JP_RIGHT_BRACKET
-&kp CAPSLOCK          &kp SCROLLLOCK  &kp KP_NUMLOCK  &mkp MCLK  &mt LSHIFT LC(Z)  &mt LCTRL LC(Y)         &trans              &trans                                                          &kp K_CONTEXT_MENU
+&holdtap LEFT_BRACE JP_LEFT_BRACE              &kp F7          &kp F8          &kp F9     &kp F12                                                       &kp INSERT  &kp DELETE        &kp PRINTSCREEN  &kp PAUSE_BREAK  &holdtap RIGHT_BRACE JP_RIGHT_BRACE
+&holdtap LEFT_PARENTHESIS JP_LEFT_PARENTHESIS  &kp F4          &kp F5          &kp F6     &kp F11           &kp LC(NUMBER_1)        &trans              &kp HOME    &kp PAGE_DOWN     &kp PAGE_UP      &kp END          &holdtap RIGHT_PARENTHESIS JP_RIGHT_PARENTHESIS
+&holdtap LEFT_BRACKET JP_LEFT_BRACKET          &kp F1          &kp F2          &kp F3     &kp F10           &kp LC(LA(DELETE))      &kp LC(LS(ESCAPE))  &kp C_PREV  &kp C_PLAY_PAUSE  &kp C_PAUSE      &kp C_NEXT       &holdtap RIGHT_BRACKET JP_RIGHT_BRACKET
+&kp CAPSLOCK                                   &kp SCROLLLOCK  &kp KP_NUMLOCK  &mkp MCLK  &mt LSHIFT LC(Z)  &mt LCTRL LC(Y)         &trans              &trans                                                          &kp K_CONTEXT_MENU
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
