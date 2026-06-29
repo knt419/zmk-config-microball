@@ -533,7 +533,7 @@
             bindings = <
 &holdtap JP_ASTERISK ASTERISK   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &holdtap JP_PLUS PLUS                               &holdtap JP_TILDE TILDE   &uj_backquote 0 0  &uj_quote 0 0  &uj_doublequote 0 0  &uj_caret 0 0
 &kp SLASH                      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS              &kp LC(NUMBER_0)      &trans  &kp LEFT                 &kp DOWN           &kp UP_ARROW   &kp RIGHT          &kp BACKSLASH
-&kp NUMBER_0                   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &holdtap JP_COLON COLON             &kp COMMA             &uj_pipe   &kp EXCLAMATION          &uj_at 0 0         &hash          &uj_amp 0 0        &dollar
+&kp NUMBER_0                   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &holdtap JP_COLON COLON             &kp COMMA             &uj_pipe 0 0  &kp EXCLAMATION          &uj_at 0 0         &hash          &uj_amp 0 0        &dollar
 &kp PERCENT                    &trans        &trans        &mkp RCLK     &mt LEFT_SHIFT EQUAL   &mt LCTRL PERIOD      &trans  &trans                                                                        &holdtap JP_UNDERSCORE UNDER 
             >;
 
