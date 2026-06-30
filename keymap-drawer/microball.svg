@@ -3,6 +3,9 @@
 <svg id="material:1x_mobiledata">
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><path d="M242-280v-340h-82v-60h142v400h-60Zm195 0 127-213-113-187h70l79 130 75-130h69L636-493l124 213h-69l-91-156-93 156h-70Z"/></svg>
 </svg>
+<svg id="material:browse_activity">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><path d="M80-590v-190q0-24 18-42t42-18h680q24 0 42 18t18 42v190h-60v-190H140v190H80Zm60 350q-24 0-42-18t-18-42v-230h60v230h680v-230h60v230q0 24-18 42t-42 18H140ZM40-120v-60h880v60H40Zm440-420ZM80-530v-60h240q8.16 0 15.58 4T347-574l55 112 131-231q4-8 11.5-11.5t15.62-3.5q8.12 0 15.5 3.5Q583-701 587-693l50.55 103H880v60H619q-8.25 0-15.75-4T592-546l-34-69-131 229q-3.72 8-11.17 12-7.45 4-15.64 4-8.19 0-15.69-4T373-386l-72-144H80Z"/></svg>
+</svg>
 <svg id="material:screenshot_region">
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><path d="M700-60v-140H560v-60h140v-140h60v140h140v60H760v140h-60ZM200-200v-200h60v140h140v60H200Zm0-360v-200h200v60H260v140h-60Zm500 0v-140H560v-60h200v200h-60Z"/></svg>
 </svg>
@@ -1527,7 +1530,7 @@ rect.held, rect.combo.held {
 </g>
 <g transform="translate(448, 168)" class="key keypos-28">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:keyboard-esc"/>
+<use href="#material:browse_activity" xlink:href="#material:browse_activity" x="-9" y="-9" height="18" width="18.0" class="key tap glyph material:browse_activity"/>
 </g>
 <g transform="translate(504, 155)" class="key keypos-29">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>

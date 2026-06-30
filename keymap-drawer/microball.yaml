@@ -249,7 +249,7 @@ layers:
   - F3
   - F10
   - Ctl+Alt+$$mdi:backspace-reverse-outline$$
-  - Ctl+Sft+$$mdi:keyboard-esc$$
+  - $$material:browse_activity$$
   - $$mdi:skip-previous$$
   - $$mdi:play-pause$$
   - $$mdi:pause$$
