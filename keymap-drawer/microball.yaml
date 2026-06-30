@@ -219,7 +219,7 @@ layers:
   - {t: ., h: '$$mdi:apple-keyboard-control$$', s: '>'}
   - {t: '$$tabler:fold-down$$', type: trans}
   - {type: held}
-  - _
+  - {t: _, h: Sft+0x87}
   FUNCTION:
   - {t: '{', h: '}'}
   - F7
