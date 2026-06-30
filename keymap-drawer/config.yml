@@ -384,7 +384,6 @@ parse_config:
     NON_US_HASH: "#"
     NUHS: "#"
     TILDE2: "~"
-    LS(0x87): "jp_under"
     Sft+0x87: "jp_under"
    
     # Numbers
@@ -462,7 +461,7 @@ parse_config:
     LC(Z): $$mdi:undo$$
     LC(Y): $$mdi:redo$$
     LANGUAGE_1: 'あいう'
-    LANGUAGE_2: 'ABC'
+    LANGUAGE_2: $$mdi:walphabetical-variant$$
     LG(UP_ARROW): $$mdi:window-maximize$$
     LG(DOWN): $$mdi:window-minimize$$
 
