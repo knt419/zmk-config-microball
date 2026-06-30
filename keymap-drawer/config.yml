@@ -384,8 +384,7 @@ parse_config:
     NON_US_HASH: "#"
     NUHS: "#"
     TILDE2: "~"
-    "0x87":
-      shifted: "jp_under"
+    LS("0x87"): "jp_under"
    
     # Numbers
     N1:
