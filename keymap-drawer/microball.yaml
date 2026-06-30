@@ -219,7 +219,7 @@ layers:
   - {t: ., h: '$$mdi:apple-keyboard-control$$', s: '>'}
   - {t: '$$tabler:fold-down$$', type: trans}
   - {type: held}
-  - {t: _, h: jp_under}
+  - {t: _, h: Sft+0x87}
   FUNCTION:
   - {t: '{', h: '}'}
   - F7
@@ -336,7 +336,7 @@ combos:
   k: '&DBLSFT'
   l: [DEFAULT, MOUSE]
 - p: [11, 12]
-  k: ABC
+  k: $$mdi:walphabetical-variant$$
   l: [DEFAULT, MOUSE]
 - p: [0, 9]
   k: {t: '{}', h: '&zen_braces'}
