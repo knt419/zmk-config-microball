@@ -251,8 +251,8 @@ layers:
   - Ctl+Alt+$$mdi:backspace-reverse-outline$$
   - Ctl+Sft+$$mdi:keyboard-esc$$
   - $$mdi:skip-previous$$
-  - PLAY PAUSE
-  - PAUSE
+  - $$mdi:play-pause$$
+  - $$mdi:pause$$
   - $$mdi:skip-next$$
   - {t: ']', h: \, s: '}'}
   - $$mdi:apple-keyboard-caps$$
