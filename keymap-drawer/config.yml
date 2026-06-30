@@ -389,7 +389,7 @@ parse_config:
     LANGUAGE_2: 'ABC'
     LG(UP_ARROW): $$mdi:window-maximize$$
     LG(DOWN): $$mdi:window-minimize$$
-    LS(LC(ESC)): $$material:browse_activity$$
+    LC(LS(ESCAPE)): $$material:browse_activity$$
 
     # Arrows
     UP: $$mdi:arrow-up-bold$$
