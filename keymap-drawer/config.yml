@@ -121,7 +121,7 @@ parse_config:
     # Layers
     "&ltq 1 BACKSPACE":
       tap:  $$mdi:backspace$$
-      hold: '$$mdi:navigation-variant$$'
+      hold: $$mdi:navigation-variant$$
     "&ltq 3 TAB":
       tap: $$mdi:keyboard-tab$$
       hold: $$mdi:numeric$$
@@ -384,7 +384,7 @@ parse_config:
     NON_US_HASH: "#"
     NUHS: "#"
     TILDE2: "~"
-    LS("0x87"): "jp_under"
+    LS(0x87): "jp_under"
    
     # Numbers
     N1:
