@@ -424,8 +424,11 @@ parse_config:
     DEL: $$mdi:backspace-reverse-outline$$
 
     # Locks
-    CAPSLOCK: $$mdi:apple-keyboard-caps$$
-    CAPS: $$mdi:apple-keyboard-caps$$
+    CAPSLOCK: $$mdi:caps-lock$$
+    CAPS: $$mdi:caps-lock$$
+    NUMLOCK: $$mdi:numeric-1-box-outline$$
+    KP_NUMLOCK: $$mdi:numeric-1-box-outline$$
+    SCROLLLOCK: $$mdi:arrow-down-bold-box-outline$$
 
     # Sound
     C_MUTE: $$mdi:volume-off$$
