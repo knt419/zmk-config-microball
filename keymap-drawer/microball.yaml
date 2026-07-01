@@ -252,7 +252,7 @@ layers:
   - $$material:browse_activity$$
   - $$mdi:skip-previous$$
   - $$mdi:play-pause$$
-  - $$mdi:pause$$
+  - STOP
   - $$mdi:skip-next$$
   - {t: ']', h: \, s: '}'}
   - $$mdi:apple-keyboard-caps$$
