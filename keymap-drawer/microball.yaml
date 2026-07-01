@@ -255,9 +255,9 @@ layers:
   - $$mdi:stop$$
   - $$mdi:skip-next$$
   - {t: ']', h: \, s: '}'}
-  - $$mdi:apple-keyboard-caps$$
-  - SCROLLLOCK
-  - KP NUMLOCK
+  - $$mdi:caps-lock$$
+  - $$mdi:arrow-down-bold-box-outline$$
+  - $$mdi:numeric-1-box-outline$$
   - $$mdi:mouse-scroll-wheel$$
   - {t: '$$mdi:undo$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:redo$$', h: '$$mdi:apple-keyboard-control$$'}
