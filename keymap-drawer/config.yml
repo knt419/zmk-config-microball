@@ -309,6 +309,7 @@ parse_config:
     NON_US_HASH: "#"
     NUHS: "#"
     TILDE2: "~"
+    LS(0x87): "jp_under"
     Sft+0x87: "jp_under"
    
     # Numbers
