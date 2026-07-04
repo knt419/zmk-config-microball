@@ -177,7 +177,7 @@ layers:
   - {t: '$$tabler:fold-down$$', type: trans}
   - {t: '$$tabler:fold-down$$', type: trans}
   NUMBER:
-  - {t: '*', h: '"'}
+  - {t: '*', h: jp_asterisk}
   - '7'
   - '8'
   - '9'
