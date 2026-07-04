@@ -204,6 +204,9 @@ parse_config:
       tap: "()"
     "&brackets":
       tap: "[]"
+    "&holdtap JP_ASTERISK ASTERISK":
+      tap: "*"
+      hold: "jp_asterisk"
 
   # ZMK
   zmk_keycode_map:
