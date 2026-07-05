@@ -177,12 +177,12 @@ layers:
   - {t: '$$tabler:fold-down$$', type: trans}
   - {t: '$$tabler:fold-down$$', type: trans}
   NUMBER:
-  - {t: '*', h: jp_asterisk}
+  - {t: '*', h: jp_aster}
   - '7'
   - '8'
   - '9'
-  - {t: +, h: ':'}
-  - {t: '~', h: +}
+  - {t: +, h: jp_plus}
+  - {t: ':', h: jp_tilde}
   - {t: '`', h: '&jp_backquote'}
   - {t: '''', h: '&jp_quote'}
   - {t: '"', h: '&jp_doublequote'}
@@ -203,7 +203,7 @@ layers:
   - '1'
   - '2'
   - '3'
-  - {t: ':', h: ''''}
+  - {t: ':', h: jp_colon}
   - {t: ',', s: <}
   - {t: '|', h: '&jp_pipe'}
   - '!'
