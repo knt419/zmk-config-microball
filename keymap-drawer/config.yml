@@ -206,7 +206,18 @@ parse_config:
       tap: "[]"
     "&holdtap JP_ASTERISK ASTERISK":
       tap: "*"
-      hold: "jp_asterisk"
+      hold: "jp_aster"
+    "&holdtap JP_PLUS PLUS":
+      tap: "+"
+      hold: "jp_plus"
+    "&holdtap JP_COLON COLON":
+      tap: ":"
+      hold: "jp_colon"
+    "&holdtap JP_TILDE TILDE":
+      tap: ":"
+      hold: "jp_tilde"
+
+
 
   # ZMK
   zmk_keycode_map:
