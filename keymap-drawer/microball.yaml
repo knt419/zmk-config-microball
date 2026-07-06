@@ -182,7 +182,7 @@ layers:
   - '8'
   - '9'
   - {t: +, h: jp_plus}
-  - {t: ':', h: jp_tilde}
+  - {t: '~', h: jp_tilde}
   - {t: '`', h: '&jp_backquote'}
   - {t: '''', h: '&jp_quote'}
   - {t: '"', h: '&jp_doublequote'}
