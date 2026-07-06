@@ -214,7 +214,7 @@ parse_config:
       tap: ":"
       hold: "jp_colon"
     "&holdtap JP_TILDE TILDE":
-      tap: ":"
+      tap: "~"
       hold: "jp_tilde"
 
 
