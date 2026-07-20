@@ -23,7 +23,7 @@ layers:
   - O
   - I
   - S
-  - {t: /, h: '$$mdi:apple-keyboard-shift$$', s: '?'}
+  - {t: /, h: '$$mdi:apple-keyboard-shift$$', s: \}
   - {t: ',', h: '!', s: <}
   - {t: C, h: Ctl+C}
   - M
