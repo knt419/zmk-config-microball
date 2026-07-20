@@ -495,7 +495,7 @@
             bindings = <
 &kp Q                         &kp Y                          &holdtap LC(X) X                 &kp W      &kp F                                               &kp Z        &kp R  &holdtap LG(E) E  &kp L                     &kp P
 &kp U                         &kp N                          &holdtap LC(A) A                 &kp T      &kp D             &kp C_MUTE         &lt 6 ESC      &kp G        &kp K  &kp O             &kp I                     &kp S
-&mt LEFT_SHIFT SLASH          &holdtap EXCLAMATION COMMA     &holdtap LC(C) C                 &kp M      &kp J             &at                &kp SEMICOLON  &kp B        &kp H  &kp V             &holdtap QUESTION PERIOD  &kp MINUS
+&mt_slash LEFT_SHIFT 0        &holdtap EXCLAMATION COMMA     &holdtap LC(C) C                 &kp M      &kp J             &at                &kp SEMICOLON  &kp B        &kp H  &kp V             &holdtap QUESTION PERIOD  &kp MINUS
 &holdtap LC(SPACE) LS(LC(M))  &holdtap LEFT_GUI LC(PAGE_UP)  &holdtap LEFT_ALT LC(PAGE_DOWN)  &mkp LCLK  &mt LSHIFT SPACE  &mt LCTRL TAB      &lt_bsdel 5 0  &lt 4 ENTER                                                     &kp PRINTSCREEN
             >;
 
