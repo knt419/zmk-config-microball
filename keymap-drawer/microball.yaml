@@ -28,7 +28,7 @@ layers:
   - {t: C, h: Ctl+C}
   - M
   - J
-  - '@'
+  - $$mdi:caps-lock$$
   - {t: ;, s: ':'}
   - B
   - H
@@ -204,7 +204,7 @@ layers:
   - '2'
   - '3'
   - {t: ':', h: jp_colon}
-  - {t: ',', s: <}
+  - $$mdi:numeric-1-box-outline$$
   - {t: '|', h: '&jp_pipe'}
   - '!'
   - {t: '@', h: '&jp_at'}
@@ -248,16 +248,16 @@ layers:
   - F2
   - F3
   - F10
-  - Ctl+Alt+$$mdi:backspace-reverse-outline$$
+  - Ctl+Alt+$$mdi:arrow-down-bold-box-outline$$
   - $$material:browse_activity$$
   - $$mdi:skip-previous$$
   - $$mdi:play-pause$$
   - $$mdi:stop$$
   - $$mdi:skip-next$$
   - {t: ']', h: \, s: '}'}
-  - $$mdi:caps-lock$$
-  - $$mdi:arrow-down-bold-box-outline$$
-  - $$mdi:numeric-1-box-outline$$
+  - Alt+$$mdi:arrow-left-bold$$
+  - Alt+$$mdi:arrow-right-bold$$
+  - Ctl+R
   - $$mdi:mouse-scroll-wheel$$
   - {t: '$$mdi:undo$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:redo$$', h: '$$mdi:apple-keyboard-control$$'}

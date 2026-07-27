@@ -475,7 +475,7 @@ rect.held, rect.combo.held {
 </g>
 <g transform="translate(309, 168)" class="key keypos-27">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">@</text>
+<use href="#mdi:caps-lock" xlink:href="#mdi:caps-lock" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:caps-lock"/>
 </g>
 <g transform="translate(448, 168)" class="key keypos-28">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -1335,8 +1335,7 @@ rect.held, rect.combo.held {
 </g>
 <g transform="translate(309, 168)" class="key keypos-27">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">,</text>
-<text x="0" y="-24" class="key shifted">&lt;</text>
+<use href="#mdi:numeric-1-box-outline" xlink:href="#mdi:numeric-1-box-outline" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:numeric-1-box-outline"/>
 </g>
 <g transform="translate(448, 168)" class="key keypos-28">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -1532,7 +1531,7 @@ rect.held, rect.combo.held {
 </g>
 <g transform="translate(309, 168)" class="key keypos-27">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:backspace-reverse-outline"/>
+<use href="#mdi:arrow-down-bold-box-outline" xlink:href="#mdi:arrow-down-bold-box-outline" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:arrow-down-bold-box-outline"/>
 </g>
 <g transform="translate(448, 168)" class="key keypos-28">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -1562,15 +1561,15 @@ rect.held, rect.combo.held {
 </g>
 <g transform="translate(28, 231)" class="key keypos-34">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:caps-lock" xlink:href="#mdi:caps-lock" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:caps-lock"/>
+<use href="#mdi:arrow-left-bold" xlink:href="#mdi:arrow-left-bold" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:arrow-left-bold"/>
 </g>
 <g transform="translate(84, 210)" class="key keypos-35">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:arrow-down-bold-box-outline" xlink:href="#mdi:arrow-down-bold-box-outline" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:arrow-down-bold-box-outline"/>
+<use href="#mdi:arrow-right-bold" xlink:href="#mdi:arrow-right-bold" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:arrow-right-bold"/>
 </g>
 <g transform="translate(140, 196)" class="key keypos-36">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:numeric-1-box-outline" xlink:href="#mdi:numeric-1-box-outline" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:numeric-1-box-outline"/>
+<text x="0" y="0" class="key tap">Ctl+R</text>
 </g>
 <g transform="translate(208, 225)" class="key keypos-37">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
