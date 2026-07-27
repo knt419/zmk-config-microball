@@ -213,7 +213,7 @@ layers:
   - $
   - '%'
   - KP DOT
-  - KP COMMA
+  - {t: ',', s: <}
   - $$mdi:mouse-right-click-outline$$
   - {t: '=', h: '$$mdi:apple-keyboard-shift$$', s: +}
   - {t: ., h: '$$mdi:apple-keyboard-control$$', s: '>'}
