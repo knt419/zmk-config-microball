@@ -531,10 +531,10 @@
 
         NUMBER {
             bindings = <
-&holdtap JP_ASTERISK ASTERISK  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &holdtap JP_PLUS PLUS                                        &holdtap JP_TILDE TILDE  &uj_backquote 0 0  &uj_quote 0 0  &uj_doublequote 0 0  &uj_caret 0 0
-&kp SLASH                      &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp MINUS                &kp LC(NUMBER_0)      &trans        &kp LEFT                 &kp DOWN           &kp UP_ARROW   &kp RIGHT            &kp BACKSLASH
-&kp KP_NUMBER_0                &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &holdtap JP_COLON COLON  &kp KP_NUMLOCK        &uj_pipe 0 0  &kp EXCLAMATION          &uj_at 0 0         &hash          &uj_amp 0 0          &dollar
-&kp PERCENT                    &kp KP_DOT       &kp COMMA        &mkp RCLK        &mt LEFT_SHIFT EQUAL     &mt LCTRL PERIOD      &trans        &trans                                                                          &holdtap JP_UNDERSCORE UNDER
+&holdtap JP_ASTERISK ASTERISK  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &holdtap JP_PLUS PLUS                                        &holdtap JP_TILDE TILDE  &uj_backquote 0 0  &uj_quote 0 0  &uj_doublequote 0 0  &uj_caret 0 0
+&kp SLASH                      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS                &kp LC(NUMBER_0)      &trans        &kp LEFT                 &kp DOWN           &kp UP_ARROW   &kp RIGHT            &kp BACKSLASH
+&kp N0                         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &holdtap JP_COLON COLON  &kp KP_NUMLOCK        &uj_pipe 0 0  &kp EXCLAMATION          &uj_at 0 0         &hash          &uj_amp 0 0          &dollar
+&kp PERCENT                    &kp PERIOD    &kp COMMA     &mkp RCLK     &mt LEFT_SHIFT EQUAL     &mt LCTRL PERIOD      &trans        &trans                                                                          &holdtap JP_UNDERSCORE UNDER
             >;
 
             sensor-bindings = <&inc_dec_kp LC(MINUS) LC(PLUS)>;
