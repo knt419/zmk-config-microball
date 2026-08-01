@@ -178,9 +178,9 @@ layers:
   - {t: '$$tabler:fold-down$$', type: trans}
   NUMBER:
   - {t: '*', h: jp_aster}
-  - KP 7
-  - KP 8
-  - KP 9
+  - '7'
+  - '8'
+  - '9'
   - {t: +, h: jp_plus}
   - {t: '~', h: jp_tilde}
   - {t: '`', h: '&jp_backquote'}
@@ -188,9 +188,9 @@ layers:
   - {t: '"', h: '&jp_doublequote'}
   - {t: ^, h: '&jp_caret'}
   - {t: /, s: '?'}
-  - KP 4
-  - KP 5
-  - KP 6
+  - '4'
+  - '5'
+  - '6'
   - {t: '-', s: _}
   - $$material:1x_mobiledata$$
   - {t: '$$tabler:fold-down$$', type: trans}
@@ -199,10 +199,10 @@ layers:
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
   - {t: \, s: '|'}
-  - KP 0
-  - KP 1
-  - KP 2
-  - KP 3
+  - {t: '0', s: )}
+  - '1'
+  - '2'
+  - '3'
   - {t: ':', h: jp_colon}
   - $$mdi:numeric-1-box-outline$$
   - {t: '|', h: '&jp_pipe'}
@@ -212,7 +212,7 @@ layers:
   - {t: '&', h: '&jp_amp'}
   - $
   - '%'
-  - KP DOT
+  - {t: ., s: '>'}
   - {t: ',', s: <}
   - $$mdi:mouse-right-click-outline$$
   - {t: '=', h: '$$mdi:apple-keyboard-shift$$', s: +}
