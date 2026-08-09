@@ -493,10 +493,10 @@
 
         DEFAULT {
             bindings = <
-&kp Q                         &kp Y                          &holdtap LC(X) X                 &kp D      &kp W                                               &kp Z        &kp R  &holdtap LG(E) E  &kp L      &kp P
-&kp U                         &kp N                          &holdtap LC(A) A                 &kp T      &kp G             &kp C_MUTE         &lt 6 ESC      &kp H        &kp K  &kp O             &kp I      &kp S
-&mt_slash LEFT_SHIFT 0        &holdtap EXCLAMATION COMMA     &holdtap LC(C) C                 &kp M      &kp B             &kp CAPSLOCK       &kp SEMICOLON  &kp F        &kp J  &kp V             &kp MINUS  &holdtap QUESTION PERIOD
-&holdtap LC(SPACE) LS(LC(M))  &holdtap LEFT_GUI LC(PAGE_UP)  &holdtap LEFT_ALT LC(PAGE_DOWN)  &mkp LCLK  &mt LSHIFT SPACE  &mt LCTRL TAB      &lt_bsdel 5 0  &lt 4 ENTER                                      &kp PRINTSCREEN
+&kp Q                         &holdtap EXCL COMMA            &holdtap LG(E) E                 &kp H      &holdtap LC(X) X                                    &kp Z        &kp B  &kp L             &kp Y  &kp P
+&kp I                         &kp N                          &kp U                            &kp K      &kp G             &kp C_MUTE         &lt 6 ESC      &kp J        &kp T  &holdtap LC(A) A  &kp S  &kp O
+&mt_slash LEFT_SHIFT 0        &holdtap QUESTION PERIOD       &holdtap LC(C) C                 &kp M      &kp W             &kp CAPSLOCK       &kp SEMICOLON  &kp F        &kp R  &kp V             &kp D  &kp MINUS
+&holdtap LC(SPACE) LS(LC(M))  &holdtap LEFT_GUI LC(PAGE_UP)  &holdtap LEFT_ALT LC(PAGE_DOWN)  &mkp LCLK  &mt LSHIFT SPACE  &mt LCTRL TAB      &lt_bsdel 5 0  &lt 4 ENTER                                  &kp PRINTSCREEN
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
