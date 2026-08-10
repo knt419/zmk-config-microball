@@ -34,7 +34,7 @@ layers:
   - J
   - V
   - D
-  - {t: Ctl+-, s: Ctl+_}
+  - {t: '-', s: _}
   - {t: '$$mdi:microphone-off$$', h: 'Ctl+$$mdi:keyboard-space$$'}
   - {t: Ctl+PgUp, h: '$$mdi:microsoft-windows$$'}
   - {t: Ctl+PgDn, h: '$$mdi:apple-keyboard-option$$'}
