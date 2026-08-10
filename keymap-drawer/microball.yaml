@@ -5,12 +5,12 @@ layers:
   - {t: ',', h: '!', s: <}
   - {t: E, h: Gui+E}
   - H
-  - F
+  - P
   - Z
   - B
   - L
   - Y
-  - V
+  - {t: X, h: Ctl+X}
   - I
   - N
   - U
@@ -18,7 +18,7 @@ layers:
   - G
   - $$mdi:volume-off$$
   - {t: '$$mdi:keyboard-esc$$', h: SYSTEM}
-  - J
+  - R
   - T
   - {t: A, h: Ctl+A}
   - S
@@ -30,11 +30,11 @@ layers:
   - W
   - $$mdi:caps-lock$$
   - {t: ;, s: ':'}
-  - P
-  - R
-  - {t: '-', s: _}
+  - F
+  - J
+  - V
   - D
-  - {t: X, h: Ctl+X}
+  - {t: Ctl+-, s: Ctl+_}
   - {t: '$$mdi:microphone-off$$', h: 'Ctl+$$mdi:keyboard-space$$'}
   - {t: Ctl+PgUp, h: '$$mdi:microsoft-windows$$'}
   - {t: Ctl+PgDn, h: '$$mdi:apple-keyboard-option$$'}
