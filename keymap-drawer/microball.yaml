@@ -6,7 +6,7 @@ layers:
   - {t: '-', s: _}
   - G
   - Z
-  - P
+  - {t: /, s: \}
   - {t: C, h: Ctl+C}
   - H
   - L
@@ -18,7 +18,7 @@ layers:
   - D
   - $$mdi:volume-off$$
   - {t: '$$mdi:keyboard-esc$$', h: SYSTEM}
-  - {t: /, s: \}
+  - P
   - O
   - K
   - {t: A, h: Ctl+A}
