@@ -2,39 +2,39 @@ layout: {zmk_keyboard: microball}
 layers:
   DEFAULT:
   - Q
-  - {t: ',', h: '!', s: <}
-  - {t: E, h: Gui+E}
-  - H
-  - P
+  - R
+  - {t: '-', s: _}
+  - G
   - Z
-  - B
+  - P
+  - {t: C, h: Ctl+C}
+  - H
   - L
   - Y
-  - {t: X, h: Ctl+X}
-  - I
-  - N
   - U
-  - K
-  - G
+  - N
+  - I
+  - T
+  - D
   - $$mdi:volume-off$$
   - {t: '$$mdi:keyboard-esc$$', h: SYSTEM}
-  - R
-  - T
+  - {t: /, s: \}
+  - O
+  - K
   - {t: A, h: Ctl+A}
   - S
-  - O
-  - {t: /, h: '$$mdi:apple-keyboard-shift$$', s: \}
+  - {t: V, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: ., h: '!', s: '>'}
   - {t: ., h: '?', s: '>'}
-  - {t: C, h: Ctl+C}
   - M
   - W
   - $$mdi:caps-lock$$
   - {t: ;, s: ':'}
+  - {t: X, h: Ctl+X}
+  - {t: E, h: Gui+E}
+  - B
   - F
   - J
-  - V
-  - D
-  - {t: '-', s: _}
   - {t: '$$mdi:microphone-off$$', h: 'Ctl+$$mdi:keyboard-space$$'}
   - {t: Ctl+PgUp, h: '$$mdi:microsoft-windows$$'}
   - {t: Ctl+PgDn, h: '$$mdi:apple-keyboard-option$$'}
