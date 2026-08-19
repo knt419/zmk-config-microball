@@ -24,7 +24,7 @@ layers:
   - {t: A, h: Ctl+A}
   - S
   - {t: V, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: ., h: '!', s: '>'}
+  - {t: ',', h: '!', s: <}
   - {t: ., h: '?', s: '>'}
   - M
   - W
